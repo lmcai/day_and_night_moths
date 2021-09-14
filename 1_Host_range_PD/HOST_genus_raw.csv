@@ -4,9 +4,9 @@ Acanthopteroctetes unifascia,Rhamnaceae,Ceanothus thyrsiflorus
 Nemophora degeerella,0,0
 Agathiphaga queenslandensis,Araucariaceae,Agathis
 Agathiphaga queenslandensis,Araucariaceae,Agathis robusta
-Alucita desmodactyla,Labiatae,Ballota bullata
-Alucita desmodactyla,Labiatae,Stachys alpina
-Alucita desmodactyla,Labiatae,Stachys sylvatica
+Alucita desmodactyla,Lamiaceae,Ballota bullata
+Alucita desmodactyla,Lamiaceae,Stachys alpina
+Alucita desmodactyla,Lamiaceae,Stachys sylvatica
 Bombyx mandarina,Moraceae,Morus
 Bombyx mori,Moraceae,Morus
 Bombyx mori,Moraceae,Morus
@@ -17,11 +17,11 @@ Bombyx mori,Rubiaceae,Morinda citrifolia
 Bombyx mori,Moraceae,Morus alba
 Bombyx mori,Moraceae,Morus alba
 Brahmaea hearseyi,0,0
-Bucculatrix cristatella,Compositae,Achillea millefolium
-Bucculatrix cristatella,Compositae,Achillea millefolium
-Bucculatrix cristatella,Compositae,Achillea millefolium
+Bucculatrix cristatella,Asteraceae,Achillea millefolium
+Bucculatrix cristatella,Asteraceae,Achillea millefolium
+Bucculatrix cristatella,Asteraceae,Achillea millefolium
 Pterodecta felderi,0,0
-Synemon plana,Gramineae,Danthonia
+Synemon plana,Poaceae,Danthonia
 Telchin licus,0,0
 Hemerophila diva,Moraceae,Ficus pedunculata
 Hemerophila diva,Moraceae,Ficus
@@ -29,13 +29,13 @@ Axia margarita,0,0
 Hyposmocoma kahamanoa,0,0
 Archaeoses polygrapha,Myoporaceae,Myoporum
 Culama crepera,0,0
-Morpheis pyracmon,Leguminosae (m),Mimosa caesalpiniifolia
-Morpheis pyracmon,Leguminosae (m),Mimosa scabrella
+Morpheis pyracmon,Fabaceae,Mimosa caesalpiniifolia
+Morpheis pyracmon,Fabaceae,Mimosa scabrella
 Morpheis pyracmon,Salicaceae,Salix babylonica
-Morpheis pyracmon,Leguminosae (c),Senna alata
-Morpheis pyracmon,Palmae,Syagrus romanzoffiana
+Morpheis pyracmon,Fabaceae,Senna alata
+Morpheis pyracmon,Arecaceae,Syagrus romanzoffiana
 Morpheis pyracmon,Salicaceae,Salix babylonica
-Morpheis pyracmon,Leguminosae (m),Inga
+Morpheis pyracmon,Fabaceae,Inga
 Prionoxystus robiniae,Aceraceae,Acer
 Prionoxystus robiniae,Fagaceae,Castanea sativa
 Prionoxystus robiniae,Ulmaceae,Celtis laevigata
@@ -50,18 +50,18 @@ Prionoxystus robiniae,Rosaceae,Prunus dulcis
 Prionoxystus robiniae,Fagaceae,Quercus
 Prionoxystus robiniae,Fagaceae,Quercus
 Prionoxystus robiniae,Fagaceae,Quercus laevis
-Prionoxystus robiniae,Leguminosae (p),Robinia
-Prionoxystus robiniae,Leguminosae (p),Robinia pseudoacacia
-Prionoxystus robiniae,Leguminosae (p),Robinia pseudoacacia
+Prionoxystus robiniae,Fabaceae,Robinia
+Prionoxystus robiniae,Fabaceae,Robinia pseudoacacia
+Prionoxystus robiniae,Fabaceae,Robinia pseudoacacia
 Prionoxystus robiniae,Salicaceae,Salix
 Prionoxystus robiniae,Salicaceae,Salix
 Prionoxystus robiniae,Ulmaceae,Ulmus
-Prionoxystus robiniae,Compositae,Baccharis halimifolia
+Prionoxystus robiniae,Asteraceae,Baccharis halimifolia
 Prionoxystus robiniae,Fagaceae,Castanea sativa
 Prionoxystus robiniae,Oleaceae,Fraxinus
 Prionoxystus robiniae,Salicaceae,Populus
 Prionoxystus robiniae,Fagaceae,Quercus
-Prionoxystus robiniae,Leguminosae (p),Robinia
+Prionoxystus robiniae,Fabaceae,Robinia
 Prionoxystus robiniae,Salicaceae,Salix
 Prionoxystus robiniae,Ulmaceae,Ulmus
 Prionoxystus robiniae,Polyphagous,
@@ -69,7 +69,7 @@ Prionoxystus robiniae,Aceraceae,Acer negundo
 Prionoxystus robiniae,Oleaceae,Fraxinus pennsylvanica
 Prionoxystus robiniae,Salicaceae,Populus tremuloides
 Prionoxystus robiniae,Fagaceae,Quercus
-Prionoxystus robiniae,Leguminosae (p),Robinia pseudoacacia
+Prionoxystus robiniae,Fabaceae,Robinia pseudoacacia
 Prionoxystus robiniae,Ulmaceae,Ulmus americana
 Prionoxystus robiniae,Ulmaceae,Ulmus procera
 Prionoxystus robiniae,Polyphagous,
@@ -84,103 +84,103 @@ Psychonoctua personalis,Myrtaceae,Eugenia jambos
 Psychonoctua personalis,Rhizophoraceae,Rhizophora mangle
 Catoptria falsella,Musci,
 Catoptria falsella,Musci,Tortula muralis
-Chilo suppressalis,Gramineae,Andropogon sorghum
-Chilo suppressalis,Gramineae,Brachiaria mutica
-Chilo suppressalis,Cruciferae,Brassica oleracea
-Chilo suppressalis,Gramineae,Chaetochloa verticillata
-Chilo suppressalis,Gramineae,Coix lacryma-jobi
-Chilo suppressalis,Gramineae,Cymbopogon citratus
-Chilo suppressalis,Gramineae,Echinochloa crusgalli
-Chilo suppressalis,Gramineae,Echinochloa frumentacea
-Chilo suppressalis,Gramineae,Echinochloa stagnina
-Chilo suppressalis,Gramineae,Eleusine coracana
-Chilo suppressalis,Gramineae,Eleusine indica
+Chilo suppressalis,Poaceae,Andropogon sorghum
+Chilo suppressalis,Poaceae,Brachiaria mutica
+Chilo suppressalis,Brassicaceae,Brassica oleracea
+Chilo suppressalis,Poaceae,Chaetochloa verticillata
+Chilo suppressalis,Poaceae,Coix lacryma-jobi
+Chilo suppressalis,Poaceae,Cymbopogon citratus
+Chilo suppressalis,Poaceae,Echinochloa crusgalli
+Chilo suppressalis,Poaceae,Echinochloa frumentacea
+Chilo suppressalis,Poaceae,Echinochloa stagnina
+Chilo suppressalis,Poaceae,Eleusine coracana
+Chilo suppressalis,Poaceae,Eleusine indica
 Chilo suppressalis,Solanaceae,Lycopersicon esculentum
-Chilo suppressalis,Gramineae,Miscanthus fusca
-Chilo suppressalis,Gramineae,Oryza
-Chilo suppressalis,Gramineae,Oryza
-Chilo suppressalis,Gramineae,Oryza
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Panicum miliaceum
-Chilo suppressalis,Gramineae,Paspalum conjugatum
-Chilo suppressalis,Gramineae,Pennisetum americanum
-Chilo suppressalis,Gramineae,Saccharum officinarum
-Chilo suppressalis,Gramineae,Saccharum officinarum
+Chilo suppressalis,Poaceae,Miscanthus fusca
+Chilo suppressalis,Poaceae,Oryza
+Chilo suppressalis,Poaceae,Oryza
+Chilo suppressalis,Poaceae,Oryza
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Panicum miliaceum
+Chilo suppressalis,Poaceae,Paspalum conjugatum
+Chilo suppressalis,Poaceae,Pennisetum americanum
+Chilo suppressalis,Poaceae,Saccharum officinarum
+Chilo suppressalis,Poaceae,Saccharum officinarum
 Chilo suppressalis,Solanaceae,Solanum melongena
-Chilo suppressalis,Gramineae,Sorghum
-Chilo suppressalis,Gramineae,Sorghum
-Chilo suppressalis,Gramineae,Sorghum
-Chilo suppressalis,Gramineae,Triticum
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Oryza
-Chilo suppressalis,Gramineae,Pennisetum glaucum
-Chilo suppressalis,Gramineae,Sorghum
-Chilo suppressalis,Gramineae,Andropogon sorghum
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,
-Chilo suppressalis,Gramineae,Eleusine coracana
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Oryza sativa
-Chilo suppressalis,Gramineae,Pennisetum americanum
-Chilo suppressalis,Gramineae,Saccharum officinarum
-Chilo suppressalis,Gramineae,Saccharum officinarum
-Chilo suppressalis,Gramineae,Sorghum bicolor
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Zea mays
-Chilo suppressalis,Gramineae,Saccharum officinarum
-Chilo suppressalis,Gramineae,
-Cnaphalocrocis medinalis,Gramineae,
-Cnaphalocrocis medinalis,Gramineae,Dactyloctenium aegyptium
-Cnaphalocrocis medinalis,Gramineae,Digitaria ciliaris
-Cnaphalocrocis medinalis,Gramineae,Echinochloa colonum
-Cnaphalocrocis medinalis,Gramineae,Echinochloa crus-galli
-Cnaphalocrocis medinalis,Gramineae,Echinochloa glabrescens
-Cnaphalocrocis medinalis,Gramineae,Eleusine indica
-Cnaphalocrocis medinalis,Gramineae,Elytrigia repens
-Cnaphalocrocis medinalis,Gramineae,Leersia hexandra
+Chilo suppressalis,Poaceae,Sorghum
+Chilo suppressalis,Poaceae,Sorghum
+Chilo suppressalis,Poaceae,Sorghum
+Chilo suppressalis,Poaceae,Triticum
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Oryza
+Chilo suppressalis,Poaceae,Pennisetum glaucum
+Chilo suppressalis,Poaceae,Sorghum
+Chilo suppressalis,Poaceae,Andropogon sorghum
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,
+Chilo suppressalis,Poaceae,Eleusine coracana
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Oryza sativa
+Chilo suppressalis,Poaceae,Pennisetum americanum
+Chilo suppressalis,Poaceae,Saccharum officinarum
+Chilo suppressalis,Poaceae,Saccharum officinarum
+Chilo suppressalis,Poaceae,Sorghum bicolor
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Zea mays
+Chilo suppressalis,Poaceae,Saccharum officinarum
+Chilo suppressalis,Poaceae,
+Cnaphalocrocis medinalis,Poaceae,
+Cnaphalocrocis medinalis,Poaceae,Dactyloctenium aegyptium
+Cnaphalocrocis medinalis,Poaceae,Digitaria ciliaris
+Cnaphalocrocis medinalis,Poaceae,Echinochloa colonum
+Cnaphalocrocis medinalis,Poaceae,Echinochloa crus-galli
+Cnaphalocrocis medinalis,Poaceae,Echinochloa glabrescens
+Cnaphalocrocis medinalis,Poaceae,Eleusine indica
+Cnaphalocrocis medinalis,Poaceae,Elytrigia repens
+Cnaphalocrocis medinalis,Poaceae,Leersia hexandra
 Cnaphalocrocis medinalis,Solanaceae,Nicotiana tabacum
-Cnaphalocrocis medinalis,Gramineae,Oryza
-Cnaphalocrocis medinalis,Gramineae,Oryza
-Cnaphalocrocis medinalis,Gramineae,Oryza
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Paspalum conjugatum
-Cnaphalocrocis medinalis,Gramineae,Sacciolepis interrupta
-Cnaphalocrocis medinalis,Gramineae,Sorghum halepense
-Cnaphalocrocis medinalis,Leguminosae (p),Stylosanthes erecta
-Cnaphalocrocis medinalis,Gramineae,Zea mays
+Cnaphalocrocis medinalis,Poaceae,Oryza
+Cnaphalocrocis medinalis,Poaceae,Oryza
+Cnaphalocrocis medinalis,Poaceae,Oryza
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Paspalum conjugatum
+Cnaphalocrocis medinalis,Poaceae,Sacciolepis interrupta
+Cnaphalocrocis medinalis,Poaceae,Sorghum halepense
+Cnaphalocrocis medinalis,Fabaceae,Stylosanthes erecta
+Cnaphalocrocis medinalis,Poaceae,Zea mays
 Cnaphalocrocis medinalis,Zingiberaceae,Zingiber officinale
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,
-Cnaphalocrocis medinalis,Gramineae,Oryza
-Cnaphalocrocis medinalis,Gramineae,
-Cnaphalocrocis medinalis,Gramineae,Echinochloa colona
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
-Cnaphalocrocis medinalis,Gramineae,Sorghum
-Cnaphalocrocis medinalis,Gramineae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,
+Cnaphalocrocis medinalis,Poaceae,Oryza
+Cnaphalocrocis medinalis,Poaceae,
+Cnaphalocrocis medinalis,Poaceae,Echinochloa colona
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
+Cnaphalocrocis medinalis,Poaceae,Sorghum
+Cnaphalocrocis medinalis,Poaceae,Oryza sativa
 Dalcera abrasa,Rubiaceae,Coffea
-Dalcera abrasa,Compositae,Eremanthus glomerulatus
+Dalcera abrasa,Asteraceae,Eremanthus glomerulatus
 Dalcera abrasa,Erythroxylaceae,Erythroxylum deciduum
 Dalcera abrasa,Rutaceae,Metrodorea pubescens
 Dalcera abrasa,Ochnaceae,Ouratea hexasperma
@@ -258,7 +258,7 @@ Thyatira batis,Rosaceae,Rubus fruticosus
 Tridrepana flava,0,0
 Mustilizans dierli,0,0
 Epicopeia hainesii,Cornaceae,Bothrocaryum controversum
-Amata phegea,Gramineae,
+Amata phegea,Poaceae,
 Eudocima salaminia,Menispermaceae,
 Eudocima salaminia,Caricaceae,Carica papaya
 Eudocima salaminia,Rutaceae,Citrus
@@ -274,12 +274,12 @@ Eudocima salaminia,Rutaceae,Citrus
 Eudocima salaminia,Menispermaceae,Stephania japonica
 Euproctis chrysorrhoea,Polyphagous,
 Euproctis chrysorrhoea,Rosaceae,
-Euproctis chrysorrhoea,Leguminosae (m),Acacia
+Euproctis chrysorrhoea,Fabaceae,Acacia
 Euproctis chrysorrhoea,Aceraceae,Acer
 Euproctis chrysorrhoea,Aceraceae,Acer pseudoplatanus
 Euproctis chrysorrhoea,Aceraceae,Acer saccharinum
 Euproctis chrysorrhoea,Rosaceae,Amelanchier
-Euproctis chrysorrhoea,Compositae,Arctium lappa
+Euproctis chrysorrhoea,Asteraceae,Arctium lappa
 Euproctis chrysorrhoea,Betulaceae,Betula
 Euproctis chrysorrhoea,Betulaceae,Betula papyrifera
 Euproctis chrysorrhoea,Juglandaceae,Carya
@@ -326,7 +326,7 @@ Euproctis chrysorrhoea,Grossulariaceae,Ribes rubrum
 Euproctis chrysorrhoea,Grossulariaceae,Ribes rubrum
 Euproctis chrysorrhoea,Grossulariaceae,Ribes uva-crispa
 Euproctis chrysorrhoea,Grossulariaceae,Ribes uva-crispa
-Euproctis chrysorrhoea,Leguminosae (p),Robinia pseudoacacia
+Euproctis chrysorrhoea,Fabaceae,Robinia pseudoacacia
 Euproctis chrysorrhoea,Rosaceae,Rosa
 Euproctis chrysorrhoea,Rosaceae,Rosa
 Euproctis chrysorrhoea,Rosaceae,Rosa carolina
@@ -346,14 +346,14 @@ Euproctis chrysorrhoea,Rosaceae,Sorbus aria
 Euproctis chrysorrhoea,Rosaceae,Spiraea
 Euproctis chrysorrhoea,Rosaceae,Spiraea thunbergii
 Euproctis chrysorrhoea,Tiliaceae,Tilia
-Euproctis chrysorrhoea,Leguminosae (p),Trifolium pratense
+Euproctis chrysorrhoea,Fabaceae,Trifolium pratense
 Euproctis chrysorrhoea,Ulmaceae,Ulmus
 Euproctis chrysorrhoea,Ulmaceae,Ulmus
 Euproctis chrysorrhoea,Caprifoliaceae,Viburnum nudum
 Euproctis chrysorrhoea,Vitaceae,Vitis
 Euproctis chrysorrhoea,Vitaceae,Vitis vulpina
 Euproctis chrysorrhoea,Caprifoliaceae,Weigela florida
-Euproctis chrysorrhoea,Leguminosae (p),Wisteria sinensis
+Euproctis chrysorrhoea,Fabaceae,Wisteria sinensis
 Euproctis chrysorrhoea,Polyphagous,
 Euproctis chrysorrhoea,Polyphagous,
 Euproctis chrysorrhoea,Polyphagous,
@@ -401,7 +401,7 @@ Lymantria dispar,Fagaceae,Castanea dentata
 Lymantria dispar,Bignoniaceae,Catalpa
 Lymantria dispar,Pinaceae,Cedrus deodara
 Lymantria dispar,Ulmaceae,Celtis occidentalis
-Lymantria dispar,Compositae,Chaenactis stevioides
+Lymantria dispar,Asteraceae,Chaenactis stevioides
 Lymantria dispar,Rutaceae,Citrus
 Lymantria dispar,Clethraceae,Clethra alnifolia
 Lymantria dispar,Myricaceae,Comptonia peregrina
@@ -425,8 +425,8 @@ Lymantria dispar,Oleaceae,Fraxinus profunda
 Lymantria dispar,Oleaceae,Fraxinus quadrangulata
 Lymantria dispar,Ericaceae,Gaylussacia frondosa
 Lymantria dispar,Ginkgoaceae,Ginkgo biloba
-Lymantria dispar,Leguminosae (c),Gleditsia triacanthos
-Lymantria dispar,Leguminosae (c),Gymnocladus dioicus
+Lymantria dispar,Fabaceae,Gleditsia triacanthos
+Lymantria dispar,Fabaceae,Gymnocladus dioicus
 Lymantria dispar,Hamamelidaceae,Hamamelis virginiana
 Lymantria dispar,Aquifoliaceae,Ilex glabra
 Lymantria dispar,Aquifoliaceae,Ilex laevigata
@@ -522,7 +522,7 @@ Lymantria dispar,Ericaceae,Rhododendron viscosum
 Lymantria dispar,Anacardiaceae,Rhus glabra
 Lymantria dispar,Anacardiaceae,Rhus typhina
 Lymantria dispar,Grossulariaceae,Ribes rubrum
-Lymantria dispar,Leguminosae (p),Robinia pseudoacacia
+Lymantria dispar,Fabaceae,Robinia pseudoacacia
 Lymantria dispar,Rosaceae,Rosa carolina
 Lymantria dispar,Rosaceae,Rosa eglanteria
 Lymantria dispar,Rosaceae,Rubus allegheniensis
@@ -563,7 +563,7 @@ Lymantria dispar,Caprifoliaceae,Viburnum lentago
 Lymantria dispar,Caprifoliaceae,Viburnum nudum
 Lymantria dispar,Caprifoliaceae,Viburnum opulus
 Lymantria dispar,Vitaceae,Vitis vinifera
-Lymantria dispar,Gramineae,Zea mays
+Lymantria dispar,Poaceae,Zea mays
 Lymantria dispar,Polyphagous,
 Lymantria dispar,Polyphagous,
 Lymantria dispar,Polyphagous,
@@ -599,7 +599,7 @@ Lymantria dispar,Fagaceae,Quercus mongolica
 Lymantria dispar,Fagaceae,Quercus phillyraeoides
 Lymantria dispar,Fagaceae,Quercus serrata
 Lymantria dispar,Fagaceae,Quercus variabilis
-Lymantria dispar,Leguminosae (p),Robinia pseudoacacia
+Lymantria dispar,Fabaceae,Robinia pseudoacacia
 Lymantria dispar,Salicaceae,Salix
 Lymantria dispar,Salicaceae,Salix
 Lymantria dispar,Salicaceae,Salix repens
@@ -612,7 +612,7 @@ Phragmatobia fuliginosa,Polyphagous,
 Phragmatobia fuliginosa,Ericaceae,Andromeda polifolia
 Phragmatobia fuliginosa,Ericaceae,Calluna vulgaris
 Phragmatobia fuliginosa,Onagraceae,Epilobium angustifolium
-Phragmatobia fuliginosa,Compositae,Eupatorium
+Phragmatobia fuliginosa,Asteraceae,Eupatorium
 Phragmatobia fuliginosa,Oleaceae,Fraxinus
 Phragmatobia fuliginosa,Rosaceae,Malus pumila
 Phragmatobia fuliginosa,Plantaginaceae,Plantago
@@ -626,43 +626,43 @@ Phragmatobia fuliginosa,Polygonaceae,Rumex crispus
 Phragmatobia fuliginosa,Salicaceae,Salix bebbiana
 Phragmatobia fuliginosa,Salicaceae,Salix phylicifolia
 Phragmatobia fuliginosa,Salicaceae,Salix repens
-Phragmatobia fuliginosa,Compositae,Solidago
+Phragmatobia fuliginosa,Asteraceae,Solidago
 Phragmatobia fuliginosa,Araceae,Symplocarpus foetidus
-Phragmatobia fuliginosa,Compositae,Taraxacum officinale
-Phragmatobia fuliginosa,Leguminosae (p),Trifolium
+Phragmatobia fuliginosa,Asteraceae,Taraxacum officinale
+Phragmatobia fuliginosa,Fabaceae,Trifolium
 Phragmatobia fuliginosa,Ericaceae,Vaccinium myrtillus
 Phragmatobia fuliginosa,Ericaceae,Vaccinium uliginosum
-Phragmatobia fuliginosa,Compositae,Vernonia noveboracensis
+Phragmatobia fuliginosa,Asteraceae,Vernonia noveboracensis
 Phragmatobia fuliginosa,Polyphagous,
-Phragmatobia fuliginosa,Gramineae,Molinia caerulea
+Phragmatobia fuliginosa,Poaceae,Molinia caerulea
 Phragmatobia fuliginosa,Polygonaceae,Rumex
 Phragmatobia fuliginosa,Salicaceae,Salix aurita
-Phragmatobia fuliginosa,Compositae,Taraxacum
+Phragmatobia fuliginosa,Asteraceae,Taraxacum
 Phragmatobia fuliginosa,Polyphagous,
-Phragmatobia fuliginosa,Compositae,Eupatorium
-Phragmatobia fuliginosa,Compositae,Helianthus
+Phragmatobia fuliginosa,Asteraceae,Eupatorium
+Phragmatobia fuliginosa,Asteraceae,Helianthus
 Phragmatobia fuliginosa,Plantaginaceae,Plantago
 Phragmatobia fuliginosa,Polygonaceae,Rumex
-Phragmatobia fuliginosa,Compositae,Solidago
+Phragmatobia fuliginosa,Asteraceae,Solidago
 Phragmatobia fuliginosa,Araceae,Symplocarpus
-Phyllodes eyndhovii,Leguminosae (m),Acacia catechu
+Phyllodes eyndhovii,Fabaceae,Acacia catechu
 Dyseriocrania subpurpurella,0,0
 Tuta absoluta,0,0
 Biston betularia,Betulaceae,Alnus glutinosa
 Biston betularia,Betulaceae,Alnus incana
 Biston betularia,Rosaceae,Amelanchier stolonifera
-Biston betularia,Compositae,Artemisia absinthium
-Biston betularia,Compositae,Artemisia campestris
-Biston betularia,Compositae,Artemisia vulgaris
-Biston betularia,Compositae,Aster
+Biston betularia,Asteraceae,Artemisia absinthium
+Biston betularia,Asteraceae,Artemisia campestris
+Biston betularia,Asteraceae,Artemisia vulgaris
+Biston betularia,Asteraceae,Aster
 Biston betularia,Betulaceae,Betula
 Biston betularia,Betulaceae,Betula
 Biston betularia,Betulaceae,Betula ermanii
 Biston betularia,Betulaceae,Betula pendula
 Biston betularia,Betulaceae,Betula pubescens
-Biston betularia,Leguminosae (p),Caragana arborescens
+Biston betularia,Fabaceae,Caragana arborescens
 Biston betularia,Ericaceae,Chamaedaphne calyculata
-Biston betularia,Compositae,Chrysanthemum
+Biston betularia,Asteraceae,Chrysanthemum
 Biston betularia,Rosaceae,Crataegus
 Biston betularia,Celastraceae,Euonymus europaea
 Biston betularia,Fagaceae,Fagus
@@ -674,7 +674,7 @@ Biston betularia,Pinaceae,Larix
 Biston betularia,Pinaceae,Larix decidua
 Biston betularia,Pinaceae,Larix sibirica
 Biston betularia,Oleaceae,Ligustrum
-Biston betularia,Leguminosae (p),Lupinus angustifolius
+Biston betularia,Fabaceae,Lupinus angustifolius
 Biston betularia,Lythraceae,Lythrum salicaria
 Biston betularia,Rosaceae,Malus pumila
 Biston betularia,Rosaceae,Malus pumila
@@ -707,7 +707,7 @@ Biston betularia,Salicaceae,Salix phylicifolia
 Biston betularia,Rosaceae,Sorbus aucuparia
 Biston betularia,Rosaceae,Spiraea chamaedryfolia
 Biston betularia,Tiliaceae,Tilia
-Biston betularia,Leguminosae (p),Trifolium medium
+Biston betularia,Fabaceae,Trifolium medium
 Biston betularia,Ulmaceae,Ulmus
 Biston betularia,Ulmaceae,Ulmus laevis
 Biston betularia,Ulmaceae,Ulmus pumila
@@ -727,14 +727,14 @@ Biston betularia,Betulaceae,Alnus incana
 Biston betularia,Betulaceae,Alnus rubra
 Biston betularia,Betulaceae,Alnus rubra
 Biston betularia,Rosaceae,Amelanchier alnifolia
-Biston betularia,Compositae,Aster ericoides
+Biston betularia,Asteraceae,Aster ericoides
 Biston betularia,Betulaceae,Betula
 Biston betularia,Betulaceae,Betula lenta
 Biston betularia,Betulaceae,Betula papyrifera
 Biston betularia,Betulaceae,Betula papyrifera
 Biston betularia,Betulaceae,Betula pubescens
-Biston betularia,Leguminosae (p),Caragana
-Biston betularia,Leguminosae (p),Caragana
+Biston betularia,Fabaceae,Caragana
+Biston betularia,Fabaceae,Caragana
 Biston betularia,Fagaceae,Castanea dentata
 Biston betularia,Fagaceae,Castanea sativa
 Biston betularia,Rhamnaceae,Ceanothus
@@ -747,13 +747,13 @@ Biston betularia,Rosaceae,Crataegus
 Biston betularia,Rosaceae,Fragaria
 Biston betularia,Ginkgoaceae,Ginkgo biloba
 Biston betularia,Iridaceae,Gladiolus
-Biston betularia,Leguminosae (c),Gleditsia triacanthos
-Biston betularia,Leguminosae (p),Hedysarum boreale
+Biston betularia,Fabaceae,Gleditsia triacanthos
+Biston betularia,Fabaceae,Hedysarum boreale
 Biston betularia,Rosaceae,Holodiscus discolor
 Biston betularia,Pinaceae,Larix laricina
 Biston betularia,Pinaceae,Larix laricina
 Biston betularia,Rosaceae,Malus pumila
-Biston betularia,Leguminosae (p),Melilotus officinalis
+Biston betularia,Fabaceae,Melilotus officinalis
 Biston betularia,Myricaceae,Myrica gale
 Biston betularia,Salicaceae,Populus
 Biston betularia,Salicaceae,Populus balsamifera
@@ -772,7 +772,7 @@ Biston betularia,Grossulariaceae,Ribes nigrum
 Biston betularia,Grossulariaceae,Ribes rubrum
 Biston betularia,Grossulariaceae,Ribes sanguineum
 Biston betularia,Grossulariaceae,Ribes uva-crispa
-Biston betularia,Leguminosae (p),Robinia pseudoacacia
+Biston betularia,Fabaceae,Robinia pseudoacacia
 Biston betularia,Rosaceae,Rosa
 Biston betularia,Rosaceae,Rubus idaeus
 Biston betularia,Salicaceae,Salix
@@ -793,7 +793,7 @@ Ectropis obliqua,Theaceae,Camellia sinensis
 Ectropis obliqua,Fagaceae,Castanea crenata
 Ectropis obliqua,Coriariaceae,Coriaria japonica
 Ectropis obliqua,Caprifoliaceae,Diervilla hortensis
-Ectropis obliqua,Leguminosae (p),Glycine max
+Ectropis obliqua,Fabaceae,Glycine max
 Ectropis obliqua,Juglandaceae,Juglans mandschurica
 Ectropis obliqua,Lauraceae,Lindera umbellata
 Ectropis obliqua,Caprifoliaceae,Lonicera japonica
@@ -801,10 +801,10 @@ Ectropis obliqua,Rosaceae,Malus pumila
 Ectropis obliqua,Meliosmaceae,Meliosma myriantha
 Ectropis obliqua,Fagaceae,Quercus acutissima
 Ectropis obliqua,Fagaceae,Quercus serrata
-Ectropis obliqua,Leguminosae (p),Robinia pseudoacacia
+Ectropis obliqua,Fabaceae,Robinia pseudoacacia
 Ectropis obliqua,Salicaceae,Salix integra
 Ectropis obliqua,Salicaceae,Salix vulpina
-Ectropis obliqua,Leguminosae (p),Trifolium repens
+Ectropis obliqua,Fabaceae,Trifolium repens
 Ectropis obliqua,Fagaceae,Castanea crenata
 Ectropis obliqua,Fagaceae,Castanea crenata
 Ectropis obliqua,Fagaceae,Quercus acutissima
@@ -967,7 +967,7 @@ Phyllocnistis citrella,Loranthaceae,Loranthus
 Phyllocnistis citrella,Rutaceae,Murraya koenigii
 Phyllocnistis citrella,Rutaceae,Murraya paniculata
 Phyllocnistis citrella,Rutaceae,Poncirus trifoliata
-Phyllocnistis citrella,Leguminosae (p),Pongamia pinnata
+Phyllocnistis citrella,Fabaceae,Pongamia pinnata
 Phyllocnistis citrella,Rutaceae,Severinia buxifolia
 Phyllocnistis citrella,Rutaceae,Citrus
 Phyllocnistis citrella,Rutaceae,Aegle marmelos
@@ -984,51 +984,51 @@ Phyllocnistis citrella,Rutaceae,Citrus medica
 Phyllocnistis citrella,Oleaceae,Jasminum sambac
 Phyllocnistis citrella,Rutaceae,Murraya koenigii
 Helicopsyche borealis,0,0
-Phymatopus californicus,Compositae,Eriophyllum stoechadifolium
-Phymatopus californicus,Compositae,Baccharis pilularis
-Phymatopus californicus,Compositae,Eriophyllum stoechadifolium
+Phymatopus californicus,Asteraceae,Eriophyllum stoechadifolium
+Phymatopus californicus,Asteraceae,Baccharis pilularis
+Phymatopus californicus,Asteraceae,Eriophyllum stoechadifolium
 Triodia sylvina,Cannabaceae,Humulus lupulus
 Triodia sylvina,Dennstaedtiaceae,Pteridium
-Hylephila phyleus,Gramineae,
-Hylephila phyleus,Gramineae,Agrostis
-Hylephila phyleus,Gramineae,Axonopus compressus
-Hylephila phyleus,Gramineae,Cenchrus
-Hylephila phyleus,Gramineae,Cynodon
-Hylephila phyleus,Gramineae,Cynodon dactylon
-Hylephila phyleus,Gramineae,Cynodon dactylon
-Hylephila phyleus,Gramineae,Digitaria
-Hylephila phyleus,Gramineae,Digitaria ciliaris
-Hylephila phyleus,Gramineae,Digitaria sanguinalis
-Hylephila phyleus,Gramineae,Eragrostis hypnoides
-Hylephila phyleus,Gramineae,Eriochloa punctata
-Hylephila phyleus,Gramineae,Panicum repens
-Hylephila phyleus,Gramineae,Paspalum conjugatum
-Hylephila phyleus,Gramineae,Paspalum cromyorhizon
-Hylephila phyleus,Gramineae,Paspalum pumilum
-Hylephila phyleus,Gramineae,Poa pratensis
-Hylephila phyleus,Gramineae,Saccharum officinarum
-Hylephila phyleus,Gramineae,Saccharum officinarum
-Hylephila phyleus,Gramineae,Saccharum officinarum
-Hylephila phyleus,Gramineae,Stenotaphrum secundatum
-Hylephila phyleus,Gramineae,Stenotaphrum secundatum
-Hylephila phyleus,Gramineae,Stenotaphrum secundatum
-Hylephila phyleus,Gramineae,Paspalum conjugatum
-Hylephila phyleus,Gramineae,
-Hylephila phyleus,Gramineae,Saccharum officinarum
-Hylephila phyleus,Gramineae,Stenotaphrum secundatum
-Lerema accius,Gramineae,Andropogon
-Lerema accius,Gramineae,Oryzopsis
-Lerema accius,Gramineae,Panicum capillare
-Lerema accius,Gramineae,Paspalum setaceum
-Lerema accius,Gramineae,Pennisetum ciliare
-Lerema accius,Gramineae,Saccharum
-Lerema accius,Gramineae,Saccharum alopecuroidum
-Lerema accius,Gramineae,Setaria poiretiana
-Lerema accius,Gramineae,Sorghum halepense
-Lerema accius,Gramineae,Stenotaphrum secundatum
-Lerema accius,Gramineae,Zea
-Lerema accius,Gramineae,Zea mays
-Lerema accius,Gramineae,Zea mays
+Hylephila phyleus,Poaceae,
+Hylephila phyleus,Poaceae,Agrostis
+Hylephila phyleus,Poaceae,Axonopus compressus
+Hylephila phyleus,Poaceae,Cenchrus
+Hylephila phyleus,Poaceae,Cynodon
+Hylephila phyleus,Poaceae,Cynodon dactylon
+Hylephila phyleus,Poaceae,Cynodon dactylon
+Hylephila phyleus,Poaceae,Digitaria
+Hylephila phyleus,Poaceae,Digitaria ciliaris
+Hylephila phyleus,Poaceae,Digitaria sanguinalis
+Hylephila phyleus,Poaceae,Eragrostis hypnoides
+Hylephila phyleus,Poaceae,Eriochloa punctata
+Hylephila phyleus,Poaceae,Panicum repens
+Hylephila phyleus,Poaceae,Paspalum conjugatum
+Hylephila phyleus,Poaceae,Paspalum cromyorhizon
+Hylephila phyleus,Poaceae,Paspalum pumilum
+Hylephila phyleus,Poaceae,Poa pratensis
+Hylephila phyleus,Poaceae,Saccharum officinarum
+Hylephila phyleus,Poaceae,Saccharum officinarum
+Hylephila phyleus,Poaceae,Saccharum officinarum
+Hylephila phyleus,Poaceae,Stenotaphrum secundatum
+Hylephila phyleus,Poaceae,Stenotaphrum secundatum
+Hylephila phyleus,Poaceae,Stenotaphrum secundatum
+Hylephila phyleus,Poaceae,Paspalum conjugatum
+Hylephila phyleus,Poaceae,
+Hylephila phyleus,Poaceae,Saccharum officinarum
+Hylephila phyleus,Poaceae,Stenotaphrum secundatum
+Lerema accius,Poaceae,Andropogon
+Lerema accius,Poaceae,Oryzopsis
+Lerema accius,Poaceae,Panicum capillare
+Lerema accius,Poaceae,Paspalum setaceum
+Lerema accius,Poaceae,Pennisetum ciliare
+Lerema accius,Poaceae,Saccharum
+Lerema accius,Poaceae,Saccharum alopecuroidum
+Lerema accius,Poaceae,Setaria poiretiana
+Lerema accius,Poaceae,Sorghum halepense
+Lerema accius,Poaceae,Stenotaphrum secundatum
+Lerema accius,Poaceae,Zea
+Lerema accius,Poaceae,Zea mays
+Lerema accius,Poaceae,Zea mays
 Megathymus yuccae,Agavaceae,Yucca
 Megathymus yuccae,Agavaceae,Yucca aloifolia
 Megathymus yuccae,Agavaceae,Yucca arkansana
@@ -1062,72 +1062,72 @@ Megathymus yuccae,Agavaceae,Yucca torreyi
 Megathymus yuccae,Agavaceae,Yucca treculeana
 Megathymus yuccae,Agavaceae,Yucca aloifolia
 Megathymus yuccae,Agavaceae,Yucca filamentosa
-Thymelicus sylvestris,Gramineae,Brachypodium phoenicoides
-Thymelicus sylvestris,Gramineae,
-Thymelicus sylvestris,Gramineae,Brachypodium sylvaticum
-Thymelicus sylvestris,Gramineae,Holcus lanatus
-Thymelicus sylvestris,Gramineae,Holcus mollis
-Thymelicus sylvestris,Gramineae,Phleum pratense
-Urbanus proteus,Compositae,
+Thymelicus sylvestris,Poaceae,Brachypodium phoenicoides
+Thymelicus sylvestris,Poaceae,
+Thymelicus sylvestris,Poaceae,Brachypodium sylvaticum
+Thymelicus sylvestris,Poaceae,Holcus lanatus
+Thymelicus sylvestris,Poaceae,Holcus mollis
+Thymelicus sylvestris,Poaceae,Phleum pratense
+Urbanus proteus,Asteraceae,
 Urbanus proteus,Leguminosae,
 Urbanus proteus,Leguminosae,
 Urbanus proteus,Leguminosae,
 Urbanus proteus,Leguminosae,
-Urbanus proteus,Leguminosae (p),Amphicarpaea bracteata
-Urbanus proteus,Leguminosae (c),Bauhinia
+Urbanus proteus,Fabaceae,Amphicarpaea bracteata
+Urbanus proteus,Fabaceae,Bauhinia
 Urbanus proteus,Malpighiaceae,Byrsonima coccolobifolia
 Urbanus proteus,Cannaceae,Canna
 Urbanus proteus,Cannaceae,Canna
 Urbanus proteus,Cannaceae,Canna
-Urbanus proteus,Leguminosae (p),Clitoria
-Urbanus proteus,Leguminosae (p),Clitoria
-Urbanus proteus,Leguminosae (p),Clitoria
-Urbanus proteus,Leguminosae (p),Clitoria laurifolia
-Urbanus proteus,Leguminosae (p),Clitoria mariana
-Urbanus proteus,Leguminosae (p),Clitoria ternatea
-Urbanus proteus,Leguminosae (p),Desmodium affine
-Urbanus proteus,Leguminosae (p),Desmodium canescens
-Urbanus proteus,Leguminosae (p),Desmodium neomexicanum
-Urbanus proteus,Leguminosae (p),Desmodium tortuosum
-Urbanus proteus,Leguminosae (p),Desmodium viridiflorum
-Urbanus proteus,Leguminosae (p),Glycine max
-Urbanus proteus,Leguminosae (p),Glycine max
-Urbanus proteus,Leguminosae (p),Lathyrus odoratus
-Urbanus proteus,Leguminosae (p),Macroptilium lathyroides
-Urbanus proteus,Leguminosae (p),Periandra
-Urbanus proteus,Leguminosae (p),Phaseolus
-Urbanus proteus,Leguminosae (p),Phaseolus
-Urbanus proteus,Leguminosae (p),Phaseolus
-Urbanus proteus,Leguminosae (p),Phaseolus
-Urbanus proteus,Leguminosae (p),Phaseolus lunatus
-Urbanus proteus,Leguminosae (p),Phaseolus lunatus
-Urbanus proteus,Leguminosae (p),Phaseolus lunatus
-Urbanus proteus,Leguminosae (p),Phaseolus polystachios
-Urbanus proteus,Leguminosae (p),Phaseolus vulgaris
-Urbanus proteus,Leguminosae (p),Phaseolus vulgaris
-Urbanus proteus,Leguminosae (p),Phaseolus vulgaris
-Urbanus proteus,Leguminosae (p),Phaseolus vulgaris
-Urbanus proteus,Leguminosae (p),Pisum sativum
-Urbanus proteus,Leguminosae (p),Pisum sativum
-Urbanus proteus,Leguminosae (m),Prosopis
-Urbanus proteus,Leguminosae (m),Prosopis glandulosa
-Urbanus proteus,Leguminosae (m),Prosopis glandulosa
+Urbanus proteus,Fabaceae,Clitoria
+Urbanus proteus,Fabaceae,Clitoria
+Urbanus proteus,Fabaceae,Clitoria
+Urbanus proteus,Fabaceae,Clitoria laurifolia
+Urbanus proteus,Fabaceae,Clitoria mariana
+Urbanus proteus,Fabaceae,Clitoria ternatea
+Urbanus proteus,Fabaceae,Desmodium affine
+Urbanus proteus,Fabaceae,Desmodium canescens
+Urbanus proteus,Fabaceae,Desmodium neomexicanum
+Urbanus proteus,Fabaceae,Desmodium tortuosum
+Urbanus proteus,Fabaceae,Desmodium viridiflorum
+Urbanus proteus,Fabaceae,Glycine max
+Urbanus proteus,Fabaceae,Glycine max
+Urbanus proteus,Fabaceae,Lathyrus odoratus
+Urbanus proteus,Fabaceae,Macroptilium lathyroides
+Urbanus proteus,Fabaceae,Periandra
+Urbanus proteus,Fabaceae,Phaseolus
+Urbanus proteus,Fabaceae,Phaseolus
+Urbanus proteus,Fabaceae,Phaseolus
+Urbanus proteus,Fabaceae,Phaseolus
+Urbanus proteus,Fabaceae,Phaseolus lunatus
+Urbanus proteus,Fabaceae,Phaseolus lunatus
+Urbanus proteus,Fabaceae,Phaseolus lunatus
+Urbanus proteus,Fabaceae,Phaseolus polystachios
+Urbanus proteus,Fabaceae,Phaseolus vulgaris
+Urbanus proteus,Fabaceae,Phaseolus vulgaris
+Urbanus proteus,Fabaceae,Phaseolus vulgaris
+Urbanus proteus,Fabaceae,Phaseolus vulgaris
+Urbanus proteus,Fabaceae,Pisum sativum
+Urbanus proteus,Fabaceae,Pisum sativum
+Urbanus proteus,Fabaceae,Prosopis
+Urbanus proteus,Fabaceae,Prosopis glandulosa
+Urbanus proteus,Fabaceae,Prosopis glandulosa
 Urbanus proteus,Malpighiaceae,Stigmaphyllon emarginatum
 Urbanus proteus,Malpighiaceae,Stigmaphyllon emarginatum
-Urbanus proteus,Leguminosae (p),Vicia faba
-Urbanus proteus,Leguminosae (p),Vigna radiata
-Urbanus proteus,Leguminosae (p),Vigna unguiculata
-Urbanus proteus,Leguminosae (p),Wisteria
-Urbanus proteus,Leguminosae (p),Wisteria
-Urbanus proteus,Leguminosae (p),Wisteria frutescens
-Urbanus proteus,Leguminosae (p),Wisteria sinensis
-Urbanus proteus,Leguminosae (p),Desmodium tortuosum
-Urbanus proteus,Leguminosae (p),Vigna unguiculata
-Urbanus proteus,Leguminosae (c),Bauhinia forficata
-Urbanus proteus,Leguminosae (p),Centrosema arenicola
-Urbanus proteus,Leguminosae (p),Desmodium incanum
-Urbanus proteus,Leguminosae (p),Desmodium tortuosum
-Urbanus proteus,Leguminosae (p),Vigna luteola
+Urbanus proteus,Fabaceae,Vicia faba
+Urbanus proteus,Fabaceae,Vigna radiata
+Urbanus proteus,Fabaceae,Vigna unguiculata
+Urbanus proteus,Fabaceae,Wisteria
+Urbanus proteus,Fabaceae,Wisteria
+Urbanus proteus,Fabaceae,Wisteria frutescens
+Urbanus proteus,Fabaceae,Wisteria sinensis
+Urbanus proteus,Fabaceae,Desmodium tortuosum
+Urbanus proteus,Fabaceae,Vigna unguiculata
+Urbanus proteus,Fabaceae,Bauhinia forficata
+Urbanus proteus,Fabaceae,Centrosema arenicola
+Urbanus proteus,Fabaceae,Desmodium incanum
+Urbanus proteus,Fabaceae,Desmodium tortuosum
+Urbanus proteus,Fabaceae,Vigna luteola
 Palaeagapetus nearcticus,0,0
 Lactura subfervens,Sapotaceae,Sideroxylon lanuginosum
 Dendrolimus pini,Pinaceae,Abies
@@ -1161,51 +1161,51 @@ Calycopis cecrops,Myricaceae,Myrica cerifera
 Calycopis cecrops,Anacardiaceae,Rhus aromatica
 Calycopis cecrops,Anacardiaceae,Rhus copallinum
 Calycopis cecrops,Anacardiaceae,Rhus typhina
-Hemiargus ceraunus,Leguminosae (p),Abrus
-Hemiargus ceraunus,Leguminosae (c),Cassia
-Hemiargus ceraunus,Leguminosae (p),Crotalaria
-Hemiargus ceraunus,Leguminosae (p),Medicago sativa
-Hemiargus ceraunus,Leguminosae (p),Phaseolus
-Hemiargus ceraunus,Leguminosae (m),Prosopis glandulosa
-Hemiargus ceraunus,Leguminosae (m),Prosopis pubescens
-Hemiargus ceraunus,Leguminosae (p),Abrus precatorius
-Hemiargus ceraunus,Leguminosae (m),Acacia angustissima
-Hemiargus ceraunus,Leguminosae (p),Astragalus crotalariae
-Hemiargus ceraunus,Leguminosae (c),Chamaecrista fasciculata
-Hemiargus ceraunus,Leguminosae (c),Chamaecrista nictitans
-Hemiargus ceraunus,Leguminosae (p),Crotalaria verrucosa
-Hemiargus ceraunus,Leguminosae (p),Macroptilium lathyroides
-Hemiargus ceraunus,Leguminosae (p),Medicago sativa
-Hemiargus ceraunus,Leguminosae (m),Mimosa pudica
-Hemiargus ceraunus,Leguminosae (p),Phaseolus
-Hemiargus ceraunus,Leguminosae (m),Prosopis glandulosa
-Hemiargus ceraunus,Leguminosae (m),Prosopis pubescens
-Hemiargus ceraunus,Leguminosae (p),Psorothamnus fremontii
-Hemiargus ceraunus,Leguminosae (p),Rhynchosia minima
-Hemiargus ceraunus,Leguminosae (p),Chapmannia floridana
-Hemiargus ceraunus,Leguminosae (p),Indigofera caroliniana
-Hemiargus ceraunus,Leguminosae (p),Medicago
-Hemiargus ceraunus,Leguminosae (p),Medicago sativa
-Hemiargus ceraunus,Leguminosae (m),Prosopis
-Hemiargus ceraunus,Leguminosae (m),Prosopis
+Hemiargus ceraunus,Fabaceae,Abrus
+Hemiargus ceraunus,Fabaceae,Cassia
+Hemiargus ceraunus,Fabaceae,Crotalaria
+Hemiargus ceraunus,Fabaceae,Medicago sativa
+Hemiargus ceraunus,Fabaceae,Phaseolus
+Hemiargus ceraunus,Fabaceae,Prosopis glandulosa
+Hemiargus ceraunus,Fabaceae,Prosopis pubescens
+Hemiargus ceraunus,Fabaceae,Abrus precatorius
+Hemiargus ceraunus,Fabaceae,Acacia angustissima
+Hemiargus ceraunus,Fabaceae,Astragalus crotalariae
+Hemiargus ceraunus,Fabaceae,Chamaecrista fasciculata
+Hemiargus ceraunus,Fabaceae,Chamaecrista nictitans
+Hemiargus ceraunus,Fabaceae,Crotalaria verrucosa
+Hemiargus ceraunus,Fabaceae,Macroptilium lathyroides
+Hemiargus ceraunus,Fabaceae,Medicago sativa
+Hemiargus ceraunus,Fabaceae,Mimosa pudica
+Hemiargus ceraunus,Fabaceae,Phaseolus
+Hemiargus ceraunus,Fabaceae,Prosopis glandulosa
+Hemiargus ceraunus,Fabaceae,Prosopis pubescens
+Hemiargus ceraunus,Fabaceae,Psorothamnus fremontii
+Hemiargus ceraunus,Fabaceae,Rhynchosia minima
+Hemiargus ceraunus,Fabaceae,Chapmannia floridana
+Hemiargus ceraunus,Fabaceae,Indigofera caroliniana
+Hemiargus ceraunus,Fabaceae,Medicago
+Hemiargus ceraunus,Fabaceae,Medicago sativa
+Hemiargus ceraunus,Fabaceae,Prosopis
+Hemiargus ceraunus,Fabaceae,Prosopis
 Hemiargus ceraunus,Leguminosae,
 Polyommatus icarus,Geraniaceae,
 Polyommatus icarus,Leguminosae,
 Polyommatus icarus,Leguminosae,
 Polyommatus icarus,Leguminosae,
-Polyommatus icarus,Leguminosae (p),Lathyrus
-Polyommatus icarus,Leguminosae (p),Lotus corniculatus
-Polyommatus icarus,Leguminosae (p),Lotus corniculatus
-Polyommatus icarus,Leguminosae (p),Medicago lupulina
-Polyommatus icarus,Leguminosae (p),Medicago sativa
-Polyommatus icarus,Leguminosae (p),Oxytropis campestris
-Polyommatus icarus,Leguminosae (p),Trifolium pratense
-Polyommatus icarus,Leguminosae (p),Vicia
-Polyommatus icarus,Leguminosae (p),Vicia cracca
-Polyommatus icarus,Leguminosae (p),Lotus
-Polyommatus icarus,Leguminosae (p),Medicago lupulina
-Polyommatus icarus,Leguminosae (p),Ononis
-Polyommatus icarus,Leguminosae (p),Trifolium
+Polyommatus icarus,Fabaceae,Lathyrus
+Polyommatus icarus,Fabaceae,Lotus corniculatus
+Polyommatus icarus,Fabaceae,Lotus corniculatus
+Polyommatus icarus,Fabaceae,Medicago lupulina
+Polyommatus icarus,Fabaceae,Medicago sativa
+Polyommatus icarus,Fabaceae,Oxytropis campestris
+Polyommatus icarus,Fabaceae,Trifolium pratense
+Polyommatus icarus,Fabaceae,Vicia
+Polyommatus icarus,Fabaceae,Vicia cracca
+Polyommatus icarus,Fabaceae,Lotus
+Polyommatus icarus,Fabaceae,Medicago lupulina
+Polyommatus icarus,Fabaceae,Ononis
+Polyommatus icarus,Fabaceae,Trifolium
 Leucoptera coffeella,Rubiaceae,Coffea arabica
 Megalopyge crispata,Polyphagous,
 Megalopyge crispata,Aceraceae,Acer rubrum
@@ -1257,17 +1257,17 @@ Stigmella atricapitella,Fagaceae,Quercus robur
 Stigmella atricapitella,Fagaceae,Quercus petraea
 Stigmella atricapitella,Fagaceae,Quercus robur
 Agrotis infusa,Chenopodiaceae,Beta
-Agrotis infusa,Cruciferae,Brassica
-Agrotis infusa,Cruciferae,Brassica oleracea
-Agrotis infusa,Gramineae,Hordeum
+Agrotis infusa,Brassicaceae,Brassica
+Agrotis infusa,Brassicaceae,Brassica oleracea
+Agrotis infusa,Poaceae,Hordeum
 Agrotis infusa,Linaceae,Linum
-Agrotis infusa,Leguminosae (p),Medicago
-Agrotis infusa,Leguminosae (p),Pisum
+Agrotis infusa,Fabaceae,Medicago
+Agrotis infusa,Fabaceae,Pisum
 Agrotis infusa,Solanaceae,Solanum
-Agrotis infusa,Gramineae,Triticum
-Agrotis infusa,Gramineae,Triticum
+Agrotis infusa,Poaceae,Triticum
+Agrotis infusa,Poaceae,Triticum
 Agrotis infusa,Polyphagous,
-Agrotis infusa,Cruciferae,Brassica
+Agrotis infusa,Brassicaceae,Brassica
 Agrotis infusa,Polyphagous,
 Agrotis infusa,Pinaceae,Pinus radiata
 Amphipyra pyramidea,Caprifoliaceae,Lonicera periclymenum
@@ -1294,53 +1294,53 @@ Helicoverpa zea,Malvaceae,Abelmoschus esculentus
 Helicoverpa zea,Malvaceae,Abelmoschus esculentus
 Helicoverpa zea,Malvaceae,Abelmoschus esculentus
 Helicoverpa zea,Malvaceae,Abutilon
-Helicoverpa zea,Compositae,Ageratum conyzoides
+Helicoverpa zea,Asteraceae,Ageratum conyzoides
 Helicoverpa zea,Alliaceae,Allium
 Helicoverpa zea,Amaranthaceae,Amaranthus
 Helicoverpa zea,Anacardiaceae,Anacardium occidentale
 Helicoverpa zea,Scrophulariaceae,Antirrhinum
 Helicoverpa zea,Umbelliferae,Apium graveolens
-Helicoverpa zea,Leguminosae (p),Arachis hypogaea
-Helicoverpa zea,Leguminosae (p),Arachis hypogaea
-Helicoverpa zea,Leguminosae (p),Arachis hypogaea
-Helicoverpa zea,Leguminosae (p),Arachis hypogaea
+Helicoverpa zea,Fabaceae,Arachis hypogaea
+Helicoverpa zea,Fabaceae,Arachis hypogaea
+Helicoverpa zea,Fabaceae,Arachis hypogaea
+Helicoverpa zea,Fabaceae,Arachis hypogaea
 Helicoverpa zea,Asparagaceae,Asparagus officinalis
 Helicoverpa zea,Solanaceae,Atropa bella-donna
-Helicoverpa zea,Gramineae,Avena
-Helicoverpa zea,Gramineae,Avena sativa
+Helicoverpa zea,Poaceae,Avena
+Helicoverpa zea,Poaceae,Avena sativa
 Helicoverpa zea,Chenopodiaceae,Beta vulgaris
-Helicoverpa zea,Gramineae,Brachiaria fasciculata
-Helicoverpa zea,Cruciferae,Brassica oleracea
-Helicoverpa zea,Cruciferae,Brassica tournefortii
-Helicoverpa zea,Leguminosae (c),Caesalpinia gilliesii
-Helicoverpa zea,Leguminosae (p),Cajanus cajan
-Helicoverpa zea,Leguminosae (p),Cajanus cajan
-Helicoverpa zea,Leguminosae (p),Cajanus cajan
-Helicoverpa zea,Leguminosae (p),Cajanus cajan
-Helicoverpa zea,Labiatae,Calamintha
+Helicoverpa zea,Poaceae,Brachiaria fasciculata
+Helicoverpa zea,Brassicaceae,Brassica oleracea
+Helicoverpa zea,Brassicaceae,Brassica tournefortii
+Helicoverpa zea,Fabaceae,Caesalpinia gilliesii
+Helicoverpa zea,Fabaceae,Cajanus cajan
+Helicoverpa zea,Fabaceae,Cajanus cajan
+Helicoverpa zea,Fabaceae,Cajanus cajan
+Helicoverpa zea,Fabaceae,Cajanus cajan
+Helicoverpa zea,Lamiaceae,Calamintha
 Helicoverpa zea,Cannaceae,Canna
 Helicoverpa zea,Cannabaceae,Cannabis sativa
 Helicoverpa zea,Solanaceae,Capsicum
 Helicoverpa zea,Solanaceae,Capsicum annuum
 Helicoverpa zea,Solanaceae,Capsicum annuum
 Helicoverpa zea,Solanaceae,Capsicum frutescens
-Helicoverpa zea,Compositae,Carduus
+Helicoverpa zea,Asteraceae,Carduus
 Helicoverpa zea,Caricaceae,Carica papaya
-Helicoverpa zea,Compositae,Carthamus tinctorius
+Helicoverpa zea,Asteraceae,Carthamus tinctorius
 Helicoverpa zea,Chenopodiaceae,Chenopodium album
-Helicoverpa zea,Compositae,Chrysanthemum
-Helicoverpa zea,Compositae,Chrysothamnus
-Helicoverpa zea,Leguminosae (p),Cicer
-Helicoverpa zea,Leguminosae (p),Cicer arietinum
-Helicoverpa zea,Leguminosae (p),Cicer arietinum
+Helicoverpa zea,Asteraceae,Chrysanthemum
+Helicoverpa zea,Asteraceae,Chrysothamnus
+Helicoverpa zea,Fabaceae,Cicer
+Helicoverpa zea,Fabaceae,Cicer arietinum
+Helicoverpa zea,Fabaceae,Cicer arietinum
 Helicoverpa zea,Cucurbitaceae,Citrullus lanatus
 Helicoverpa zea,Rutaceae,Citrus
 Helicoverpa zea,Capparaceae,Cleome
 Helicoverpa zea,Capparaceae,Cleome gynandra
 Helicoverpa zea,Rubiaceae,Coffea arabica
-Helicoverpa zea,Compositae,Croptilon divaricatum
-Helicoverpa zea,Leguminosae (p),Crotalaria
-Helicoverpa zea,Leguminosae (p),Crotalaria sagittalis
+Helicoverpa zea,Asteraceae,Croptilon divaricatum
+Helicoverpa zea,Fabaceae,Crotalaria
+Helicoverpa zea,Fabaceae,Crotalaria sagittalis
 Helicoverpa zea,Cucurbitaceae,Cucumis melo
 Helicoverpa zea,Cucurbitaceae,Cucumis sativus
 Helicoverpa zea,Cucurbitaceae,Cucurbita
@@ -1348,29 +1348,29 @@ Helicoverpa zea,Cucurbitaceae,Cucurbita
 Helicoverpa zea,Cucurbitaceae,Cucurbita maxima
 Helicoverpa zea,Cucurbitaceae,Cucurbita pepo
 Helicoverpa zea,Cucurbitaceae,Cucurbita pepo
-Helicoverpa zea,Compositae,Dahlia pinnata
+Helicoverpa zea,Asteraceae,Dahlia pinnata
 Helicoverpa zea,Solanaceae,Datura stramonium
 Helicoverpa zea,Solanaceae,Datura stramonium
-Helicoverpa zea,Leguminosae (p),Desmodium tortuosum
-Helicoverpa zea,Leguminosae (p),Desmodium tortuosum
-Helicoverpa zea,Leguminosae (p),Desmodium tortuosum
+Helicoverpa zea,Fabaceae,Desmodium tortuosum
+Helicoverpa zea,Fabaceae,Desmodium tortuosum
+Helicoverpa zea,Fabaceae,Desmodium tortuosum
 Helicoverpa zea,Caryophyllaceae,Dianthus
 Helicoverpa zea,Caryophyllaceae,Dianthus
 Helicoverpa zea,Caryophyllaceae,Dianthus caryophyllus
 Helicoverpa zea,Caryophyllaceae,Dianthus caryophyllus
-Helicoverpa zea,Gramineae,Digitaria ischaemum
+Helicoverpa zea,Poaceae,Digitaria ischaemum
 Helicoverpa zea,Flacourtiaceae,Dovyalis hebecarpa
-Helicoverpa zea,Gramineae,Eleusine coracana
-Helicoverpa zea,Gramineae,Eleusine coracana
+Helicoverpa zea,Poaceae,Eleusine coracana
+Helicoverpa zea,Poaceae,Eleusine coracana
 Helicoverpa zea,Geraniaceae,Erodium cicutarium
 Helicoverpa zea,Myrtaceae,Eucalyptus torelliana
 Helicoverpa zea,Rosaceae,Fragaria chiloensis
-Helicoverpa zea,Compositae,Geraea canescens
+Helicoverpa zea,Asteraceae,Geraea canescens
 Helicoverpa zea,Geraniaceae,Geranium
 Helicoverpa zea,Geraniaceae,Geranium maculatum
 Helicoverpa zea,Iridaceae,Gladiolus
-Helicoverpa zea,Leguminosae (p),Glycine max
-Helicoverpa zea,Leguminosae (p),Glycine max
+Helicoverpa zea,Fabaceae,Glycine max
+Helicoverpa zea,Fabaceae,Glycine max
 Helicoverpa zea,Malvaceae,Gossypium
 Helicoverpa zea,Malvaceae,Gossypium
 Helicoverpa zea,Malvaceae,Gossypium
@@ -1379,11 +1379,11 @@ Helicoverpa zea,Malvaceae,Gossypium herbaceum
 Helicoverpa zea,Malvaceae,Gossypium hirsutum
 Helicoverpa zea,Malvaceae,Gossypium thurberi
 Helicoverpa zea,Malvaceae,Gossypium thurberi
-Helicoverpa zea,Compositae,Helianthus annuus
-Helicoverpa zea,Compositae,Helianthus annuus
-Helicoverpa zea,Compositae,Helianthus annuus
-Helicoverpa zea,Compositae,Helianthus annuus
-Helicoverpa zea,Compositae,Helianthus decapetalus
+Helicoverpa zea,Asteraceae,Helianthus annuus
+Helicoverpa zea,Asteraceae,Helianthus annuus
+Helicoverpa zea,Asteraceae,Helianthus annuus
+Helicoverpa zea,Asteraceae,Helianthus annuus
+Helicoverpa zea,Asteraceae,Helianthus decapetalus
 Helicoverpa zea,Malvaceae,Hibiscus
 Helicoverpa zea,Malvaceae,Hibiscus
 Helicoverpa zea,Malvaceae,Hibiscus cannabinus
@@ -1392,23 +1392,23 @@ Helicoverpa zea,Malvaceae,Hibiscus moscheutos
 Helicoverpa zea,Malvaceae,Hibiscus sabdariffa
 Helicoverpa zea,Malvaceae,Hibiscus trionum
 Helicoverpa zea,Solanaceae,Hyoscyamus niger
-Helicoverpa zea,Leguminosae (p),Indigofera
+Helicoverpa zea,Fabaceae,Indigofera
 Helicoverpa zea,Convolvulaceae,Ipomoea batatas
 Helicoverpa zea,Convolvulaceae,Ipomoea batatas
 Helicoverpa zea,Convolvulaceae,Ipomoea purpurea
 Helicoverpa zea,Acanthaceae,Justicia
-Helicoverpa zea,Leguminosae (p),Lablab purpureus
-Helicoverpa zea,Leguminosae (p),Lablab purpureus
-Helicoverpa zea,Leguminosae (p),Lablab purpureus
-Helicoverpa zea,Compositae,Lactuca sativa
-Helicoverpa zea,Compositae,Lactuca sativa
-Helicoverpa zea,Leguminosae (p),Lathyrus odoratus
-Helicoverpa zea,Leguminosae (p),Lathyrus sativus
-Helicoverpa zea,Leguminosae (p),Lespedeza cuneata
+Helicoverpa zea,Fabaceae,Lablab purpureus
+Helicoverpa zea,Fabaceae,Lablab purpureus
+Helicoverpa zea,Fabaceae,Lablab purpureus
+Helicoverpa zea,Asteraceae,Lactuca sativa
+Helicoverpa zea,Asteraceae,Lactuca sativa
+Helicoverpa zea,Fabaceae,Lathyrus odoratus
+Helicoverpa zea,Fabaceae,Lathyrus sativus
+Helicoverpa zea,Fabaceae,Lespedeza cuneata
 Helicoverpa zea,Proteaceae,Leucadendron
 Helicoverpa zea,Linaceae,Linum sulcatum
 Helicoverpa zea,Linaceae,Linum usitatissimum
-Helicoverpa zea,Leguminosae (p),Lupinus arizonicus
+Helicoverpa zea,Fabaceae,Lupinus arizonicus
 Helicoverpa zea,Solanaceae,Lycopersicon
 Helicoverpa zea,Solanaceae,Lycopersicon
 Helicoverpa zea,Solanaceae,Lycopersicon esculentum
@@ -1421,41 +1421,41 @@ Helicoverpa zea,Solanaceae,Lycopersicon esculentum
 Helicoverpa zea,Malvaceae,Malachra capitata
 Helicoverpa zea,Rosaceae,Malus pumila
 Helicoverpa zea,Malvaceae,Malva rotundifolia
-Helicoverpa zea,Leguminosae (p),Medicago sativa
-Helicoverpa zea,Leguminosae (p),Medicago sativa
-Helicoverpa zea,Leguminosae (p),Melilotus indica
-Helicoverpa zea,Leguminosae (p),Melilotus officinalis
-Helicoverpa zea,Leguminosae (p),Melilotus suaveolens
-Helicoverpa zea,Labiatae,Mentha
-Helicoverpa zea,Leguminosae (p),Mucuna pruriens
+Helicoverpa zea,Fabaceae,Medicago sativa
+Helicoverpa zea,Fabaceae,Medicago sativa
+Helicoverpa zea,Fabaceae,Melilotus indica
+Helicoverpa zea,Fabaceae,Melilotus officinalis
+Helicoverpa zea,Fabaceae,Melilotus suaveolens
+Helicoverpa zea,Lamiaceae,Mentha
+Helicoverpa zea,Fabaceae,Mucuna pruriens
 Helicoverpa zea,Solanaceae,Nicotiana tabacum
 Helicoverpa zea,Solanaceae,Nicotiana tabacum
 Helicoverpa zea,Solanaceae,Nicotiana tabacum
 Helicoverpa zea,Scrophulariaceae,Nuttallanthus canadensis
-Helicoverpa zea,Gramineae,Oryza sativa
-Helicoverpa zea,Gramineae,Panicum oligosanthes
+Helicoverpa zea,Poaceae,Oryza sativa
+Helicoverpa zea,Poaceae,Panicum oligosanthes
 Helicoverpa zea,Papaveraceae,Papaver
 Helicoverpa zea,Geraniaceae,Pelargonium
 Helicoverpa zea,Geraniaceae,Pelargonium
-Helicoverpa zea,Gramineae,Pennisetum
-Helicoverpa zea,Compositae,Pentzia
+Helicoverpa zea,Poaceae,Pennisetum
+Helicoverpa zea,Asteraceae,Pentzia
 Helicoverpa zea,Lauraceae,Persea americana
-Helicoverpa zea,Leguminosae (p),Phaseolus
-Helicoverpa zea,Leguminosae (p),Phaseolus lunatus
-Helicoverpa zea,Leguminosae (p),Phaseolus lunatus
-Helicoverpa zea,Leguminosae (p),Phaseolus vulgaris
-Helicoverpa zea,Leguminosae (p),Phaseolus vulgaris
-Helicoverpa zea,Leguminosae (p),Phaseolus vulgaris
+Helicoverpa zea,Fabaceae,Phaseolus
+Helicoverpa zea,Fabaceae,Phaseolus lunatus
+Helicoverpa zea,Fabaceae,Phaseolus lunatus
+Helicoverpa zea,Fabaceae,Phaseolus vulgaris
+Helicoverpa zea,Fabaceae,Phaseolus vulgaris
+Helicoverpa zea,Fabaceae,Phaseolus vulgaris
 Helicoverpa zea,Polemoniaceae,Phlox
 Helicoverpa zea,Solanaceae,Physalis
 Helicoverpa zea,Solanaceae,Physalis peruviana
 Helicoverpa zea,Solanaceae,Physalis pubescens
 Helicoverpa zea,Solanaceae,Physalis viscosa
-Helicoverpa zea,Leguminosae (p),Pisum sativum
-Helicoverpa zea,Leguminosae (p),Pisum sativum
-Helicoverpa zea,Leguminosae (p),Pisum sativum
-Helicoverpa zea,Leguminosae (p),Pisum sativum
-Helicoverpa zea,Leguminosae (p),Pisum sativum
+Helicoverpa zea,Fabaceae,Pisum sativum
+Helicoverpa zea,Fabaceae,Pisum sativum
+Helicoverpa zea,Fabaceae,Pisum sativum
+Helicoverpa zea,Fabaceae,Pisum sativum
+Helicoverpa zea,Fabaceae,Pisum sativum
 Helicoverpa zea,Polygonaceae,Polygonum pensylvanicum
 Helicoverpa zea,Rosaceae,Prunus persica
 Helicoverpa zea,Rosaceae,Pyrus communis
@@ -1464,91 +1464,91 @@ Helicoverpa zea,Resedaceae,Reseda
 Helicoverpa zea,Resedaceae,Reseda odorata
 Helicoverpa zea,Euphorbiaceae,Ricinus communis
 Helicoverpa zea,Euphorbiaceae,Ricinus communis
-Helicoverpa zea,Cruciferae,Rorippa
+Helicoverpa zea,Brassicaceae,Rorippa
 Helicoverpa zea,Rosaceae,Rosa
 Helicoverpa zea,Rosaceae,Rosa
 Helicoverpa zea,Rosaceae,Rosa
 Helicoverpa zea,Rosaceae,Rosa
-Helicoverpa zea,Gramineae,Saccharum officinarum
-Helicoverpa zea,Gramineae,Saccharum officinarum
+Helicoverpa zea,Poaceae,Saccharum officinarum
+Helicoverpa zea,Poaceae,Saccharum officinarum
 Helicoverpa zea,Lauraceae,Sassafras albidum
-Helicoverpa zea,Gramineae,Secale cereale
-Helicoverpa zea,Gramineae,Setaria italica
+Helicoverpa zea,Poaceae,Secale cereale
+Helicoverpa zea,Poaceae,Setaria italica
 Helicoverpa zea,Malvaceae,Sida rhombifolia
 Helicoverpa zea,Malvaceae,Sida spinosa
 Helicoverpa zea,Solanaceae,Solanum melongena
 Helicoverpa zea,Solanaceae,Solanum melongena
 Helicoverpa zea,Solanaceae,Solanum tuberosum
-Helicoverpa zea,Compositae,Solidago leavenworthii
-Helicoverpa zea,Gramineae,Sorghum
-Helicoverpa zea,Gramineae,Sorghum
-Helicoverpa zea,Gramineae,Sorghum
-Helicoverpa zea,Gramineae,Sorghum bicolor
+Helicoverpa zea,Asteraceae,Solidago leavenworthii
+Helicoverpa zea,Poaceae,Sorghum
+Helicoverpa zea,Poaceae,Sorghum
+Helicoverpa zea,Poaceae,Sorghum
+Helicoverpa zea,Poaceae,Sorghum bicolor
 Helicoverpa zea,Chenopodiaceae,Spinacia oleracea
-Helicoverpa zea,Labiatae,Stachys floridana
-Helicoverpa zea,Leguminosae (p),Trifolium pratense
-Helicoverpa zea,Gramineae,Triticum
-Helicoverpa zea,Gramineae,Triticum aestivum
-Helicoverpa zea,Leguminosae (p),Vicia sativa
-Helicoverpa zea,Leguminosae (p),Vicia villosa
-Helicoverpa zea,Leguminosae (p),Vigna mungo
-Helicoverpa zea,Leguminosae (p),Vigna unguiculata
-Helicoverpa zea,Leguminosae (p),Vigna unguiculata
-Helicoverpa zea,Leguminosae (p),Vigna unguiculata
+Helicoverpa zea,Lamiaceae,Stachys floridana
+Helicoverpa zea,Fabaceae,Trifolium pratense
+Helicoverpa zea,Poaceae,Triticum
+Helicoverpa zea,Poaceae,Triticum aestivum
+Helicoverpa zea,Fabaceae,Vicia sativa
+Helicoverpa zea,Fabaceae,Vicia villosa
+Helicoverpa zea,Fabaceae,Vigna mungo
+Helicoverpa zea,Fabaceae,Vigna unguiculata
+Helicoverpa zea,Fabaceae,Vigna unguiculata
+Helicoverpa zea,Fabaceae,Vigna unguiculata
 Helicoverpa zea,Vitaceae,Vitis
 Helicoverpa zea,Solanaceae,Withania somnifera
-Helicoverpa zea,Compositae,Xanthium
-Helicoverpa zea,Compositae,Xanthium strumarium
-Helicoverpa zea,Gramineae,Zea
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Zea mays
+Helicoverpa zea,Asteraceae,Xanthium
+Helicoverpa zea,Asteraceae,Xanthium strumarium
+Helicoverpa zea,Poaceae,Zea
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Zea mays
 Helicoverpa zea,Rutaceae,Citrus
 Helicoverpa zea,Rutaceae,Citrus aurantium
 Helicoverpa zea,Euphorbiaceae,Ricinus communis
-Helicoverpa zea,Gramineae,Pennisetum americanum
+Helicoverpa zea,Poaceae,Pennisetum americanum
 Helicoverpa zea,Malvaceae,Abelmoschus esculentus
 Helicoverpa zea,Solanaceae,Nicotiana tabacum
-Helicoverpa zea,Leguminosae (p),Cajanus cajan
+Helicoverpa zea,Fabaceae,Cajanus cajan
 Helicoverpa zea,Malvaceae,Gossypium
-Helicoverpa zea,Compositae,Carthamus tinctorius
+Helicoverpa zea,Asteraceae,Carthamus tinctorius
 Helicoverpa zea,Linaceae,Linum usitatissimum
 Helicoverpa zea,Cannabaceae,Cannabis sativa
 Helicoverpa zea,Euphorbiaceae,Ricinus communis
-Helicoverpa zea,Gramineae,Zea mays
-Helicoverpa zea,Gramineae,Pennisetum americanum
-Helicoverpa zea,Gramineae,Triticum
+Helicoverpa zea,Poaceae,Zea mays
+Helicoverpa zea,Poaceae,Pennisetum americanum
+Helicoverpa zea,Poaceae,Triticum
 Helicoverpa zea,Polyphagous,
 Helicoverpa zea,Alliaceae,Allium
 Helicoverpa zea,Chenopodiaceae,Beta vulgaris
-Helicoverpa zea,Compositae,Parthenium hysterophorus
+Helicoverpa zea,Asteraceae,Parthenium hysterophorus
 Helicoverpa zea,Solanaceae,Nicotiana tabacum
 Helicoverpa zea,Rutaceae,Citrus
-Helicoverpa zea,Compositae,Helianthus annuus
+Helicoverpa zea,Asteraceae,Helianthus annuus
 Helicoverpa zea,Papaveraceae,Papaver
 Helicoverpa zea,Polyphagous,
 Helicoverpa zea,Cannaceae,Canna
-Helicoverpa zea,Leguminosae (p),Cicer arietinum
+Helicoverpa zea,Fabaceae,Cicer arietinum
 Helicoverpa zea,Geraniaceae,Pelargonium
 Helicoverpa zea,Rosaceae,Rosa
 Helicoverpa zea,Polyphagous,
-Helicoverpa zea,Leguminosae (p),Cicer arietinum
-Helicoverpa zea,Leguminosae (p),Lablab purpureus
-Helicoverpa zea,Gramineae,Pennisetum americanum
-Helicoverpa zea,Leguminosae (p),Pisum sativum
-Helicoverpa zea,Leguminosae (p),Crotalaria juncea
+Helicoverpa zea,Fabaceae,Cicer arietinum
+Helicoverpa zea,Fabaceae,Lablab purpureus
+Helicoverpa zea,Poaceae,Pennisetum americanum
+Helicoverpa zea,Fabaceae,Pisum sativum
+Helicoverpa zea,Fabaceae,Crotalaria juncea
 Helicoverpa zea,Solanaceae,Nicotiana tabacum
 Helicoverpa zea,Iridaceae,Gladiolus
-Helicoverpa zea,Leguminosae (p),Glycine max
+Helicoverpa zea,Fabaceae,Glycine max
 Helicoverpa zea,Malvaceae,Gossypium hirsutum
 Helicoverpa zea,Solanaceae,Lycopersicon esculentum
-Helicoverpa zea,Gramineae,Sorghum bicolor
-Helicoverpa zea,Gramineae,Zea mays
+Helicoverpa zea,Poaceae,Sorghum bicolor
+Helicoverpa zea,Poaceae,Zea mays
 Heliothis virescens,Polyphagous,
 Heliothis virescens,Polyphagous,
 Heliothis virescens,Solanaceae,
@@ -1556,63 +1556,63 @@ Heliothis virescens,Malvaceae,Abelmoschus esculentus
 Heliothis virescens,Malvaceae,Abelmoschus esculentus
 Heliothis virescens,Malvaceae,Abutilon hirtum
 Heliothis virescens,Malvaceae,Abutilon theophrasti
-Heliothis virescens,Compositae,Ageratum conyzoides
+Heliothis virescens,Asteraceae,Ageratum conyzoides
 Heliothis virescens,Malvaceae,Allowissadula holosericea
 Heliothis virescens,Ranunculaceae,Aquilegia canadensis
-Heliothis virescens,Leguminosae (p),Astragalus crotalariae
+Heliothis virescens,Fabaceae,Astragalus crotalariae
 Heliothis virescens,Malvaceae,Bastardia viscosa
-Heliothis virescens,Cruciferae,Brassica rapa
-Heliothis virescens,Cruciferae,Brassica tournefortii
-Heliothis virescens,Leguminosae (c),Caesalpinia gilliesii
-Heliothis virescens,Leguminosae (p),Cajanus
-Heliothis virescens,Leguminosae (p),Cajanus cajan
-Heliothis virescens,Leguminosae (p),Cajanus cajan
-Heliothis virescens,Leguminosae (p),Cajanus cajan
-Heliothis virescens,Leguminosae (p),Cajanus cajan
-Heliothis virescens,Leguminosae (p),Cajanus cajan
-Heliothis virescens,Leguminosae (p),Cajanus cajan
+Heliothis virescens,Brassicaceae,Brassica rapa
+Heliothis virescens,Brassicaceae,Brassica tournefortii
+Heliothis virescens,Fabaceae,Caesalpinia gilliesii
+Heliothis virescens,Fabaceae,Cajanus
+Heliothis virescens,Fabaceae,Cajanus cajan
+Heliothis virescens,Fabaceae,Cajanus cajan
+Heliothis virescens,Fabaceae,Cajanus cajan
+Heliothis virescens,Fabaceae,Cajanus cajan
+Heliothis virescens,Fabaceae,Cajanus cajan
+Heliothis virescens,Fabaceae,Cajanus cajan
 Heliothis virescens,Juglandaceae,Carya illinoinensis
-Heliothis virescens,Compositae,Chrysothamnus
-Heliothis virescens,Leguminosae (p),Cicer
-Heliothis virescens,Leguminosae (p),Cicer arietinum
-Heliothis virescens,Leguminosae (p),Cicer arietinum
-Heliothis virescens,Compositae,Croptilon divaricatum
-Heliothis virescens,Gramineae,Cynodon dactylon
-Heliothis virescens,Leguminosae (p),Desmodium
-Heliothis virescens,Leguminosae (p),Desmodium canescens
-Heliothis virescens,Leguminosae (p),Desmodium strictum
-Heliothis virescens,Leguminosae (p),Desmodium tortuosum
-Heliothis virescens,Leguminosae (p),Desmodium tortuosum
+Heliothis virescens,Asteraceae,Chrysothamnus
+Heliothis virescens,Fabaceae,Cicer
+Heliothis virescens,Fabaceae,Cicer arietinum
+Heliothis virescens,Fabaceae,Cicer arietinum
+Heliothis virescens,Asteraceae,Croptilon divaricatum
+Heliothis virescens,Poaceae,Cynodon dactylon
+Heliothis virescens,Fabaceae,Desmodium
+Heliothis virescens,Fabaceae,Desmodium canescens
+Heliothis virescens,Fabaceae,Desmodium strictum
+Heliothis virescens,Fabaceae,Desmodium tortuosum
+Heliothis virescens,Fabaceae,Desmodium tortuosum
 Heliothis virescens,Geraniaceae,Erodium cicutarium
 Heliothis virescens,Myrtaceae,Eucalyptus
-Heliothis virescens,Compositae,Geraea canescens
+Heliothis virescens,Asteraceae,Geraea canescens
 Heliothis virescens,Geraniaceae,Geranium
 Heliothis virescens,Geraniaceae,Geranium
 Heliothis virescens,Geraniaceae,Geranium dissectum
 Heliothis virescens,Geraniaceae,Geranium maculatum
-Heliothis virescens,Leguminosae (p),Glycine max
+Heliothis virescens,Fabaceae,Glycine max
 Heliothis virescens,Malvaceae,Gossypium
 Heliothis virescens,Malvaceae,Gossypium barbadense
 Heliothis virescens,Malvaceae,Gossypium herbaceum
 Heliothis virescens,Malvaceae,Gossypium hirsutum
-Heliothis virescens,Compositae,Helianthus annuus
-Heliothis virescens,Compositae,Helianthus annuus
-Heliothis virescens,Compositae,Helianthus annuus
-Heliothis virescens,Compositae,Heterotheca subaxillaris
+Heliothis virescens,Asteraceae,Helianthus annuus
+Heliothis virescens,Asteraceae,Helianthus annuus
+Heliothis virescens,Asteraceae,Helianthus annuus
+Heliothis virescens,Asteraceae,Heterotheca subaxillaris
 Heliothis virescens,Convolvulaceae,Ipomoea
-Heliothis virescens,Compositae,Lactuca sativa
-Heliothis virescens,Leguminosae (p),Lathyrus odoratus
+Heliothis virescens,Asteraceae,Lactuca sativa
+Heliothis virescens,Fabaceae,Lathyrus odoratus
 Heliothis virescens,Scrophulariaceae,Linaria
 Heliothis virescens,Linaceae,Linum sulcatum
-Heliothis virescens,Leguminosae (p),Lupinus arizonicus
-Heliothis virescens,Leguminosae (p),Lupinus texensis
+Heliothis virescens,Fabaceae,Lupinus arizonicus
+Heliothis virescens,Fabaceae,Lupinus texensis
 Heliothis virescens,Solanaceae,Lycopersicon
 Heliothis virescens,Solanaceae,Lycopersicon esculentum
 Heliothis virescens,Solanaceae,Lycopersicon hirsutum
 Heliothis virescens,Pedaliaceae,Martynia annua
-Heliothis virescens,Leguminosae (p),Medicago sativa
-Heliothis virescens,Leguminosae (p),Medicago sativa
-Heliothis virescens,Leguminosae (p),Melilotus indica
+Heliothis virescens,Fabaceae,Medicago sativa
+Heliothis virescens,Fabaceae,Medicago sativa
+Heliothis virescens,Fabaceae,Melilotus indica
 Heliothis virescens,Solanaceae,Nicotiana
 Heliothis virescens,Solanaceae,Nicotiana
 Heliothis virescens,Solanaceae,Nicotiana tabacum
@@ -1631,7 +1631,7 @@ Heliothis virescens,Solanaceae,Physalis angulata
 Heliothis virescens,Solanaceae,Physalis angulata
 Heliothis virescens,Solanaceae,Physalis turbinata
 Heliothis virescens,Solanaceae,Physalis viscosa
-Heliothis virescens,Labiatae,Pycnanthemum virginianum
+Heliothis virescens,Lamiaceae,Pycnanthemum virginianum
 Heliothis virescens,Melastomataceae,Rhexia
 Heliothis virescens,Melastomataceae,Rhexia
 Heliothis virescens,Melastomataceae,Rhexia alifanus
@@ -1647,94 +1647,94 @@ Heliothis virescens,Solanaceae,Solanum
 Heliothis virescens,Solanaceae,Solanum nigrum
 Heliothis virescens,Solanaceae,Solanum sisymbriifolium
 Heliothis virescens,Solanaceae,Solanum tuberosum
-Heliothis virescens,Gramineae,Sorghum
-Heliothis virescens,Leguminosae (p),Vigna unguiculata
-Heliothis virescens,Leguminosae (p),Vigna unguiculata
+Heliothis virescens,Poaceae,Sorghum
+Heliothis virescens,Fabaceae,Vigna unguiculata
+Heliothis virescens,Fabaceae,Vigna unguiculata
 Heliothis virescens,Solanaceae,Datura
 Heliothis virescens,Malvaceae,Hibiscus rosa-sinensis
 Heliothis virescens,Pedaliaceae,Sesamum indicum
 Mythimna separata,0,0
-Sesamia inferens,Gramineae,
-Sesamia inferens,Gramineae,
-Sesamia inferens,Gramineae,Andropogon
-Sesamia inferens,Gramineae,Andropogon sorghum
-Sesamia inferens,Gramineae,Avena
+Sesamia inferens,Poaceae,
+Sesamia inferens,Poaceae,
+Sesamia inferens,Poaceae,Andropogon
+Sesamia inferens,Poaceae,Andropogon sorghum
+Sesamia inferens,Poaceae,Avena
 Sesamia inferens,Cyperaceae,Bolboschoenus maritimus
-Sesamia inferens,Gramineae,Coix
+Sesamia inferens,Poaceae,Coix
 Sesamia inferens,Cyperaceae,Cyperus digitatus
 Sesamia inferens,Ebenaceae,Diospyros
-Sesamia inferens,Gramineae,Echinochloa
-Sesamia inferens,Gramineae,Echinochloa frumentacea
-Sesamia inferens,Gramineae,Eleusine
-Sesamia inferens,Gramineae,Eleusine coracana
-Sesamia inferens,Gramineae,Eleusine coracana
-Sesamia inferens,Gramineae,Eleusine indica
-Sesamia inferens,Gramineae,Eriochloa procera
-Sesamia inferens,Gramineae,Hemarthria altissima
-Sesamia inferens,Gramineae,Hordeum
-Sesamia inferens,Gramineae,Miscanthus fusca
-Sesamia inferens,Gramineae,Miscanthus sinensis
-Sesamia inferens,Gramineae,Oryza
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Panicum
-Sesamia inferens,Gramineae,Panicum
-Sesamia inferens,Gramineae,Panicum maximum
-Sesamia inferens,Gramineae,Paspalum scrobiculatum
-Sesamia inferens,Gramineae,Pennisetum americanum
-Sesamia inferens,Gramineae,Phragmites
-Sesamia inferens,Gramineae,Phragmites karka
-Sesamia inferens,Gramineae,Saccharum
-Sesamia inferens,Gramineae,Saccharum
-Sesamia inferens,Gramineae,Saccharum arundinaceus
-Sesamia inferens,Gramineae,Saccharum munja
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum spontaneum
-Sesamia inferens,Gramineae,Saccharum spontaneum
+Sesamia inferens,Poaceae,Echinochloa
+Sesamia inferens,Poaceae,Echinochloa frumentacea
+Sesamia inferens,Poaceae,Eleusine
+Sesamia inferens,Poaceae,Eleusine coracana
+Sesamia inferens,Poaceae,Eleusine coracana
+Sesamia inferens,Poaceae,Eleusine indica
+Sesamia inferens,Poaceae,Eriochloa procera
+Sesamia inferens,Poaceae,Hemarthria altissima
+Sesamia inferens,Poaceae,Hordeum
+Sesamia inferens,Poaceae,Miscanthus fusca
+Sesamia inferens,Poaceae,Miscanthus sinensis
+Sesamia inferens,Poaceae,Oryza
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Panicum
+Sesamia inferens,Poaceae,Panicum
+Sesamia inferens,Poaceae,Panicum maximum
+Sesamia inferens,Poaceae,Paspalum scrobiculatum
+Sesamia inferens,Poaceae,Pennisetum americanum
+Sesamia inferens,Poaceae,Phragmites
+Sesamia inferens,Poaceae,Phragmites karka
+Sesamia inferens,Poaceae,Saccharum
+Sesamia inferens,Poaceae,Saccharum
+Sesamia inferens,Poaceae,Saccharum arundinaceus
+Sesamia inferens,Poaceae,Saccharum munja
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum spontaneum
+Sesamia inferens,Poaceae,Saccharum spontaneum
 Sesamia inferens,Cyperaceae,Scirpus
-Sesamia inferens,Gramineae,Setaria
-Sesamia inferens,Gramineae,Setaria italica
-Sesamia inferens,Gramineae,Setaria parviflora
-Sesamia inferens,Gramineae,Sorghum
-Sesamia inferens,Gramineae,Sorghum
-Sesamia inferens,Gramineae,Sorghum bicolor
-Sesamia inferens,Gramineae,Sorghum bicolor
-Sesamia inferens,Gramineae,Sorghum bicolor
-Sesamia inferens,Gramineae,Triticum
-Sesamia inferens,Gramineae,Triticum
-Sesamia inferens,Gramineae,Triticum
-Sesamia inferens,Gramineae,Triticum aestivum
-Sesamia inferens,Gramineae,Zea
-Sesamia inferens,Gramineae,Zea mays
-Sesamia inferens,Gramineae,Zea mays
-Sesamia inferens,Gramineae,Zea mays
-Sesamia inferens,Gramineae,Zea mays
-Sesamia inferens,Gramineae,Zea mays
-Sesamia inferens,Gramineae,Zizania
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Saccharum officinarum
-Sesamia inferens,Gramineae,Zea mays
+Sesamia inferens,Poaceae,Setaria
+Sesamia inferens,Poaceae,Setaria italica
+Sesamia inferens,Poaceae,Setaria parviflora
+Sesamia inferens,Poaceae,Sorghum
+Sesamia inferens,Poaceae,Sorghum
+Sesamia inferens,Poaceae,Sorghum bicolor
+Sesamia inferens,Poaceae,Sorghum bicolor
+Sesamia inferens,Poaceae,Sorghum bicolor
+Sesamia inferens,Poaceae,Triticum
+Sesamia inferens,Poaceae,Triticum
+Sesamia inferens,Poaceae,Triticum
+Sesamia inferens,Poaceae,Triticum aestivum
+Sesamia inferens,Poaceae,Zea
+Sesamia inferens,Poaceae,Zea mays
+Sesamia inferens,Poaceae,Zea mays
+Sesamia inferens,Poaceae,Zea mays
+Sesamia inferens,Poaceae,Zea mays
+Sesamia inferens,Poaceae,Zea mays
+Sesamia inferens,Poaceae,Zizania
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Saccharum officinarum
+Sesamia inferens,Poaceae,Zea mays
 Sesamia inferens,Detritophagous,
-Sesamia inferens,Gramineae,
-Sesamia inferens,Gramineae,
-Sesamia inferens,Gramineae,Oryza sativa
-Sesamia inferens,Gramineae,Panicum maximum
-Sesamia inferens,Gramineae,Sorghum
-Sesamia inferens,Gramineae,Oryza sativa
-Spodoptera exigua,Cruciferae,
-Spodoptera exigua,Gramineae,
+Sesamia inferens,Poaceae,
+Sesamia inferens,Poaceae,
+Sesamia inferens,Poaceae,Oryza sativa
+Sesamia inferens,Poaceae,Panicum maximum
+Sesamia inferens,Poaceae,Sorghum
+Sesamia inferens,Poaceae,Oryza sativa
+Spodoptera exigua,Brassicaceae,
+Spodoptera exigua,Poaceae,
 Spodoptera exigua,Leguminosae,
 Spodoptera exigua,Leguminosae,
 Spodoptera exigua,Polyphagous,
@@ -1757,18 +1757,18 @@ Spodoptera exigua,Amaranthaceae,Amaranthus
 Spodoptera exigua,Amaranthaceae,Amaranthus retroflexus
 Spodoptera exigua,Amaranthaceae,Amaranthus spinosus
 Spodoptera exigua,Amaranthaceae,Amaranthus tricolor
-Spodoptera exigua,Leguminosae (p),Arachis hypogaea
-Spodoptera exigua,Leguminosae (p),Arachis hypogaea
-Spodoptera exigua,Leguminosae (p),Arachis hypogaea
+Spodoptera exigua,Fabaceae,Arachis hypogaea
+Spodoptera exigua,Fabaceae,Arachis hypogaea
+Spodoptera exigua,Fabaceae,Arachis hypogaea
 Spodoptera exigua,Asparagaceae,Asparagus
 Spodoptera exigua,Asparagaceae,Asparagus
 Spodoptera exigua,Asparagaceae,Asparagus officinalis
 Spodoptera exigua,Asparagaceae,Asparagus officinalis
 Spodoptera exigua,Asparagaceae,Asparagus setaceus
-Spodoptera exigua,Compositae,Aster
-Spodoptera exigua,Leguminosae (p),Astragalus crotalariae
+Spodoptera exigua,Asteraceae,Aster
+Spodoptera exigua,Fabaceae,Astragalus crotalariae
 Spodoptera exigua,Chenopodiaceae,Atriplex
-Spodoptera exigua,Gramineae,Avena sativa
+Spodoptera exigua,Poaceae,Avena sativa
 Spodoptera exigua,Chenopodiaceae,Beta
 Spodoptera exigua,Chenopodiaceae,Beta vulgaris
 Spodoptera exigua,Chenopodiaceae,Beta vulgaris
@@ -1776,23 +1776,23 @@ Spodoptera exigua,Chenopodiaceae,Beta vulgaris
 Spodoptera exigua,Chenopodiaceae,Beta vulgaris
 Spodoptera exigua,Chenopodiaceae,Beta vulgaris
 Spodoptera exigua,Nyctaginaceae,Boerhavia diffusa
-Spodoptera exigua,Cruciferae,Brassica
-Spodoptera exigua,Cruciferae,Brassica
-Spodoptera exigua,Cruciferae,Brassica chinensis
-Spodoptera exigua,Cruciferae,Brassica nigra
-Spodoptera exigua,Cruciferae,Brassica oleracea
-Spodoptera exigua,Cruciferae,Brassica oleracea
-Spodoptera exigua,Cruciferae,Brassica oleracea
-Spodoptera exigua,Cruciferae,Brassica rapa
-Spodoptera exigua,Cruciferae,Brassica tournefortii
-Spodoptera exigua,Compositae,Calendula
-Spodoptera exigua,Compositae,Calendula
+Spodoptera exigua,Brassicaceae,Brassica
+Spodoptera exigua,Brassicaceae,Brassica
+Spodoptera exigua,Brassicaceae,Brassica chinensis
+Spodoptera exigua,Brassicaceae,Brassica nigra
+Spodoptera exigua,Brassicaceae,Brassica oleracea
+Spodoptera exigua,Brassicaceae,Brassica oleracea
+Spodoptera exigua,Brassicaceae,Brassica oleracea
+Spodoptera exigua,Brassicaceae,Brassica rapa
+Spodoptera exigua,Brassicaceae,Brassica tournefortii
+Spodoptera exigua,Asteraceae,Calendula
+Spodoptera exigua,Asteraceae,Calendula
 Spodoptera exigua,Solanaceae,Capsicum annuum
 Spodoptera exigua,Solanaceae,Capsicum annuum
 Spodoptera exigua,Solanaceae,Capsicum annuum
-Spodoptera exigua,Cruciferae,Cardamine
-Spodoptera exigua,Compositae,Carthamus tinctorius
-Spodoptera exigua,Compositae,Carthamus tinctorius
+Spodoptera exigua,Brassicaceae,Cardamine
+Spodoptera exigua,Asteraceae,Carthamus tinctorius
+Spodoptera exigua,Asteraceae,Carthamus tinctorius
 Spodoptera exigua,Chenopodiaceae,Chenopodium album
 Spodoptera exigua,Chenopodiaceae,Chenopodium album
 Spodoptera exigua,Cucurbitaceae,Citrullus lanatus
@@ -1802,28 +1802,28 @@ Spodoptera exigua,Tiliaceae,Corchorus
 Spodoptera exigua,Tiliaceae,Corchorus
 Spodoptera exigua,Tiliaceae,Corchorus capsularis
 Spodoptera exigua,Umbelliferae,Coriandrum sativum
-Spodoptera exigua,Leguminosae (p),Crotalaria
-Spodoptera exigua,Leguminosae (p),Crotalaria juncea
+Spodoptera exigua,Fabaceae,Crotalaria
+Spodoptera exigua,Fabaceae,Crotalaria juncea
 Spodoptera exigua,Cucurbitaceae,Cucumis melo
 Spodoptera exigua,Cucurbitaceae,Cucumis melo
 Spodoptera exigua,Cucurbitaceae,Cucumis sativus
 Spodoptera exigua,Cucurbitaceae,Cucumis sativus
 Spodoptera exigua,Cucurbitaceae,Cucurbita pepo
-Spodoptera exigua,Leguminosae (p),Dalbergia sissoo
+Spodoptera exigua,Fabaceae,Dalbergia sissoo
 Spodoptera exigua,Solanaceae,Datura
 Spodoptera exigua,Umbelliferae,Daucus carota
 Spodoptera exigua,Umbelliferae,Daucus carota
-Spodoptera exigua,Gramineae,Eleusine coracana
-Spodoptera exigua,Labiatae,Elsholtzia fruticosa
-Spodoptera exigua,Cruciferae,Eruca vesicaria
-Spodoptera exigua,Compositae,Geraea canescens
+Spodoptera exigua,Poaceae,Eleusine coracana
+Spodoptera exigua,Lamiaceae,Elsholtzia fruticosa
+Spodoptera exigua,Brassicaceae,Eruca vesicaria
+Spodoptera exigua,Asteraceae,Geraea canescens
 Spodoptera exigua,Gisekiaceae,Gisekia pharnacioides
 Spodoptera exigua,Iridaceae,Gladiolus
-Spodoptera exigua,Leguminosae (p),Glycine max
-Spodoptera exigua,Leguminosae (p),Glycine max
-Spodoptera exigua,Leguminosae (p),Glycine max
-Spodoptera exigua,Leguminosae (p),Glycine max
-Spodoptera exigua,Leguminosae (p),Glycine max
+Spodoptera exigua,Fabaceae,Glycine max
+Spodoptera exigua,Fabaceae,Glycine max
+Spodoptera exigua,Fabaceae,Glycine max
+Spodoptera exigua,Fabaceae,Glycine max
+Spodoptera exigua,Fabaceae,Glycine max
 Spodoptera exigua,Malvaceae,Gossypium
 Spodoptera exigua,Malvaceae,Gossypium
 Spodoptera exigua,Malvaceae,Gossypium
@@ -1834,26 +1834,26 @@ Spodoptera exigua,Malvaceae,Gossypium
 Spodoptera exigua,Malvaceae,Gossypium
 Spodoptera exigua,Malvaceae,Gossypium herbaceum
 Spodoptera exigua,Caryophyllaceae,Gypsophila
-Spodoptera exigua,Compositae,Helianthus
-Spodoptera exigua,Compositae,Helianthus
-Spodoptera exigua,Compositae,Helianthus
-Spodoptera exigua,Compositae,Helianthus annuus
-Spodoptera exigua,Compositae,Helianthus annuus
-Spodoptera exigua,Compositae,Helianthus annuus
-Spodoptera exigua,Compositae,Helianthus annuus
+Spodoptera exigua,Asteraceae,Helianthus
+Spodoptera exigua,Asteraceae,Helianthus
+Spodoptera exigua,Asteraceae,Helianthus
+Spodoptera exigua,Asteraceae,Helianthus annuus
+Spodoptera exigua,Asteraceae,Helianthus annuus
+Spodoptera exigua,Asteraceae,Helianthus annuus
+Spodoptera exigua,Asteraceae,Helianthus annuus
 Spodoptera exigua,Malvaceae,Hibiscus
 Spodoptera exigua,Malvaceae,Hibiscus cannabinus
-Spodoptera exigua,Leguminosae (p),Indigofera
-Spodoptera exigua,Leguminosae (p),Indigofera
+Spodoptera exigua,Fabaceae,Indigofera
+Spodoptera exigua,Fabaceae,Indigofera
 Spodoptera exigua,Convolvulaceae,Ipomoea batatas
 Spodoptera exigua,Convolvulaceae,Ipomoea batatas
-Spodoptera exigua,Compositae,Lactuca sativa
-Spodoptera exigua,Compositae,Lactuca sativa
-Spodoptera exigua,Leguminosae (p),Lathyrus sativus
-Spodoptera exigua,Leguminosae (p),Lens culinaris
+Spodoptera exigua,Asteraceae,Lactuca sativa
+Spodoptera exigua,Asteraceae,Lactuca sativa
+Spodoptera exigua,Fabaceae,Lathyrus sativus
+Spodoptera exigua,Fabaceae,Lens culinaris
 Spodoptera exigua,Linaceae,Linum usitatissimum
 Spodoptera exigua,Linaceae,Linum usitatissimum
-Spodoptera exigua,Leguminosae (p),Lupinus arizonicus
+Spodoptera exigua,Fabaceae,Lupinus arizonicus
 Spodoptera exigua,Solanaceae,Lycopersicon
 Spodoptera exigua,Solanaceae,Lycopersicon esculentum
 Spodoptera exigua,Solanaceae,Lycopersicon esculentum
@@ -1863,16 +1863,16 @@ Spodoptera exigua,Rosaceae,Malus pumila
 Spodoptera exigua,Rosaceae,Malus pumila
 Spodoptera exigua,Malvaceae,Malva
 Spodoptera exigua,Malvaceae,Malva rotundifolia
-Spodoptera exigua,Leguminosae (p),Medicago
-Spodoptera exigua,Leguminosae (p),Medicago
-Spodoptera exigua,Leguminosae (p),Medicago sativa
-Spodoptera exigua,Leguminosae (p),Medicago sativa
-Spodoptera exigua,Leguminosae (p),Medicago sativa
-Spodoptera exigua,Leguminosae (p),Medicago sativa
-Spodoptera exigua,Leguminosae (p),Medicago sativa
-Spodoptera exigua,Leguminosae (p),Medicago sativa
-Spodoptera exigua,Leguminosae (p),Melilotus indica
-Spodoptera exigua,Leguminosae (p),Melilotus indica
+Spodoptera exigua,Fabaceae,Medicago
+Spodoptera exigua,Fabaceae,Medicago
+Spodoptera exigua,Fabaceae,Medicago sativa
+Spodoptera exigua,Fabaceae,Medicago sativa
+Spodoptera exigua,Fabaceae,Medicago sativa
+Spodoptera exigua,Fabaceae,Medicago sativa
+Spodoptera exigua,Fabaceae,Medicago sativa
+Spodoptera exigua,Fabaceae,Medicago sativa
+Spodoptera exigua,Fabaceae,Melilotus indica
+Spodoptera exigua,Fabaceae,Melilotus indica
 Spodoptera exigua,Solanaceae,Nicotiana
 Spodoptera exigua,Solanaceae,Nicotiana
 Spodoptera exigua,Solanaceae,Nicotiana glauca
@@ -1881,38 +1881,38 @@ Spodoptera exigua,Solanaceae,Nicotiana rustica
 Spodoptera exigua,Solanaceae,Nicotiana tabacum
 Spodoptera exigua,Solanaceae,Nicotiana tabacum
 Spodoptera exigua,Solanaceae,Nicotiana tabacum
-Spodoptera exigua,Gramineae,Oryza
-Spodoptera exigua,Gramineae,Oryza
-Spodoptera exigua,Gramineae,Oryza sativa
-Spodoptera exigua,Leguminosae (p),Phaseolus
-Spodoptera exigua,Leguminosae (p),Phaseolus
-Spodoptera exigua,Leguminosae (p),Phaseolus lunatus
-Spodoptera exigua,Leguminosae (p),Phaseolus vulgaris
-Spodoptera exigua,Leguminosae (p),Phaseolus vulgaris
-Spodoptera exigua,Leguminosae (p),Phaseolus vulgaris
+Spodoptera exigua,Poaceae,Oryza
+Spodoptera exigua,Poaceae,Oryza
+Spodoptera exigua,Poaceae,Oryza sativa
+Spodoptera exigua,Fabaceae,Phaseolus
+Spodoptera exigua,Fabaceae,Phaseolus
+Spodoptera exigua,Fabaceae,Phaseolus lunatus
+Spodoptera exigua,Fabaceae,Phaseolus vulgaris
+Spodoptera exigua,Fabaceae,Phaseolus vulgaris
+Spodoptera exigua,Fabaceae,Phaseolus vulgaris
 Spodoptera exigua,Piperaceae,Piper
-Spodoptera exigua,Leguminosae (p),Pisum sativum
-Spodoptera exigua,Leguminosae (p),Pisum sativum
-Spodoptera exigua,Leguminosae (p),Pisum sativum
-Spodoptera exigua,Leguminosae (p),Pisum sativum
-Spodoptera exigua,Leguminosae (p),Pisum sativum
-Spodoptera exigua,Leguminosae (p),Pisum sativum
+Spodoptera exigua,Fabaceae,Pisum sativum
+Spodoptera exigua,Fabaceae,Pisum sativum
+Spodoptera exigua,Fabaceae,Pisum sativum
+Spodoptera exigua,Fabaceae,Pisum sativum
+Spodoptera exigua,Fabaceae,Pisum sativum
+Spodoptera exigua,Fabaceae,Pisum sativum
 Spodoptera exigua,Plantaginaceae,Plantago
 Spodoptera exigua,Plantaginaceae,Plantago
 Spodoptera exigua,Plantaginaceae,Plantago
 Spodoptera exigua,Polygonaceae,Polygonum
 Spodoptera exigua,Polygonaceae,Polygonum
 Spodoptera exigua,Portulacaceae,Portulaca oleracea
-Spodoptera exigua,Cruciferae,Raphanus sativus
+Spodoptera exigua,Brassicaceae,Raphanus sativus
 Spodoptera exigua,Euphorbiaceae,Ricinus communis
 Spodoptera exigua,Euphorbiaceae,Ricinus communis
 Spodoptera exigua,Euphorbiaceae,Ricinus communis
 Spodoptera exigua,Euphorbiaceae,Ricinus communis
-Spodoptera exigua,Gramineae,Saccharum officinarum
+Spodoptera exigua,Poaceae,Saccharum officinarum
 Spodoptera exigua,Chenopodiaceae,Salsola kali
 Spodoptera exigua,Pedaliaceae,Sesamum
 Spodoptera exigua,Pedaliaceae,Sesamum
-Spodoptera exigua,Leguminosae (p),Sesbania bispinosa
+Spodoptera exigua,Fabaceae,Sesbania bispinosa
 Spodoptera exigua,Solanaceae,Solanum
 Spodoptera exigua,Solanaceae,Solanum
 Spodoptera exigua,Solanaceae,Solanum melongena
@@ -1921,89 +1921,89 @@ Spodoptera exigua,Solanaceae,Solanum tuberosum
 Spodoptera exigua,Solanaceae,Solanum tuberosum
 Spodoptera exigua,Solanaceae,Solanum tuberosum
 Spodoptera exigua,Solanaceae,Solanum tuberosum
-Spodoptera exigua,Compositae,Sonchus
-Spodoptera exigua,Gramineae,Sorghum
-Spodoptera exigua,Gramineae,Sorghum
-Spodoptera exigua,Gramineae,Sorghum bicolor
+Spodoptera exigua,Asteraceae,Sonchus
+Spodoptera exigua,Poaceae,Sorghum
+Spodoptera exigua,Poaceae,Sorghum
+Spodoptera exigua,Poaceae,Sorghum bicolor
 Spodoptera exigua,Chenopodiaceae,Spinacia
 Spodoptera exigua,Chenopodiaceae,Spinacia oleracea
 Spodoptera exigua,Chenopodiaceae,Spinacia oleracea
 Spodoptera exigua,Chenopodiaceae,Spinacia oleracea
-Spodoptera exigua,Compositae,Taraxacum
+Spodoptera exigua,Asteraceae,Taraxacum
 Spodoptera exigua,Aizoaceae,Tetragonia
 Spodoptera exigua,Aizoaceae,Tetragonia
 Spodoptera exigua,Cucurbitaceae,Trichosanthes dioica
-Spodoptera exigua,Leguminosae (p),Trifolium alexandrinum
+Spodoptera exigua,Fabaceae,Trifolium alexandrinum
 Spodoptera exigua,Scrophulariaceae,Verbascum chinense
-Spodoptera exigua,Leguminosae (p),Vicia faba
-Spodoptera exigua,Leguminosae (p),Vigna mungo
-Spodoptera exigua,Leguminosae (p),Vigna unguiculata
-Spodoptera exigua,Leguminosae (p),Vigna unguiculata
+Spodoptera exigua,Fabaceae,Vicia faba
+Spodoptera exigua,Fabaceae,Vigna mungo
+Spodoptera exigua,Fabaceae,Vigna unguiculata
+Spodoptera exigua,Fabaceae,Vigna unguiculata
 Spodoptera exigua,Vitaceae,Vitis
-Spodoptera exigua,Gramineae,Zea
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zea mays
-Spodoptera exigua,Gramineae,Zoysia
+Spodoptera exigua,Poaceae,Zea
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zea mays
+Spodoptera exigua,Poaceae,Zoysia
 Spodoptera exigua,Polyphagous,
 Spodoptera exigua,Polyphagous,
-Spodoptera exigua,Gramineae,
-Spodoptera exigua,Gramineae,
-Spodoptera exigua,Gramineae,
-Spodoptera exigua,Gramineae,
+Spodoptera exigua,Poaceae,
+Spodoptera exigua,Poaceae,
+Spodoptera exigua,Poaceae,
+Spodoptera exigua,Poaceae,
 Spodoptera exigua,Polyphagous,
 Spodoptera exigua,Polyphagous,
 Spodoptera exigua,Alliaceae,Allium ascalonicum
 Spodoptera exigua,Alliaceae,Allium cepa
-Spodoptera exigua,Leguminosae (p),Arachis hypogaea
-Spodoptera exigua,Cruciferae,Brassica oleracea
+Spodoptera exigua,Fabaceae,Arachis hypogaea
+Spodoptera exigua,Brassicaceae,Brassica oleracea
 Spodoptera exigua,Solanaceae,Capsicum annuum
 Spodoptera exigua,Fagaceae,Fagus crenata
 Spodoptera exigua,Linaceae,Linum usitatissimum
 Spodoptera exigua,Fagaceae,Quercus cerris
-Spodoptera exigua,Leguminosae (p),Vigna mungo
-Spodoptera exigua,Gramineae,Zea mays
+Spodoptera exigua,Fabaceae,Vigna mungo
+Spodoptera exigua,Poaceae,Zea mays
 Spodoptera exigua,Polyphagous,
 Spodoptera exigua,Polyphagous,
-Spodoptera frugiperda,Cruciferae,
-Spodoptera frugiperda,Gramineae,
-Spodoptera frugiperda,Gramineae,
+Spodoptera frugiperda,Brassicaceae,
+Spodoptera frugiperda,Poaceae,
+Spodoptera frugiperda,Poaceae,
 Spodoptera frugiperda,Leguminosae,
 Spodoptera frugiperda,Leguminosae,
 Spodoptera frugiperda,Polyphagous,
 Spodoptera frugiperda,Euphorbiaceae,Acalypha
-Spodoptera frugiperda,Gramineae,Agrostis gigantea
-Spodoptera frugiperda,Gramineae,Agrostis hyemalis
+Spodoptera frugiperda,Poaceae,Agrostis gigantea
+Spodoptera frugiperda,Poaceae,Agrostis hyemalis
 Spodoptera frugiperda,Malvaceae,Alcea rosea
 Spodoptera frugiperda,Alliaceae,Allium cepa
 Spodoptera frugiperda,Alliaceae,Allium cepa
 Spodoptera frugiperda,Amaranthaceae,Amaranthus
 Spodoptera frugiperda,Amaranthaceae,Amaranthus hybridus
-Spodoptera frugiperda,Gramineae,Andropogon virginicus
-Spodoptera frugiperda,Leguminosae (p),Arachis hypogaea
-Spodoptera frugiperda,Leguminosae (p),Arachis hypogaea
-Spodoptera frugiperda,Leguminosae (p),Arachis hypogaea
-Spodoptera frugiperda,Leguminosae (p),Arachis hypogaea
+Spodoptera frugiperda,Poaceae,Andropogon virginicus
+Spodoptera frugiperda,Fabaceae,Arachis hypogaea
+Spodoptera frugiperda,Fabaceae,Arachis hypogaea
+Spodoptera frugiperda,Fabaceae,Arachis hypogaea
+Spodoptera frugiperda,Fabaceae,Arachis hypogaea
 Spodoptera frugiperda,Asclepiadaceae,Asclepias
 Spodoptera frugiperda,Asparagaceae,Asparagus officinalis
 Spodoptera frugiperda,Asparagaceae,Asparagus officinalis
 Spodoptera frugiperda,Solanaceae,Atropa bella-donna
-Spodoptera frugiperda,Gramineae,Avena sativa
+Spodoptera frugiperda,Poaceae,Avena sativa
 Spodoptera frugiperda,Chenopodiaceae,Beta vulgaris
-Spodoptera frugiperda,Gramineae,Brachiaria
-Spodoptera frugiperda,Gramineae,Brachiaria decumbens
-Spodoptera frugiperda,Gramineae,Brachiaria mutica
-Spodoptera frugiperda,Gramineae,Brachiaria mutica
-Spodoptera frugiperda,Gramineae,Brachiaria muticum
-Spodoptera frugiperda,Gramineae,Brachiaria ramosa
-Spodoptera frugiperda,Gramineae,Brachiaria texana
-Spodoptera frugiperda,Cruciferae,Brassica oleracea
-Spodoptera frugiperda,Cruciferae,Brassica rapa
-Spodoptera frugiperda,Leguminosae (p),Cajanus cajan
+Spodoptera frugiperda,Poaceae,Brachiaria
+Spodoptera frugiperda,Poaceae,Brachiaria decumbens
+Spodoptera frugiperda,Poaceae,Brachiaria mutica
+Spodoptera frugiperda,Poaceae,Brachiaria mutica
+Spodoptera frugiperda,Poaceae,Brachiaria muticum
+Spodoptera frugiperda,Poaceae,Brachiaria ramosa
+Spodoptera frugiperda,Poaceae,Brachiaria texana
+Spodoptera frugiperda,Brassicaceae,Brassica oleracea
+Spodoptera frugiperda,Brassicaceae,Brassica rapa
+Spodoptera frugiperda,Fabaceae,Cajanus cajan
 Spodoptera frugiperda,Solanaceae,Capsicum annuum
 Spodoptera frugiperda,Solanaceae,Capsicum annuum
 Spodoptera frugiperda,Solanaceae,Capsicum frutescens
@@ -2011,14 +2011,14 @@ Spodoptera frugiperda,Cyperaceae,Carex
 Spodoptera frugiperda,Caricaceae,Carica papaya
 Spodoptera frugiperda,Juglandaceae,Carya
 Spodoptera frugiperda,Juglandaceae,Carya illinoinensis
-Spodoptera frugiperda,Gramineae,Cenchrus incertus
+Spodoptera frugiperda,Poaceae,Cenchrus incertus
 Spodoptera frugiperda,Chenopodiaceae,Chenopodium
 Spodoptera frugiperda,Chenopodiaceae,Chenopodium album
 Spodoptera frugiperda,Chenopodiaceae,Chenopodium album
-Spodoptera frugiperda,Gramineae,Chloris gayana
-Spodoptera frugiperda,Compositae,Chrysanthemum
-Spodoptera frugiperda,Compositae,Chrysothamnus
-Spodoptera frugiperda,Leguminosae (p),Cicer arietinum
+Spodoptera frugiperda,Poaceae,Chloris gayana
+Spodoptera frugiperda,Asteraceae,Chrysanthemum
+Spodoptera frugiperda,Asteraceae,Chrysothamnus
+Spodoptera frugiperda,Fabaceae,Cicer arietinum
 Spodoptera frugiperda,Cucurbitaceae,Citrullus lanatus
 Spodoptera frugiperda,Rutaceae,Citrus
 Spodoptera frugiperda,Rutaceae,Citrus X nobilis
@@ -2027,138 +2027,138 @@ Spodoptera frugiperda,Rutaceae,Citrus sinensis
 Spodoptera frugiperda,Convolvulaceae,Convolvulus
 Spodoptera frugiperda,Euphorbiaceae,Croton capitatus
 Spodoptera frugiperda,Cucurbitaceae,Cucumis sativus
-Spodoptera frugiperda,Gramineae,Cynodon
-Spodoptera frugiperda,Gramineae,Cynodon dactylon
+Spodoptera frugiperda,Poaceae,Cynodon
+Spodoptera frugiperda,Poaceae,Cynodon dactylon
 Spodoptera frugiperda,Cyperaceae,Cyperus rotundus
-Spodoptera frugiperda,Gramineae,Dactyloctenium aegyptium
-Spodoptera frugiperda,Compositae,Dahlia pinnata
-Spodoptera frugiperda,Gramineae,Digitaria ischaemum
-Spodoptera frugiperda,Gramineae,Digitaria sanguinalis
-Spodoptera frugiperda,Gramineae,Echinochloa colonum
-Spodoptera frugiperda,Gramineae,Eleusine
-Spodoptera frugiperda,Gramineae,Eleusine coracana
-Spodoptera frugiperda,Gramineae,Eleusine coracana
-Spodoptera frugiperda,Gramineae,Eremochloa ophiuroides
+Spodoptera frugiperda,Poaceae,Dactyloctenium aegyptium
+Spodoptera frugiperda,Asteraceae,Dahlia pinnata
+Spodoptera frugiperda,Poaceae,Digitaria ischaemum
+Spodoptera frugiperda,Poaceae,Digitaria sanguinalis
+Spodoptera frugiperda,Poaceae,Echinochloa colonum
+Spodoptera frugiperda,Poaceae,Eleusine
+Spodoptera frugiperda,Poaceae,Eleusine coracana
+Spodoptera frugiperda,Poaceae,Eleusine coracana
+Spodoptera frugiperda,Poaceae,Eremochloa ophiuroides
 Spodoptera frugiperda,Myrtaceae,Eucalyptus
 Spodoptera frugiperda,Polygonaceae,Fagopyrum esculentum
 Spodoptera frugiperda,Rosaceae,Fragaria chiloensis
 Spodoptera frugiperda,Geraniaceae,Geranium
 Spodoptera frugiperda,Iridaceae,Gladiolus
 Spodoptera frugiperda,Iridaceae,Gladiolus
-Spodoptera frugiperda,Leguminosae (p),Glycine max
-Spodoptera frugiperda,Leguminosae (p),Glycine max
+Spodoptera frugiperda,Fabaceae,Glycine max
+Spodoptera frugiperda,Fabaceae,Glycine max
 Spodoptera frugiperda,Malvaceae,Gossypium
 Spodoptera frugiperda,Malvaceae,Gossypium barbadense
 Spodoptera frugiperda,Malvaceae,Gossypium herbaceum
 Spodoptera frugiperda,Malvaceae,Gossypium thurberi
-Spodoptera frugiperda,Compositae,Helianthus annuus
-Spodoptera frugiperda,Compositae,Helianthus annuus
-Spodoptera frugiperda,Gramineae,Hordeum vulgare
+Spodoptera frugiperda,Asteraceae,Helianthus annuus
+Spodoptera frugiperda,Asteraceae,Helianthus annuus
+Spodoptera frugiperda,Poaceae,Hordeum vulgare
 Spodoptera frugiperda,Convolvulaceae,Ipomoea batatas
 Spodoptera frugiperda,Convolvulaceae,Ipomoea batatas
 Spodoptera frugiperda,Convolvulaceae,Ipomoea batatas
 Spodoptera frugiperda,Convolvulaceae,Ipomoea purpurea
 Spodoptera frugiperda,Linaceae,Linum usitatissimum
-Spodoptera frugiperda,Gramineae,Lolium
-Spodoptera frugiperda,Gramineae,Lolium
+Spodoptera frugiperda,Poaceae,Lolium
+Spodoptera frugiperda,Poaceae,Lolium
 Spodoptera frugiperda,Solanaceae,Lycopersicon
 Spodoptera frugiperda,Solanaceae,Lycopersicon esculentum
-Spodoptera frugiperda,Leguminosae (p),Macroptilium lathyroides
+Spodoptera frugiperda,Fabaceae,Macroptilium lathyroides
 Spodoptera frugiperda,Rosaceae,Malus pumila
-Spodoptera frugiperda,Leguminosae (p),Medicago sativa
-Spodoptera frugiperda,Leguminosae (p),Medicago sativa
-Spodoptera frugiperda,Leguminosae (p),Medicago sativa
-Spodoptera frugiperda,Leguminosae (p),Mucuna pruriens
+Spodoptera frugiperda,Fabaceae,Medicago sativa
+Spodoptera frugiperda,Fabaceae,Medicago sativa
+Spodoptera frugiperda,Fabaceae,Medicago sativa
+Spodoptera frugiperda,Fabaceae,Mucuna pruriens
 Spodoptera frugiperda,Musaceae,Musa sapientum
 Spodoptera frugiperda,Solanaceae,Nicotiana tabacum
 Spodoptera frugiperda,Boraginaceae,Onosmodium virginianum
-Spodoptera frugiperda,Gramineae,Oryza sativa
-Spodoptera frugiperda,Gramineae,Oryza sativa
-Spodoptera frugiperda,Gramineae,Oryza sativa
-Spodoptera frugiperda,Gramineae,Oryza sativa
-Spodoptera frugiperda,Gramineae,Oryza sativa
-Spodoptera frugiperda,Gramineae,Panicum maximum
-Spodoptera frugiperda,Gramineae,Panicum miliaceum
-Spodoptera frugiperda,Gramineae,Paspalum
-Spodoptera frugiperda,Gramineae,Pennisetum
-Spodoptera frugiperda,Gramineae,Pennisetum glaucum
+Spodoptera frugiperda,Poaceae,Oryza sativa
+Spodoptera frugiperda,Poaceae,Oryza sativa
+Spodoptera frugiperda,Poaceae,Oryza sativa
+Spodoptera frugiperda,Poaceae,Oryza sativa
+Spodoptera frugiperda,Poaceae,Oryza sativa
+Spodoptera frugiperda,Poaceae,Panicum maximum
+Spodoptera frugiperda,Poaceae,Panicum miliaceum
+Spodoptera frugiperda,Poaceae,Paspalum
+Spodoptera frugiperda,Poaceae,Pennisetum
+Spodoptera frugiperda,Poaceae,Pennisetum glaucum
 Spodoptera frugiperda,Umbelliferae,Petroselinum crispum
-Spodoptera frugiperda,Leguminosae (p),Phaseolus
-Spodoptera frugiperda,Leguminosae (p),Phaseolus lunatus
-Spodoptera frugiperda,Leguminosae (p),Phaseolus lunatus
-Spodoptera frugiperda,Leguminosae (p),Phaseolus vulgaris
-Spodoptera frugiperda,Leguminosae (p),Phaseolus vulgaris
-Spodoptera frugiperda,Gramineae,Phleum pratense
-Spodoptera frugiperda,Leguminosae (p),Pisum sativum
+Spodoptera frugiperda,Fabaceae,Phaseolus
+Spodoptera frugiperda,Fabaceae,Phaseolus lunatus
+Spodoptera frugiperda,Fabaceae,Phaseolus lunatus
+Spodoptera frugiperda,Fabaceae,Phaseolus vulgaris
+Spodoptera frugiperda,Fabaceae,Phaseolus vulgaris
+Spodoptera frugiperda,Poaceae,Phleum pratense
+Spodoptera frugiperda,Fabaceae,Pisum sativum
 Spodoptera frugiperda,Platanaceae,Platanus occidentalis
 Spodoptera frugiperda,Apocynaceae,Plumeria
-Spodoptera frugiperda,Gramineae,Poa annua
-Spodoptera frugiperda,Gramineae,Poa pratensis
+Spodoptera frugiperda,Poaceae,Poa annua
+Spodoptera frugiperda,Poaceae,Poa pratensis
 Spodoptera frugiperda,Portulacaceae,Portulaca oleracea
 Spodoptera frugiperda,Portulacaceae,Portulaca oleracea
 Spodoptera frugiperda,Rosaceae,Prunus persica
-Spodoptera frugiperda,Leguminosae (p),Pueraria montana
-Spodoptera frugiperda,Gramineae,Saccharum
-Spodoptera frugiperda,Gramineae,Saccharum officinarum
-Spodoptera frugiperda,Gramineae,Saccharum officinarum
-Spodoptera frugiperda,Gramineae,Saccharum officinarum
-Spodoptera frugiperda,Gramineae,Saccharum officinarum
-Spodoptera frugiperda,Gramineae,Saccharum officinarum
-Spodoptera frugiperda,Gramineae,Saccharum officinarum
-Spodoptera frugiperda,Gramineae,Secale cereale
-Spodoptera frugiperda,Gramineae,Setaria italica
+Spodoptera frugiperda,Fabaceae,Pueraria montana
+Spodoptera frugiperda,Poaceae,Saccharum
+Spodoptera frugiperda,Poaceae,Saccharum officinarum
+Spodoptera frugiperda,Poaceae,Saccharum officinarum
+Spodoptera frugiperda,Poaceae,Saccharum officinarum
+Spodoptera frugiperda,Poaceae,Saccharum officinarum
+Spodoptera frugiperda,Poaceae,Saccharum officinarum
+Spodoptera frugiperda,Poaceae,Saccharum officinarum
+Spodoptera frugiperda,Poaceae,Secale cereale
+Spodoptera frugiperda,Poaceae,Setaria italica
 Spodoptera frugiperda,Solanaceae,Solanum
 Spodoptera frugiperda,Solanaceae,Solanum dulcamara
 Spodoptera frugiperda,Solanaceae,Solanum indicum
 Spodoptera frugiperda,Solanaceae,Solanum tuberosum
-Spodoptera frugiperda,Gramineae,Sorghum
-Spodoptera frugiperda,Gramineae,Sorghum
-Spodoptera frugiperda,Gramineae,Sorghum bicolor
-Spodoptera frugiperda,Gramineae,Sorghum bicolor
-Spodoptera frugiperda,Gramineae,Sorghum bicolor
-Spodoptera frugiperda,Gramineae,Sorghum bicolor
-Spodoptera frugiperda,Gramineae,Sorghum halepense
-Spodoptera frugiperda,Gramineae,Sorghum halepense
+Spodoptera frugiperda,Poaceae,Sorghum
+Spodoptera frugiperda,Poaceae,Sorghum
+Spodoptera frugiperda,Poaceae,Sorghum bicolor
+Spodoptera frugiperda,Poaceae,Sorghum bicolor
+Spodoptera frugiperda,Poaceae,Sorghum bicolor
+Spodoptera frugiperda,Poaceae,Sorghum bicolor
+Spodoptera frugiperda,Poaceae,Sorghum halepense
+Spodoptera frugiperda,Poaceae,Sorghum halepense
 Spodoptera frugiperda,Chenopodiaceae,Spinacia oleracea
-Spodoptera frugiperda,Gramineae,Stenotaphrum secundatum
-Spodoptera frugiperda,Leguminosae (p),Trifolium
-Spodoptera frugiperda,Leguminosae (p),Trifolium pratense
-Spodoptera frugiperda,Leguminosae (p),Trifolium repens
-Spodoptera frugiperda,Gramineae,Triticum
-Spodoptera frugiperda,Gramineae,Triticum aestivum
+Spodoptera frugiperda,Poaceae,Stenotaphrum secundatum
+Spodoptera frugiperda,Fabaceae,Trifolium
+Spodoptera frugiperda,Fabaceae,Trifolium pratense
+Spodoptera frugiperda,Fabaceae,Trifolium repens
+Spodoptera frugiperda,Poaceae,Triticum
+Spodoptera frugiperda,Poaceae,Triticum aestivum
 Spodoptera frugiperda,Ericaceae,Vaccinium macrocarpon
-Spodoptera frugiperda,Leguminosae (p),Vigna unguiculata
+Spodoptera frugiperda,Fabaceae,Vigna unguiculata
 Spodoptera frugiperda,Violaceae,Viola
 Spodoptera frugiperda,Vitaceae,Vitis
 Spodoptera frugiperda,Vitaceae,Vitis
 Spodoptera frugiperda,Vitaceae,Vitis vinifera
-Spodoptera frugiperda,Leguminosae (p),Wisteria hispida
-Spodoptera frugiperda,Compositae,Xanthium strumarium
-Spodoptera frugiperda,Gramineae,Zea
-Spodoptera frugiperda,Gramineae,Zea mays
-Spodoptera frugiperda,Gramineae,Zea mays
-Spodoptera frugiperda,Gramineae,Zea mays
-Spodoptera frugiperda,Gramineae,Zea mays
-Spodoptera frugiperda,Gramineae,Zea mays
-Spodoptera frugiperda,Gramineae,Zea mays
-Spodoptera frugiperda,Gramineae,Zea mexicana
-Spodoptera frugiperda,Gramineae,Zoysia
-Spodoptera frugiperda,Gramineae,Zoysia matrella
+Spodoptera frugiperda,Fabaceae,Wisteria hispida
+Spodoptera frugiperda,Asteraceae,Xanthium strumarium
+Spodoptera frugiperda,Poaceae,Zea
+Spodoptera frugiperda,Poaceae,Zea mays
+Spodoptera frugiperda,Poaceae,Zea mays
+Spodoptera frugiperda,Poaceae,Zea mays
+Spodoptera frugiperda,Poaceae,Zea mays
+Spodoptera frugiperda,Poaceae,Zea mays
+Spodoptera frugiperda,Poaceae,Zea mays
+Spodoptera frugiperda,Poaceae,Zea mexicana
+Spodoptera frugiperda,Poaceae,Zoysia
+Spodoptera frugiperda,Poaceae,Zoysia matrella
 Spodoptera frugiperda,Iridaceae,Gladiolus
 Spodoptera frugiperda,Solanaceae,Solanum melongena
-Spodoptera frugiperda,Leguminosae (p),Phaseolus vulgaris
-Spodoptera frugiperda,Gramineae,
-Spodoptera frugiperda,Gramineae,
+Spodoptera frugiperda,Fabaceae,Phaseolus vulgaris
+Spodoptera frugiperda,Poaceae,
+Spodoptera frugiperda,Poaceae,
 Spodoptera frugiperda,Polyphagous,
 Spodoptera frugiperda,Solanaceae,Lycopersicon esculentum
-Spodoptera frugiperda,Gramineae,
+Spodoptera frugiperda,Poaceae,
 Spodoptera frugiperda,Polyphagous,
-Spodoptera frugiperda,Gramineae,Eriochloa polystachya
-Spodoptera frugiperda,Gramineae,
-Spodoptera frugiperda,Gramineae,
-Spodoptera frugiperda,Compositae,Baccharis neglecta
-Spodoptera frugiperda,Gramineae,
-Spodoptera frugiperda,Gramineae,
+Spodoptera frugiperda,Poaceae,Eriochloa polystachya
+Spodoptera frugiperda,Poaceae,
+Spodoptera frugiperda,Poaceae,
+Spodoptera frugiperda,Asteraceae,Baccharis neglecta
+Spodoptera frugiperda,Poaceae,
+Spodoptera frugiperda,Poaceae,
 Spodoptera frugiperda,Myrtaceae,Eucalyptus
 Spodoptera frugiperda,Myrtaceae,Eucalyptus robusta
 Spodoptera frugiperda,Polyphagous,
@@ -2168,9 +2168,9 @@ Pheosia gnoma,Betulaceae,Betula
 Pheosia gnoma,Betulaceae,Betula pendula
 Pheosia gnoma,Betulaceae,Betula pubescens
 Pheosia gnoma,Betulaceae,Betula
-Bicyclus anynana,Gramineae,
-Bicyclus anynana,Gramineae,Ehrharta erecta
-Bicyclus anynana,Gramineae,
+Bicyclus anynana,Poaceae,
+Bicyclus anynana,Poaceae,Ehrharta erecta
+Bicyclus anynana,Poaceae,
 Danaus plexippus,Asclepiadaceae,
 Danaus plexippus,Asclepiadaceae,
 Danaus plexippus,Asclepiadaceae,
@@ -2422,28 +2422,28 @@ Junonia coenia,Plantaginaceae,Plantago erecta
 Junonia coenia,Plantaginaceae,Plantago lanceolata
 Junonia coenia,Crassulaceae,Sedum
 Junonia coenia,Verbenaceae,Verbena lasiostachys
-Maniola jurtina,Gramineae,
-Maniola jurtina,Gramineae,
-Maniola jurtina,Gramineae,Brachypodium phoenicoides
-Maniola jurtina,Gramineae,Elymus repens
-Maniola jurtina,Gramineae,Milium
-Maniola jurtina,Gramineae,Poa
-Maniola jurtina,Gramineae,Poa annua
-Maniola jurtina,Gramineae,Poa annua
-Maniola jurtina,Gramineae,Poa pratensis
-Maniola jurtina,Gramineae,Poa trivialis
-Maniola jurtina,Gramineae,Poa trivialis
-Maniola jurtina,Gramineae,Stipa tenacissima
-Maniola jurtina,Gramineae,
-Maniola jurtina,Gramineae,Agrostis
-Maniola jurtina,Gramineae,Lolium
-Maniola jurtina,Gramineae,Poa
-Melitaea cinxia,Compositae,Achillea
-Melitaea cinxia,Compositae,Centaurea jacea
-Melitaea cinxia,Gramineae,Corynephorus
-Melitaea cinxia,Compositae,Hieracium
-Melitaea cinxia,Compositae,Hieracium pilosella
-Melitaea cinxia,Compositae,Hieracium pilosella
+Maniola jurtina,Poaceae,
+Maniola jurtina,Poaceae,
+Maniola jurtina,Poaceae,Brachypodium phoenicoides
+Maniola jurtina,Poaceae,Elymus repens
+Maniola jurtina,Poaceae,Milium
+Maniola jurtina,Poaceae,Poa
+Maniola jurtina,Poaceae,Poa annua
+Maniola jurtina,Poaceae,Poa annua
+Maniola jurtina,Poaceae,Poa pratensis
+Maniola jurtina,Poaceae,Poa trivialis
+Maniola jurtina,Poaceae,Poa trivialis
+Maniola jurtina,Poaceae,Stipa tenacissima
+Maniola jurtina,Poaceae,
+Maniola jurtina,Poaceae,Agrostis
+Maniola jurtina,Poaceae,Lolium
+Maniola jurtina,Poaceae,Poa
+Melitaea cinxia,Asteraceae,Achillea
+Melitaea cinxia,Asteraceae,Centaurea jacea
+Melitaea cinxia,Poaceae,Corynephorus
+Melitaea cinxia,Asteraceae,Hieracium
+Melitaea cinxia,Asteraceae,Hieracium pilosella
+Melitaea cinxia,Asteraceae,Hieracium pilosella
 Melitaea cinxia,Plantaginaceae,Plantago lanceolata
 Melitaea cinxia,Plantaginaceae,Plantago lanceolata
 Melitaea cinxia,Plantaginaceae,Plantago lanceolata
@@ -2457,26 +2457,26 @@ Melitaea cinxia,Plantaginaceae,Plantago
 Melitaea cinxia,Plantaginaceae,Plantago lanceolata
 Melitaea cinxia,Plantaginaceae,Plantago lanceolata
 Melitaea cinxia,Scrophulariaceae,Veronica spicata
-Pararge aegeria,Gramineae,
-Pararge aegeria,Gramineae,Agropyron
-Pararge aegeria,Gramineae,Brachypodium
-Pararge aegeria,Gramineae,Bromus
-Pararge aegeria,Gramineae,Cynodon dactylon
-Pararge aegeria,Gramineae,Dactylis glomerata
-Pararge aegeria,Gramineae,Dactylis glomerata
-Pararge aegeria,Gramineae,Elymus repens
-Pararge aegeria,Gramineae,Elytrigia repens
-Pararge aegeria,Gramineae,Hordeum
-Pararge aegeria,Gramineae,Melica nutans
-Pararge aegeria,Gramineae,Melica uniflora
-Pararge aegeria,Gramineae,Oryzopsis miliacea
-Pararge aegeria,Gramineae,Poa annua
-Pararge aegeria,Gramineae,Poa nemoralis
-Pararge aegeria,Gramineae,Poa trivialis
-Pararge aegeria,Gramineae,
-Pararge aegeria,Gramineae,Brachypodium sylvaticum
-Pararge aegeria,Gramineae,Dactylis glomerata
-Pararge aegeria,Gramineae,Holcus lanatus
+Pararge aegeria,Poaceae,
+Pararge aegeria,Poaceae,Agropyron
+Pararge aegeria,Poaceae,Brachypodium
+Pararge aegeria,Poaceae,Bromus
+Pararge aegeria,Poaceae,Cynodon dactylon
+Pararge aegeria,Poaceae,Dactylis glomerata
+Pararge aegeria,Poaceae,Dactylis glomerata
+Pararge aegeria,Poaceae,Elymus repens
+Pararge aegeria,Poaceae,Elytrigia repens
+Pararge aegeria,Poaceae,Hordeum
+Pararge aegeria,Poaceae,Melica nutans
+Pararge aegeria,Poaceae,Melica uniflora
+Pararge aegeria,Poaceae,Oryzopsis miliacea
+Pararge aegeria,Poaceae,Poa annua
+Pararge aegeria,Poaceae,Poa nemoralis
+Pararge aegeria,Poaceae,Poa trivialis
+Pararge aegeria,Poaceae,
+Pararge aegeria,Poaceae,Brachypodium sylvaticum
+Pararge aegeria,Poaceae,Dactylis glomerata
+Pararge aegeria,Poaceae,Holcus lanatus
 Polygonia c-album,Betulaceae,Betula
 Polygonia c-album,Urticaceae,Boehmeria spicata
 Polygonia c-album,Ulmaceae,Celtis
@@ -2544,7 +2544,7 @@ Papilio glaucus,Betulaceae,Alnus incana
 Papilio glaucus,Betulaceae,Betula
 Papilio glaucus,Betulaceae,Betula
 Papilio glaucus,Acanthaceae,Blechum
-Papilio glaucus,Compositae,Cirsium vulgare
+Papilio glaucus,Asteraceae,Cirsium vulgare
 Papilio glaucus,Oleaceae,Fraxinus
 Papilio glaucus,Oleaceae,Fraxinus
 Papilio glaucus,Oleaceae,Fraxinus americana
@@ -2678,12 +2678,12 @@ Papilio machaon,Umbelliferae,Angelica pubescens
 Papilio machaon,Umbelliferae,Angelica silvestris
 Papilio machaon,Umbelliferae,Angelica ursina
 Papilio machaon,Umbelliferae,Apium graveolens
-Papilio machaon,Compositae,Artemisia arctica
-Papilio machaon,Compositae,Artemisia arctica
-Papilio machaon,Compositae,Artemisia arctica
-Papilio machaon,Compositae,Artemisia dracunculus
-Papilio machaon,Compositae,Artemisia dracunculus
-Papilio machaon,Compositae,Artemisia norvegica
+Papilio machaon,Asteraceae,Artemisia arctica
+Papilio machaon,Asteraceae,Artemisia arctica
+Papilio machaon,Asteraceae,Artemisia arctica
+Papilio machaon,Asteraceae,Artemisia dracunculus
+Papilio machaon,Asteraceae,Artemisia dracunculus
+Papilio machaon,Asteraceae,Artemisia norvegica
 Papilio machaon,Umbelliferae,Carum carvi
 Papilio machaon,Umbelliferae,Carum carvi
 Papilio machaon,Umbelliferae,Carum holopetalum
@@ -2693,7 +2693,7 @@ Papilio machaon,Rutaceae,Citrus limon
 Papilio machaon,Umbelliferae,Conioselinum
 Papilio machaon,Umbelliferae,Conium maculatum
 Papilio machaon,Umbelliferae,Coriandrum sativum
-Papilio machaon,Compositae,Cosmos bipinnatus
+Papilio machaon,Asteraceae,Cosmos bipinnatus
 Papilio machaon,Umbelliferae,Cryptotaenia japonica
 Papilio machaon,Umbelliferae,Daucus
 Papilio machaon,Umbelliferae,Daucus
@@ -2723,9 +2723,9 @@ Papilio machaon,Umbelliferae,Pastinaca
 Papilio machaon,Umbelliferae,Pastinaca sativa
 Papilio machaon,Umbelliferae,Pastinaca sativa
 Papilio machaon,Umbelliferae,Pastinaca sativa
-Papilio machaon,Compositae,Petasites
-Papilio machaon,Compositae,Petasites frigidus
-Papilio machaon,Compositae,Petasites frigidus
+Papilio machaon,Asteraceae,Petasites
+Papilio machaon,Asteraceae,Petasites frigidus
+Papilio machaon,Asteraceae,Petasites frigidus
 Papilio machaon,Umbelliferae,Petroselinum crispum
 Papilio machaon,Umbelliferae,Peucedanum litorale
 Papilio machaon,Umbelliferae,Peucedanum multivittatum
@@ -2745,7 +2745,7 @@ Papilio machaon,Umbelliferae,Tilingia ajanensis
 Papilio machaon,Rutaceae,Zanthoxylum schinifolium
 Papilio machaon,Umbelliferae,Zizia aptera
 Papilio machaon,Umbelliferae,Foeniculum vulgare
-Papilio machaon,Compositae,Artemisia arctica
+Papilio machaon,Asteraceae,Artemisia arctica
 Papilio machaon,Umbelliferae,Selinum dawsonii
 Papilio machaon,Umbelliferae,Angelica sylvestris
 Papilio machaon,Umbelliferae,Peucedanum palustre
@@ -2761,82 +2761,82 @@ Papilio machaon,Umbelliferae,Cryptotaenia canadensis
 Papilio machaon,Umbelliferae,Daucus carota
 Papilio machaon,Umbelliferae,Peucedanum formosanum
 Parides eurimedes,Aristolochiaceae,Aristolochia
-Anthocharis cardamines,Cruciferae,
-Anthocharis cardamines,Cruciferae,
-Anthocharis cardamines,Cruciferae,Arabis
-Anthocharis cardamines,Cruciferae,Arabis glabra
-Anthocharis cardamines,Cruciferae,Arabis lyrata
-Anthocharis cardamines,Cruciferae,Arabis suecica
-Anthocharis cardamines,Cruciferae,Barbarea vulgaris
-Anthocharis cardamines,Cruciferae,Barbarea vulgaris
-Anthocharis cardamines,Cruciferae,Brassica rapa
-Anthocharis cardamines,Cruciferae,Capsella bursa-pastoris
-Anthocharis cardamines,Cruciferae,Isatis tinctoria
-Anthocharis cardamines,Cruciferae,Rorippa islandica
-Anthocharis cardamines,Cruciferae,Thlaspi arvense
-Anthocharis cardamines,Cruciferae,
-Anthocharis cardamines,Cruciferae,Alliaria petiolata
-Anthocharis cardamines,Cruciferae,Cardamine pratensis
-Ascia monuste,Cruciferae,
-Ascia monuste,Cruciferae,
+Anthocharis cardamines,Brassicaceae,
+Anthocharis cardamines,Brassicaceae,
+Anthocharis cardamines,Brassicaceae,Arabis
+Anthocharis cardamines,Brassicaceae,Arabis glabra
+Anthocharis cardamines,Brassicaceae,Arabis lyrata
+Anthocharis cardamines,Brassicaceae,Arabis suecica
+Anthocharis cardamines,Brassicaceae,Barbarea vulgaris
+Anthocharis cardamines,Brassicaceae,Barbarea vulgaris
+Anthocharis cardamines,Brassicaceae,Brassica rapa
+Anthocharis cardamines,Brassicaceae,Capsella bursa-pastoris
+Anthocharis cardamines,Brassicaceae,Isatis tinctoria
+Anthocharis cardamines,Brassicaceae,Rorippa islandica
+Anthocharis cardamines,Brassicaceae,Thlaspi arvense
+Anthocharis cardamines,Brassicaceae,
+Anthocharis cardamines,Brassicaceae,Alliaria petiolata
+Anthocharis cardamines,Brassicaceae,Cardamine pratensis
+Ascia monuste,Brassicaceae,
+Ascia monuste,Brassicaceae,
 Ascia monuste,Alliaceae,Allium cepa
-Ascia monuste,Cruciferae,Armoracia lapathifolia
-Ascia monuste,Cruciferae,Armoracia rusticana
+Ascia monuste,Brassicaceae,Armoracia lapathifolia
+Ascia monuste,Brassicaceae,Armoracia rusticana
 Ascia monuste,Bataceae,Batis maritima
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica rapa
-Ascia monuste,Cruciferae,Cakile edentula
-Ascia monuste,Cruciferae,Cakile maritima
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica rapa
+Ascia monuste,Brassicaceae,Cakile edentula
+Ascia monuste,Brassicaceae,Cakile maritima
 Ascia monuste,Capparaceae,Capparis
-Ascia monuste,Cruciferae,Capsella
+Ascia monuste,Brassicaceae,Capsella
 Ascia monuste,Capparaceae,Cleome
 Ascia monuste,Capparaceae,Cleome
 Ascia monuste,Capparaceae,Cleome gynandra
 Ascia monuste,Capparaceae,Cleome rutidosperma
 Ascia monuste,Capparaceae,Cleome spinosa
-Ascia monuste,Cruciferae,Lepidium virginicum
+Ascia monuste,Brassicaceae,Lepidium virginicum
 Ascia monuste,Capparaceae,Polanisia
-Ascia monuste,Cruciferae,Raphanus sativus
-Ascia monuste,Cruciferae,Raphanus sativus
-Ascia monuste,Cruciferae,Rorippa
-Ascia monuste,Cruciferae,Sinapis alba
+Ascia monuste,Brassicaceae,Raphanus sativus
+Ascia monuste,Brassicaceae,Raphanus sativus
+Ascia monuste,Brassicaceae,Rorippa
+Ascia monuste,Brassicaceae,Sinapis alba
 Ascia monuste,Tropaeolaceae,Tropaeolum
-Ascia monuste,Cruciferae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica oleracea
 Ascia monuste,Alliaceae,Allium cepa
-Ascia monuste,Cruciferae,Armoracia rusticana
-Ascia monuste,Cruciferae,Brassica napus
-Ascia monuste,Cruciferae,Brassica oleracea
+Ascia monuste,Brassicaceae,Armoracia rusticana
+Ascia monuste,Brassicaceae,Brassica napus
+Ascia monuste,Brassicaceae,Brassica oleracea
 Ascia monuste,Capparaceae,Cleome
 Ascia monuste,Capparaceae,Cleome gynandra
-Ascia monuste,Cruciferae,Lobularia maritima
+Ascia monuste,Brassicaceae,Lobularia maritima
 Ascia monuste,Tropaeolaceae,Tropaeolum majus
 Ascia monuste,Capparaceae,Capparis hastata
 Ascia monuste,Capparaceae,Cleome spinosa
 Ascia monuste,Capparaceae,Capparis amplissima
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica rapa
-Ascia monuste,Cruciferae,Brassica
-Ascia monuste,Cruciferae,Brassica juncea
-Ascia monuste,Cruciferae,Brassica oleracea
-Ascia monuste,Cruciferae,Brassica rapa
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica rapa
+Ascia monuste,Brassicaceae,Brassica
+Ascia monuste,Brassicaceae,Brassica juncea
+Ascia monuste,Brassicaceae,Brassica oleracea
+Ascia monuste,Brassicaceae,Brassica rapa
 Ascia monuste,Capparaceae,Capparis cynophallophora
 Ascia monuste,Capparaceae,Capparis speciosa
 Ascia monuste,Capparaceae,Capparis tweediana
-Ascia monuste,Leguminosae (c),Cassia
+Ascia monuste,Fabaceae,Cassia
 Ascia monuste,Capparaceae,Crateva tapia
-Ascia monuste,Cruciferae,Raphanus raphanistrum
-Ascia monuste,Cruciferae,Rorippa nasturtium-aquaticum
+Ascia monuste,Brassicaceae,Raphanus raphanistrum
+Ascia monuste,Brassicaceae,Rorippa nasturtium-aquaticum
 Ascia monuste,Tropaeolaceae,Tropaeolum majus
-Colias croceus,Leguminosae (p),Medicago sativa
-Colias croceus,Leguminosae (p),Medicago sativa
-Colias croceus,Leguminosae (p),Lotus corniculatus
-Colias croceus,Leguminosae (p),Medicago sativa
-Colias croceus,Leguminosae (p),Trifolium
-Hebomoia glaucippe,Cruciferae,Brassica oleracea
+Colias croceus,Fabaceae,Medicago sativa
+Colias croceus,Fabaceae,Medicago sativa
+Colias croceus,Fabaceae,Lotus corniculatus
+Colias croceus,Fabaceae,Medicago sativa
+Colias croceus,Fabaceae,Trifolium
+Hebomoia glaucippe,Brassicaceae,Brassica oleracea
 Hebomoia glaucippe,Capparaceae,Capparis
 Hebomoia glaucippe,Capparaceae,Capparis
 Hebomoia glaucippe,Capparaceae,Capparis cantoniensis
@@ -2866,153 +2866,153 @@ Hebomoia glaucippe,Capparaceae,Cleome spinosa
 Hebomoia glaucippe,Capparaceae,Crateva adansonii
 Hebomoia glaucippe,Capparaceae,Crateva falcata
 Hebomoia glaucippe,Capparaceae,Capparis sepiaria
-Phoebis sennae,Cruciferae,
+Phoebis sennae,Brassicaceae,
 Phoebis sennae,Flacourtiaceae,Casearia sylvestris
-Phoebis sennae,Leguminosae (c),Cassia
-Phoebis sennae,Leguminosae (c),Cassia
-Phoebis sennae,Leguminosae (c),Cassia biflora
-Phoebis sennae,Leguminosae (c),Cassia ferruginea
-Phoebis sennae,Leguminosae (c),Cassia fistula
-Phoebis sennae,Leguminosae (c),Chamaecrista chamaecristoides
-Phoebis sennae,Leguminosae (c),Chamaecrista fasciculata
-Phoebis sennae,Leguminosae (c),Chamaecrista nictitans
-Phoebis sennae,Leguminosae (p),Crotalaria agatiflora
-Phoebis sennae,Leguminosae (p),Phaseolus
-Phoebis sennae,Leguminosae (c),Senna alata
-Phoebis sennae,Leguminosae (c),Senna alata
-Phoebis sennae,Leguminosae (c),Senna armata
-Phoebis sennae,Leguminosae (c),Senna bicapsularis
-Phoebis sennae,Leguminosae (c),Senna bicapsularis
-Phoebis sennae,Leguminosae (c),Senna corymbosa
-Phoebis sennae,Leguminosae (c),Senna corymbosa
-Phoebis sennae,Leguminosae (c),Senna covesii
-Phoebis sennae,Leguminosae (c),Senna hirsuta
-Phoebis sennae,Leguminosae (c),Senna marilandica
-Phoebis sennae,Leguminosae (c),Senna obtusifolia
-Phoebis sennae,Leguminosae (c),Senna occidentalis
-Phoebis sennae,Leguminosae (c),Senna occidentalis
-Phoebis sennae,Leguminosae (c),Senna uniflora
-Phoebis sennae,Leguminosae (c),Cassia
-Phoebis sennae,Leguminosae (c),Cassia
-Phoebis sennae,Leguminosae (c),Senna occidentalis
-Phoebis sennae,Leguminosae (c),Cassia
-Phoebis sennae,Leguminosae (p),Crotalaria agatiflora
-Phoebis sennae,Leguminosae (c),Senna armata
-Phoebis sennae,Leguminosae (c),Senna covesii
-Phoebis sennae,Leguminosae (c),Cassia occidentalis
-Phoebis sennae,Leguminosae (c),Cassia alata
-Plutella xylostella,Cruciferae,
-Plutella xylostella,Cruciferae,
-Plutella xylostella,Cruciferae,
-Plutella xylostella,Cruciferae,
-Plutella xylostella,Cruciferae,
+Phoebis sennae,Fabaceae,Cassia
+Phoebis sennae,Fabaceae,Cassia
+Phoebis sennae,Fabaceae,Cassia biflora
+Phoebis sennae,Fabaceae,Cassia ferruginea
+Phoebis sennae,Fabaceae,Cassia fistula
+Phoebis sennae,Fabaceae,Chamaecrista chamaecristoides
+Phoebis sennae,Fabaceae,Chamaecrista fasciculata
+Phoebis sennae,Fabaceae,Chamaecrista nictitans
+Phoebis sennae,Fabaceae,Crotalaria agatiflora
+Phoebis sennae,Fabaceae,Phaseolus
+Phoebis sennae,Fabaceae,Senna alata
+Phoebis sennae,Fabaceae,Senna alata
+Phoebis sennae,Fabaceae,Senna armata
+Phoebis sennae,Fabaceae,Senna bicapsularis
+Phoebis sennae,Fabaceae,Senna bicapsularis
+Phoebis sennae,Fabaceae,Senna corymbosa
+Phoebis sennae,Fabaceae,Senna corymbosa
+Phoebis sennae,Fabaceae,Senna covesii
+Phoebis sennae,Fabaceae,Senna hirsuta
+Phoebis sennae,Fabaceae,Senna marilandica
+Phoebis sennae,Fabaceae,Senna obtusifolia
+Phoebis sennae,Fabaceae,Senna occidentalis
+Phoebis sennae,Fabaceae,Senna occidentalis
+Phoebis sennae,Fabaceae,Senna uniflora
+Phoebis sennae,Fabaceae,Cassia
+Phoebis sennae,Fabaceae,Cassia
+Phoebis sennae,Fabaceae,Senna occidentalis
+Phoebis sennae,Fabaceae,Cassia
+Phoebis sennae,Fabaceae,Crotalaria agatiflora
+Phoebis sennae,Fabaceae,Senna armata
+Phoebis sennae,Fabaceae,Senna covesii
+Phoebis sennae,Fabaceae,Cassia occidentalis
+Phoebis sennae,Fabaceae,Cassia alata
+Plutella xylostella,Brassicaceae,
+Plutella xylostella,Brassicaceae,
+Plutella xylostella,Brassicaceae,
+Plutella xylostella,Brassicaceae,
+Plutella xylostella,Brassicaceae,
 Plutella xylostella,Polyphagous,
-Plutella xylostella,Cruciferae,Alyssum
-Plutella xylostella,Cruciferae,Alyssum
+Plutella xylostella,Brassicaceae,Alyssum
+Plutella xylostella,Brassicaceae,Alyssum
 Plutella xylostella,Umbelliferae,Apium graveolens
-Plutella xylostella,Leguminosae (p),Arachis hypogaea
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica alboglabra
-Plutella xylostella,Cruciferae,Brassica alboglabra
-Plutella xylostella,Cruciferae,Brassica chinensis
-Plutella xylostella,Cruciferae,Brassica chinensis
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica napus
-Plutella xylostella,Cruciferae,Brassica nigra
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica parachinensis
-Plutella xylostella,Cruciferae,Brassica rapa
-Plutella xylostella,Cruciferae,Brassica rapa
-Plutella xylostella,Cruciferae,Brassica rapa
-Plutella xylostella,Cruciferae,Brassica rapa
-Plutella xylostella,Cruciferae,Brassica rapa
-Plutella xylostella,Cruciferae,Brassica rapa
-Plutella xylostella,Cruciferae,Brassica rapa
+Plutella xylostella,Fabaceae,Arachis hypogaea
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica alboglabra
+Plutella xylostella,Brassicaceae,Brassica alboglabra
+Plutella xylostella,Brassicaceae,Brassica chinensis
+Plutella xylostella,Brassicaceae,Brassica chinensis
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica napus
+Plutella xylostella,Brassicaceae,Brassica nigra
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica parachinensis
+Plutella xylostella,Brassicaceae,Brassica rapa
+Plutella xylostella,Brassicaceae,Brassica rapa
+Plutella xylostella,Brassicaceae,Brassica rapa
+Plutella xylostella,Brassicaceae,Brassica rapa
+Plutella xylostella,Brassicaceae,Brassica rapa
+Plutella xylostella,Brassicaceae,Brassica rapa
+Plutella xylostella,Brassicaceae,Brassica rapa
 Plutella xylostella,Capparaceae,Capparis sandwichiana
 Plutella xylostella,Umbelliferae,Daucus carota
-Plutella xylostella,Cruciferae,Erysimum cheiri
-Plutella xylostella,Compositae,Galinsoga
-Plutella xylostella,Cruciferae,Iberis
-Plutella xylostella,Cruciferae,Lepidium
-Plutella xylostella,Cruciferae,Lepidium
-Plutella xylostella,Cruciferae,Lobularia maritima
+Plutella xylostella,Brassicaceae,Erysimum cheiri
+Plutella xylostella,Asteraceae,Galinsoga
+Plutella xylostella,Brassicaceae,Iberis
+Plutella xylostella,Brassicaceae,Lepidium
+Plutella xylostella,Brassicaceae,Lepidium
+Plutella xylostella,Brassicaceae,Lobularia maritima
 Plutella xylostella,Caprifoliaceae,Lonicera
-Plutella xylostella,Cruciferae,Matthiola
-Plutella xylostella,Cruciferae,Matthiola incana
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Rorippa
-Plutella xylostella,Cruciferae,Rorippa indica
-Plutella xylostella,Cruciferae,Rorippa microphylla
-Plutella xylostella,Cruciferae,Rorippa nasturtium-aquaticum
-Plutella xylostella,Gramineae,Saccharum officinarum
+Plutella xylostella,Brassicaceae,Matthiola
+Plutella xylostella,Brassicaceae,Matthiola incana
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Rorippa
+Plutella xylostella,Brassicaceae,Rorippa indica
+Plutella xylostella,Brassicaceae,Rorippa microphylla
+Plutella xylostella,Brassicaceae,Rorippa nasturtium-aquaticum
+Plutella xylostella,Poaceae,Saccharum officinarum
 Plutella xylostella,Solanaceae,Solanum melongena
 Plutella xylostella,Chenopodiaceae,Spinacia oleracea
-Plutella xylostella,Leguminosae (p),Vicia faba
-Plutella xylostella,Gramineae,Zea mays
-Plutella xylostella,Gramineae,Zea mays
-Plutella xylostella,Gramineae,
-Plutella xylostella,Cruciferae,Brassica nigra
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Erysimum franciscanum
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica oleracea
+Plutella xylostella,Fabaceae,Vicia faba
+Plutella xylostella,Poaceae,Zea mays
+Plutella xylostella,Poaceae,Zea mays
+Plutella xylostella,Poaceae,
+Plutella xylostella,Brassicaceae,Brassica nigra
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Erysimum franciscanum
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica oleracea
 Plutella xylostella,Capparaceae,Capparis sandwichiana
-Plutella xylostella,Cruciferae,Erysimum
+Plutella xylostella,Brassicaceae,Erysimum
 Plutella xylostella,Rubiaceae,Guettarda
-Plutella xylostella,Cruciferae,Iberis
-Plutella xylostella,Cruciferae,Lobularia
+Plutella xylostella,Brassicaceae,Iberis
+Plutella xylostella,Brassicaceae,Lobularia
 Plutella xylostella,Caprifoliaceae,Lonicera
-Plutella xylostella,Cruciferae,Matthiola
+Plutella xylostella,Brassicaceae,Matthiola
 Plutella xylostella,Dipterocarpaceae,Shorea robusta
-Plutella xylostella,Cruciferae,
-Plutella xylostella,Cruciferae,
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica
-Plutella xylostella,Cruciferae,Brassica caulorapa
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica juncea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Brassica oleracea
-Plutella xylostella,Cruciferae,Iberis odorata
-Plutella xylostella,Cruciferae,Matthiola annua
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Raphanus sativus
-Plutella xylostella,Cruciferae,Raphanus sativus
+Plutella xylostella,Brassicaceae,
+Plutella xylostella,Brassicaceae,
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica
+Plutella xylostella,Brassicaceae,Brassica caulorapa
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica juncea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Brassica oleracea
+Plutella xylostella,Brassicaceae,Iberis odorata
+Plutella xylostella,Brassicaceae,Matthiola annua
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Raphanus sativus
+Plutella xylostella,Brassicaceae,Raphanus sativus
 Plutella xylostella,Polyphagous,
 Tegeticula yuccasella,Agavaceae,Yucca
 Tegeticula yuccasella,Agavaceae,Yucca aloifolia
@@ -3052,13 +3052,13 @@ Thyridopteryx ephemeraeformis,Aceraceae,Acer rubrum
 Thyridopteryx ephemeraeformis,Aceraceae,Acer saccharinum
 Thyridopteryx ephemeraeformis,Aceraceae,Acer saccharum
 Thyridopteryx ephemeraeformis,Hippocastanaceae,Aesculus hippocastanum
-Thyridopteryx ephemeraeformis,Compositae,Ageratina ageratoides
-Thyridopteryx ephemeraeformis,Compositae,Ambrosia trifida
+Thyridopteryx ephemeraeformis,Asteraceae,Ageratina ageratoides
+Thyridopteryx ephemeraeformis,Asteraceae,Ambrosia trifida
 Thyridopteryx ephemeraeformis,Rosaceae,Amelanchier canadensis
 Thyridopteryx ephemeraeformis,Annonaceae,Annona glabra
-Thyridopteryx ephemeraeformis,Compositae,Anthemis cotula
-Thyridopteryx ephemeraeformis,Leguminosae (c),Bauhinia
-Thyridopteryx ephemeraeformis,Leguminosae (c),Bauhinia
+Thyridopteryx ephemeraeformis,Asteraceae,Anthemis cotula
+Thyridopteryx ephemeraeformis,Fabaceae,Bauhinia
+Thyridopteryx ephemeraeformis,Fabaceae,Bauhinia
 Thyridopteryx ephemeraeformis,Berberidaceae,Berberis vulgaris
 Thyridopteryx ephemeraeformis,Betulaceae,Betula papyrifera
 Thyridopteryx ephemeraeformis,Myrtaceae,Callistemon
@@ -3071,14 +3071,14 @@ Thyridopteryx ephemeraeformis,Casuarinaceae,Casuarina
 Thyridopteryx ephemeraeformis,Bignoniaceae,Catalpa bignonioides
 Thyridopteryx ephemeraeformis,Pinaceae,Cedrus
 Thyridopteryx ephemeraeformis,Ulmaceae,Celtis occidentalis
-Thyridopteryx ephemeraeformis,Leguminosae (c),Cercis canadensis
+Thyridopteryx ephemeraeformis,Fabaceae,Cercis canadensis
 Thyridopteryx ephemeraeformis,Cupressaceae,Chamaecyparis thyoides
 Thyridopteryx ephemeraeformis,Rutaceae,Citrus
 Thyridopteryx ephemeraeformis,Rutaceae,Citrus
 Thyridopteryx ephemeraeformis,Rutaceae,Citrus reticulata
 Thyridopteryx ephemeraeformis,Ranunculaceae,Clematis
 Thyridopteryx ephemeraeformis,Polygonaceae,Coccoloba uvifera
-Thyridopteryx ephemeraeformis,Compositae,Conyza canadensis
+Thyridopteryx ephemeraeformis,Asteraceae,Conyza canadensis
 Thyridopteryx ephemeraeformis,Cornaceae,Cornus
 Thyridopteryx ephemeraeformis,Rosaceae,Crataegus
 Thyridopteryx ephemeraeformis,Rosaceae,Crataegus curvisepala
@@ -3092,12 +3092,12 @@ Thyridopteryx ephemeraeformis,Fagaceae,Fagus sieboldii
 Thyridopteryx ephemeraeformis,Fagaceae,Fagus sylvatica
 Thyridopteryx ephemeraeformis,Oleaceae,Fraxinus americana
 Thyridopteryx ephemeraeformis,Ericaceae,Gaylussacia baccata
-Thyridopteryx ephemeraeformis,Leguminosae (c),Gleditsia
-Thyridopteryx ephemeraeformis,Leguminosae (c),Gleditsia triacanthos
-Thyridopteryx ephemeraeformis,Leguminosae (c),Gleditsia triacanthos
+Thyridopteryx ephemeraeformis,Fabaceae,Gleditsia
+Thyridopteryx ephemeraeformis,Fabaceae,Gleditsia triacanthos
+Thyridopteryx ephemeraeformis,Fabaceae,Gleditsia triacanthos
 Thyridopteryx ephemeraeformis,Malvaceae,Gossypium
 Thyridopteryx ephemeraeformis,Hamamelidaceae,Hamamelis virginiana
-Thyridopteryx ephemeraeformis,Compositae,Helianthus decapetalus
+Thyridopteryx ephemeraeformis,Asteraceae,Helianthus decapetalus
 Thyridopteryx ephemeraeformis,Malvaceae,Hibiscus syriacus
 Thyridopteryx ephemeraeformis,Cannabaceae,Humulus lupulus
 Thyridopteryx ephemeraeformis,Aquifoliaceae,Ilex
@@ -3115,7 +3115,7 @@ Thyridopteryx ephemeraeformis,Lythraceae,Lagerstroemia
 Thyridopteryx ephemeraeformis,Verbenaceae,Lantana
 Thyridopteryx ephemeraeformis,Verbenaceae,Lantana
 Thyridopteryx ephemeraeformis,Pinaceae,Larix laricina
-Thyridopteryx ephemeraeformis,Cruciferae,Lepidium virginicum
+Thyridopteryx ephemeraeformis,Brassicaceae,Lepidium virginicum
 Thyridopteryx ephemeraeformis,Hamamelidaceae,Liquidambar styraciflua
 Thyridopteryx ephemeraeformis,Magnoliaceae,Liriodendron tulipifera
 Thyridopteryx ephemeraeformis,Sapindaceae,Litchi chinensis
@@ -3126,7 +3126,7 @@ Thyridopteryx ephemeraeformis,Rosaceae,Malus pumila
 Thyridopteryx ephemeraeformis,Rosaceae,Malus sylvestris
 Thyridopteryx ephemeraeformis,Anacardiaceae,Mangifera indica
 Thyridopteryx ephemeraeformis,Myrtaceae,Melaleuca
-Thyridopteryx ephemeraeformis,Leguminosae (p),Melilotus officinalis
+Thyridopteryx ephemeraeformis,Fabaceae,Melilotus officinalis
 Thyridopteryx ephemeraeformis,Myricaceae,Myrica californica
 Thyridopteryx ephemeraeformis,Lauraceae,Persea
 Thyridopteryx ephemeraeformis,Rosaceae,Physocarpus opulifolius
@@ -3177,13 +3177,13 @@ Thyridopteryx ephemeraeformis,Fagaceae,Quercus prinus
 Thyridopteryx ephemeraeformis,Fagaceae,Quercus semecarpifolia
 Thyridopteryx ephemeraeformis,Rhamnaceae,Rhamnus cathartica
 Thyridopteryx ephemeraeformis,Anacardiaceae,Rhus
-Thyridopteryx ephemeraeformis,Leguminosae (p),Robinia
-Thyridopteryx ephemeraeformis,Leguminosae (p),Robinia pseudoacacia
-Thyridopteryx ephemeraeformis,Leguminosae (p),Robinia pseudoacacia
-Thyridopteryx ephemeraeformis,Leguminosae (p),Robinia pseudoacacia
-Thyridopteryx ephemeraeformis,Leguminosae (p),Robinia viscosa
+Thyridopteryx ephemeraeformis,Fabaceae,Robinia
+Thyridopteryx ephemeraeformis,Fabaceae,Robinia pseudoacacia
+Thyridopteryx ephemeraeformis,Fabaceae,Robinia pseudoacacia
+Thyridopteryx ephemeraeformis,Fabaceae,Robinia pseudoacacia
+Thyridopteryx ephemeraeformis,Fabaceae,Robinia viscosa
 Thyridopteryx ephemeraeformis,Rosaceae,Rosa
-Thyridopteryx ephemeraeformis,Palmae,Roystonea
+Thyridopteryx ephemeraeformis,Arecaceae,Roystonea
 Thyridopteryx ephemeraeformis,Polygonaceae,Rumex obtusifolius
 Thyridopteryx ephemeraeformis,Salicaceae,Salix
 Thyridopteryx ephemeraeformis,Salicaceae,Salix
@@ -3211,15 +3211,15 @@ Thyridopteryx ephemeraeformis,Tiliaceae,Tilia americana
 Thyridopteryx ephemeraeformis,Tiliaceae,Tilia americana
 Thyridopteryx ephemeraeformis,Tiliaceae,Tilia americana
 Thyridopteryx ephemeraeformis,Tiliaceae,Tilia x vulgaris
-Thyridopteryx ephemeraeformis,Leguminosae (p),Trifolium
+Thyridopteryx ephemeraeformis,Fabaceae,Trifolium
 Thyridopteryx ephemeraeformis,Pinaceae,Tsuga canadensis
 Thyridopteryx ephemeraeformis,Ulmaceae,Ulmus
 Thyridopteryx ephemeraeformis,Ulmaceae,Ulmus americana
 Thyridopteryx ephemeraeformis,Ulmaceae,Ulmus glabra
 Thyridopteryx ephemeraeformis,Ulmaceae,Ulmus rubra
-Thyridopteryx ephemeraeformis,Compositae,Vernonia noveboracensis
-Thyridopteryx ephemeraeformis,Leguminosae (p),Wisteria sinensis
-Thyridopteryx ephemeraeformis,Gramineae,Zea mays
+Thyridopteryx ephemeraeformis,Asteraceae,Vernonia noveboracensis
+Thyridopteryx ephemeraeformis,Fabaceae,Wisteria sinensis
+Thyridopteryx ephemeraeformis,Poaceae,Zea mays
 Thyridopteryx ephemeraeformis,Polyphagous,
 Thyridopteryx ephemeraeformis,Polyphagous,
 Thyridopteryx ephemeraeformis,Polyphagous,
@@ -3239,10 +3239,10 @@ Emmelina monodactyla,Convolvulaceae,Convolvulus
 Emmelina monodactyla,Convolvulaceae,Convolvulus
 Emmelina monodactyla,Convolvulaceae,Convolvulus arvensis
 Emmelina monodactyla,Convolvulaceae,Convolvulus arvensis
-Emmelina monodactyla,Compositae,Cynara scolymus
+Emmelina monodactyla,Asteraceae,Cynara scolymus
 Emmelina monodactyla,Solanaceae,Datura stramonium
-Emmelina monodactyla,Compositae,Eupatorium purpureum
-Emmelina monodactyla,Compositae,Eupatorium purpureum
+Emmelina monodactyla,Asteraceae,Eupatorium purpureum
+Emmelina monodactyla,Asteraceae,Eupatorium purpureum
 Emmelina monodactyla,Solanaceae,Hyoscyamus niger
 Emmelina monodactyla,Convolvulaceae,Ipomoea batatas
 Emmelina monodactyla,Convolvulaceae,Ipomoea batatas
@@ -3250,7 +3250,7 @@ Emmelina monodactyla,Convolvulaceae,Ipomoea eriocarpa
 Emmelina monodactyla,Convolvulaceae,Ipomoea hederacea
 Emmelina monodactyla,Convolvulaceae,Ipomoea purpurea
 Emmelina monodactyla,Polygonaceae,Polygonum
-Emmelina monodactyla,Compositae,Senecio
+Emmelina monodactyla,Asteraceae,Senecio
 Emmelina monodactyla,Ericaceae,Vaccinium
 Emmelina monodactyla,Chenopodiaceae,Atriplex
 Emmelina monodactyla,Convolvulaceae,Calystegia
@@ -3261,7 +3261,7 @@ Emmelina monodactyla,Convolvulaceae,Calystegia subacaulis
 Emmelina monodactyla,Polyphagous,
 Lantanophaga pusillidactyla,Euphorbiaceae,Caperonia
 Lantanophaga pusillidactyla,Euphorbiaceae,Caperonia castaneifolia
-Lantanophaga pusillidactyla,Compositae,Helianthus tuberosus
+Lantanophaga pusillidactyla,Asteraceae,Helianthus tuberosus
 Lantanophaga pusillidactyla,Verbenaceae,Lantana
 Lantanophaga pusillidactyla,Verbenaceae,Lantana
 Lantanophaga pusillidactyla,Verbenaceae,Lantana
@@ -3294,18 +3294,18 @@ Pterophorus pentadactyla,Solanaceae,Solanum melongena
 Pterophorus pentadactyla,Convolvulaceae,Calystegia
 Pterophorus pentadactyla,Convolvulaceae,Convolvulus
 Pterophorus pentadactyla,Convolvulaceae,Convolvulus
-Amyelois transitella,Leguminosae (m),Acacia farnesiana
-Amyelois transitella,Leguminosae (m),Acacia farnesiana
-Amyelois transitella,Leguminosae (m),Acacia farnesiana
+Amyelois transitella,Fabaceae,Acacia farnesiana
+Amyelois transitella,Fabaceae,Acacia farnesiana
+Amyelois transitella,Fabaceae,Acacia farnesiana
 Amyelois transitella,Hippocastanaceae,Aesculus glabra
 Amyelois transitella,Hippocastanaceae,Aesculus glabra
 Amyelois transitella,Annonaceae,Annona
-Amyelois transitella,Leguminosae (c),Caesalpinia pulcherrima
-Amyelois transitella,Leguminosae (p),Cajanus cajan
+Amyelois transitella,Fabaceae,Caesalpinia pulcherrima
+Amyelois transitella,Fabaceae,Cajanus cajan
 Amyelois transitella,Rubiaceae,Casasia clusiifolia
-Amyelois transitella,Leguminosae (c),Cassia grandis
-Amyelois transitella,Leguminosae (c),Cassia grandis
-Amyelois transitella,Leguminosae (c),Cassia grandis
+Amyelois transitella,Fabaceae,Cassia grandis
+Amyelois transitella,Fabaceae,Cassia grandis
+Amyelois transitella,Fabaceae,Cassia grandis
 Amyelois transitella,Rutaceae,Citrus
 Amyelois transitella,Rutaceae,Citrus
 Amyelois transitella,Rutaceae,Citrus X paradisi
@@ -3326,9 +3326,9 @@ Amyelois transitella,Moraceae,Ficus carica
 Amyelois transitella,Moraceae,Ficus carica
 Amyelois transitella,Capparaceae,Forchhammeria
 Amyelois transitella,Rubiaceae,Genipa americana
-Amyelois transitella,Leguminosae (c),Gleditsia triacanthos
-Amyelois transitella,Leguminosae (c),Gleditsia triacanthos
-Amyelois transitella,Leguminosae (c),Gleditsia triacanthos
+Amyelois transitella,Fabaceae,Gleditsia triacanthos
+Amyelois transitella,Fabaceae,Gleditsia triacanthos
+Amyelois transitella,Fabaceae,Gleditsia triacanthos
 Amyelois transitella,Juglandaceae,Juglans
 Amyelois transitella,Juglandaceae,Juglans regia
 Amyelois transitella,Juglandaceae,Juglans regia
@@ -3343,14 +3343,14 @@ Amyelois transitella,Rosaceae,Malus pumila
 Amyelois transitella,Rosaceae,Malus sylvestris
 Amyelois transitella,Anacardiaceae,Mangifera indica
 Amyelois transitella,Paeoniaceae,Paeonia
-Amyelois transitella,Palmae,Phoenix dactylifera
-Amyelois transitella,Palmae,Phoenix dactylifera
-Amyelois transitella,Palmae,Phoenix dactylifera
+Amyelois transitella,Arecaceae,Phoenix dactylifera
+Amyelois transitella,Arecaceae,Phoenix dactylifera
+Amyelois transitella,Arecaceae,Phoenix dactylifera
 Amyelois transitella,Anacardiaceae,Pistacia vera
 Amyelois transitella,Anacardiaceae,Pistacia vera
-Amyelois transitella,Leguminosae (m),Pithecellobium ebano
-Amyelois transitella,Leguminosae (m),Pithecellobium ebano
-Amyelois transitella,Leguminosae (m),Pithecellobium ebano
+Amyelois transitella,Fabaceae,Pithecellobium ebano
+Amyelois transitella,Fabaceae,Pithecellobium ebano
+Amyelois transitella,Fabaceae,Pithecellobium ebano
 Amyelois transitella,Rosaceae,Prunus dulcis
 Amyelois transitella,Rosaceae,Prunus dulcis
 Amyelois transitella,Rosaceae,Prunus persica
@@ -3361,16 +3361,16 @@ Amyelois transitella,Lythraceae,Punica granatum
 Amyelois transitella,Rosaceae,Pyrus communis
 Amyelois transitella,Rosaceae,Pyrus communis
 Amyelois transitella,Rubiaceae,Randia
-Amyelois transitella,Leguminosae (p),Robinia
-Amyelois transitella,Leguminosae (p),Robinia
-Amyelois transitella,Leguminosae (p),Robinia
+Amyelois transitella,Fabaceae,Robinia
+Amyelois transitella,Fabaceae,Robinia
+Amyelois transitella,Fabaceae,Robinia
 Amyelois transitella,Sapindaceae,Sapindus saponaria
 Amyelois transitella,Sapindaceae,Sapindus saponaria
-Amyelois transitella,Leguminosae (c),Tamarindus indica
+Amyelois transitella,Fabaceae,Tamarindus indica
 Amyelois transitella,Sterculiaceae,Theobroma cacao
 Amyelois transitella,Agavaceae,Yucca
 Amyelois transitella,Agavaceae,Yucca
-Amyelois transitella,Gramineae,Zea mays
+Amyelois transitella,Poaceae,Zea mays
 Amyelois transitella,Detritophagous,
 Amyelois transitella,Detritophagous,
 Amyelois transitella,Detritophagous,
@@ -3380,7 +3380,7 @@ Amyelois transitella,Sterculiaceae,Theobroma grandiflorum
 Amyelois transitella,Sterculiaceae,Theobroma
 Amyelois transitella,Polyphagous,
 Amyelois transitella,Rubiaceae,Coffea
-Amyelois transitella,Leguminosae (c),Hymenaea courbaril
+Amyelois transitella,Fabaceae,Hymenaea courbaril
 Galleria mellonella,Detritophagous,
 Galleria mellonella,Insecta,Pseudogonia (Z) rufifrons
 Galleria mellonella,Detritophagous,
@@ -3391,45 +3391,45 @@ Galleria mellonella,Insecta,
 Galleria mellonella,Detritophagous,
 Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Detritophagous,
-Plodia interpunctella,Gramineae,
-Plodia interpunctella,Leguminosae (p),Arachis hypogaea
-Plodia interpunctella,Gramineae,Avena
-Plodia interpunctella,Gramineae,Avena sativa
+Plodia interpunctella,Poaceae,
+Plodia interpunctella,Fabaceae,Arachis hypogaea
+Plodia interpunctella,Poaceae,Avena
+Plodia interpunctella,Poaceae,Avena sativa
 Plodia interpunctella,Berberidaceae,Berberis
-Plodia interpunctella,Cruciferae,Brassica nigra
-Plodia interpunctella,Cruciferae,Brassica oleracea
+Plodia interpunctella,Brassicaceae,Brassica nigra
+Plodia interpunctella,Brassicaceae,Brassica oleracea
 Plodia interpunctella,Theaceae,Camellia sinensis
 Plodia interpunctella,Solanaceae,Capsicum
 Plodia interpunctella,Solanaceae,Capsicum
 Plodia interpunctella,Solanaceae,Capsicum annuum
 Plodia interpunctella,Fagaceae,Castanea sativa
-Plodia interpunctella,Leguminosae (c),Ceratonia siliqua
-Plodia interpunctella,Leguminosae (p),Cicer arietinum
+Plodia interpunctella,Fabaceae,Ceratonia siliqua
+Plodia interpunctella,Fabaceae,Cicer arietinum
 Plodia interpunctella,Corylaceae,Corylus avellana
 Plodia interpunctella,Polygonaceae,Fagopyrum esculentum
 Plodia interpunctella,Moraceae,Ficus carica
-Plodia interpunctella,Leguminosae (c),Gleditsia
-Plodia interpunctella,Leguminosae (p),Glycine max
+Plodia interpunctella,Fabaceae,Gleditsia
+Plodia interpunctella,Fabaceae,Glycine max
 Plodia interpunctella,Malvaceae,Gossypium herbaceum
-Plodia interpunctella,Gramineae,Hordeum vulgare
+Plodia interpunctella,Poaceae,Hordeum vulgare
 Plodia interpunctella,Juglandaceae,Juglans regia
 Plodia interpunctella,Juglandaceae,Juglans regia
 Plodia interpunctella,Juglandaceae,Juglans regia
 Plodia interpunctella,Pinaceae,Larix
-Plodia interpunctella,Leguminosae (p),Lens culinaris
+Plodia interpunctella,Fabaceae,Lens culinaris
 Plodia interpunctella,Moraceae,Morus
 Plodia interpunctella,Myristicaceae,Myristica fragrans
-Plodia interpunctella,Gramineae,Oryza
-Plodia interpunctella,Gramineae,Oryza sativa
-Plodia interpunctella,Gramineae,Oryza sativa
-Plodia interpunctella,Leguminosae (p),Phaseolus
-Plodia interpunctella,Leguminosae (p),Phaseolus vulgaris
-Plodia interpunctella,Palmae,Phoenix dactylifera
+Plodia interpunctella,Poaceae,Oryza
+Plodia interpunctella,Poaceae,Oryza sativa
+Plodia interpunctella,Poaceae,Oryza sativa
+Plodia interpunctella,Fabaceae,Phaseolus
+Plodia interpunctella,Fabaceae,Phaseolus vulgaris
+Plodia interpunctella,Arecaceae,Phoenix dactylifera
 Plodia interpunctella,Pinaceae,Pinus
 Plodia interpunctella,Pinaceae,Pinus gerardiana
 Plodia interpunctella,Anacardiaceae,Pistacia
-Plodia interpunctella,Leguminosae (p),Pisum sativum
-Plodia interpunctella,Leguminosae (m),Prosopis
+Plodia interpunctella,Fabaceae,Pisum sativum
+Plodia interpunctella,Fabaceae,Prosopis
 Plodia interpunctella,Rosaceae,Prunus
 Plodia interpunctella,Rosaceae,Prunus armeniaca
 Plodia interpunctella,Rosaceae,Prunus armeniaca
@@ -3442,22 +3442,22 @@ Plodia interpunctella,Rosaceae,Prunus persica
 Plodia interpunctella,Rosaceae,Prunus persica
 Plodia interpunctella,Lythraceae,Punica granatum
 Plodia interpunctella,Rosaceae,Pyrus communis
-Plodia interpunctella,Gramineae,Secale cereale
+Plodia interpunctella,Poaceae,Secale cereale
 Plodia interpunctella,Solanaceae,Solanum tuberosum
-Plodia interpunctella,Gramineae,Sorghum
+Plodia interpunctella,Poaceae,Sorghum
 Plodia interpunctella,Sterculiaceae,Theobroma cacao
 Plodia interpunctella,Sterculiaceae,Theobroma cacao
-Plodia interpunctella,Gramineae,Triticum
-Plodia interpunctella,Gramineae,Triticum
-Plodia interpunctella,Gramineae,Triticum aestivum
-Plodia interpunctella,Leguminosae (p),Vicia faba
-Plodia interpunctella,Leguminosae (p),Vigna
+Plodia interpunctella,Poaceae,Triticum
+Plodia interpunctella,Poaceae,Triticum
+Plodia interpunctella,Poaceae,Triticum aestivum
+Plodia interpunctella,Fabaceae,Vicia faba
+Plodia interpunctella,Fabaceae,Vigna
 Plodia interpunctella,Vitaceae,Vitis
 Plodia interpunctella,Vitaceae,Vitis vinifera
-Plodia interpunctella,Gramineae,Zea
-Plodia interpunctella,Gramineae,Zea mays
-Plodia interpunctella,Gramineae,Zea mays
-Plodia interpunctella,Gramineae,Zea mays
+Plodia interpunctella,Poaceae,Zea
+Plodia interpunctella,Poaceae,Zea mays
+Plodia interpunctella,Poaceae,Zea mays
+Plodia interpunctella,Poaceae,Zea mays
 Plodia interpunctella,Zingiberaceae,Zingiber officinale
 Plodia interpunctella,Rhamnaceae,Ziziphus mauritiana
 Plodia interpunctella,Sapotaceae,Manilkara zapota
@@ -3497,14 +3497,14 @@ Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Detritophagous,
-Plodia interpunctella,Leguminosae (m),Prosopis glandulosa/velutina
+Plodia interpunctella,Fabaceae,Prosopis glandulosa/velutina
 Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Cucurbitaceae,Cucurbita
-Plodia interpunctella,Leguminosae (p),Dipteryx odorata
-Plodia interpunctella,Palmae,Orbignya barbosiana
-Plodia interpunctella,Leguminosae (p),Phaseolus vulgaris
+Plodia interpunctella,Fabaceae,Dipteryx odorata
+Plodia interpunctella,Arecaceae,Orbignya barbosiana
+Plodia interpunctella,Fabaceae,Phaseolus vulgaris
 Plodia interpunctella,Pedaliaceae,Sesamum indicum
-Plodia interpunctella,Leguminosae (p),Vicia faba
+Plodia interpunctella,Fabaceae,Vicia faba
 Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Detritophagous,
 Plodia interpunctella,Detritophagous,
@@ -3526,7 +3526,7 @@ Actias luna,Rosaceae,Prunus
 Actias luna,Fagaceae,Quercus alba
 Actias luna,Fagaceae,Quercus macrocarpa
 Actias luna,Fagaceae,Quercus rubra
-Actias luna,Leguminosae (p),Robinia pseudoacacia
+Actias luna,Fabaceae,Robinia pseudoacacia
 Actias luna,Salicaceae,Salix
 Actias luna,Tiliaceae,Tilia americana
 Actias luna,Ulmaceae,Ulmus
@@ -3605,7 +3605,7 @@ Actias luna,Salicaceae,Populus tremuloides
 Actias luna,Rosaceae,Prunus
 Actias luna,Fagaceae,Quercus alba
 Actias luna,Fagaceae,Quercus rubra
-Actias luna,Leguminosae (p),Robinia pseudoacacia
+Actias luna,Fabaceae,Robinia pseudoacacia
 Actias luna,Salicaceae,Salix
 Actias luna,Tiliaceae,Tilia
 Actias luna,Tiliaceae,Tilia americana
@@ -3674,7 +3674,7 @@ Attacus atlas,Annonaceae,Annona muricata
 Attacus atlas,Annonaceae,Annona muricata
 Attacus atlas,Annonaceae,Annona squamosa
 Attacus atlas,Myrsinaceae,Ardisia sieboldii
-Attacus atlas,Compositae,Artemisia vulgaris
+Attacus atlas,Asteraceae,Artemisia vulgaris
 Attacus atlas,Oxalidaceae,Averrhoa carambola
 Attacus atlas,Oxalidaceae,Averrhoa carambola
 Attacus atlas,Berberidaceae,Berberis
@@ -3710,7 +3710,7 @@ Attacus atlas,Verbenaceae,Clerodendrum infortunatum
 Attacus atlas,Verbenaceae,Clerodendrum serratum
 Attacus atlas,Verbenaceae,Clerodendrum serratum
 Attacus atlas,Melastomataceae,Clidemia hirta
-Attacus atlas,Leguminosae (p),Codariocalyx gyroides
+Attacus atlas,Fabaceae,Codariocalyx gyroides
 Attacus atlas,Rubiaceae,Coffea
 Attacus atlas,Rubiaceae,Coffea arabica
 Attacus atlas,Crypteroniaceae,Crypteronia paniculata
@@ -3721,8 +3721,8 @@ Attacus atlas,Dilleniaceae,Dillenia pentagyna
 Attacus atlas,Dilleniaceae,Dillenia sumatrana
 Attacus atlas,Sapindaceae,Dimocarpus longan
 Attacus atlas,Myrsinaceae,Embelia robusta
-Attacus atlas,Leguminosae (p),Erythrina orientalis
-Attacus atlas,Leguminosae (p),Erythrina subumbrans
+Attacus atlas,Fabaceae,Erythrina orientalis
+Attacus atlas,Fabaceae,Erythrina subumbrans
 Attacus atlas,Zingiberaceae,Etlingera imperialis
 Attacus atlas,Zingiberaceae,Etlingera speciosa
 Attacus atlas,Myrtaceae,Eucalyptus deglupta
@@ -3747,7 +3747,7 @@ Attacus atlas,Lythraceae,Lagerstroemia indica
 Attacus atlas,Lythraceae,Lagerstroemia indica
 Attacus atlas,Anacardiaceae,Lannea coromandelica
 Attacus atlas,Verbenaceae,Lantana camara
-Attacus atlas,Labiatae,Leucosceptrum canum
+Attacus atlas,Lamiaceae,Leucosceptrum canum
 Attacus atlas,Oleaceae,Ligustrum
 Attacus atlas,Oleaceae,Ligustrum ovalifolium
 Attacus atlas,Oleaceae,Ligustrum vulgare
@@ -3766,8 +3766,8 @@ Attacus atlas,Rubiaceae,Nauclea rotundifolia
 Attacus atlas,Sapindaceae,Nephelium lappaceum
 Attacus atlas,Sapindaceae,Nephelium lappaceum
 Attacus atlas,Apocynaceae,Nerium oleander
-Attacus atlas,Leguminosae (m),Parkia intermedia
-Attacus atlas,Leguminosae (m),Parkia speciosa
+Attacus atlas,Fabaceae,Parkia intermedia
+Attacus atlas,Fabaceae,Parkia speciosa
 Attacus atlas,Scrophulariaceae,Paulownia fortunei
 Attacus atlas,Lauraceae,Persea americana
 Attacus atlas,Lauraceae,Persea americana
@@ -3797,8 +3797,8 @@ Attacus atlas,Lauraceae,Sassafras albidum
 Attacus atlas,Araliaceae,Schefflera octophylla
 Attacus atlas,Sapindaceae,Schleichera
 Attacus atlas,Sapindaceae,Schleichera oleosa
-Attacus atlas,Leguminosae (p),Sesbania grandiflora
-Attacus atlas,Gramineae,Setaria viridis
+Attacus atlas,Fabaceae,Sesbania grandiflora
+Attacus atlas,Poaceae,Setaria viridis
 Attacus atlas,Bignoniaceae,Spathodea campanulata
 Attacus atlas,Verbenaceae,Stachytarpheta cayennensis
 Attacus atlas,Euphorbiaceae,Stillingia sebifera
@@ -3812,9 +3812,9 @@ Attacus atlas,Rubiaceae,Uncaria gambir
 Attacus atlas,Rubiaceae,Vangueria spinosa
 Attacus atlas,Verbenaceae,Vitex trifolia
 Attacus atlas,Lauraceae,
-Attacus atlas,Leguminosae (m),Albizia saman
-Attacus atlas,Leguminosae (m),Albizia saman
-Attacus atlas,Leguminosae (m),Albizia saman
+Attacus atlas,Fabaceae,Albizia saman
+Attacus atlas,Fabaceae,Albizia saman
+Attacus atlas,Fabaceae,Albizia saman
 Attacus atlas,Euphorbiaceae,Aleurites moluccana
 Attacus atlas,Euphorbiaceae,Aleurites montana
 Attacus atlas,Annonaceae,Artabotrys hexapetalus
@@ -3831,8 +3831,8 @@ Attacus atlas,Lauraceae,Cinnamomum zeylanicum
 Attacus atlas,Lauraceae,Cinnamomum zeylanicum
 Attacus atlas,Rutaceae,Citrus
 Attacus atlas,Rutaceae,Citrus
-Attacus atlas,Leguminosae (p),Erythrina fusca
-Attacus atlas,Leguminosae (p),Erythrina subumbrans
+Attacus atlas,Fabaceae,Erythrina fusca
+Attacus atlas,Fabaceae,Erythrina subumbrans
 Attacus atlas,Verbenaceae,Gmelina arborea
 Attacus atlas,Lythraceae,Lagerstroemia indica
 Attacus atlas,Lythraceae,Lagerstroemia speciosa
@@ -3860,8 +3860,8 @@ Attacus atlas,Polyphagous,
 Attacus atlas,Polyphagous,
 Hemileuca maia,Fagaceae,
 Hemileuca maia,Salicaceae,
-Hemileuca maia,Compositae,Artemisia filifolia
-Hemileuca maia,Compositae,Aster
+Hemileuca maia,Asteraceae,Artemisia filifolia
+Hemileuca maia,Asteraceae,Aster
 Hemileuca maia,Betulaceae,Betula
 Hemileuca maia,Betulaceae,Betula pumila
 Hemileuca maia,Corylaceae,Corylus
@@ -3869,7 +3869,7 @@ Hemileuca maia,Salicaceae,Populus
 Hemileuca maia,Salicaceae,Populus
 Hemileuca maia,Salicaceae,Populus fremontii
 Hemileuca maia,Salicaceae,Populus tremuloides
-Hemileuca maia,Leguminosae (m),Prosopis glandulosa
+Hemileuca maia,Fabaceae,Prosopis glandulosa
 Hemileuca maia,Rosaceae,Prunus
 Hemileuca maia,Rosaceae,Prunus
 Hemileuca maia,Rosaceae,Prunus cerasus
@@ -3898,8 +3898,8 @@ Hemileuca maia,Salicaceae,Salix humilis
 Hemileuca maia,Salicaceae,Salix integra
 Hemileuca maia,Rosaceae,Spiraea salicifolia
 Hemileuca maia,Ericaceae,Vaccinium macrocarpon
-Hemileuca maia,Compositae,Artemisia filifolia
-Hemileuca maia,Compositae,Aster
+Hemileuca maia,Asteraceae,Artemisia filifolia
+Hemileuca maia,Asteraceae,Aster
 Hemileuca maia,Betulaceae,Betula pumila
 Hemileuca maia,Corylaceae,Corylus
 Hemileuca maia,Corylaceae,Corylus americana
@@ -3907,7 +3907,7 @@ Hemileuca maia,Rosaceae,Fragaria
 Hemileuca maia,Rosaceae,Malus
 Hemileuca maia,Salicaceae,Populus fremontii
 Hemileuca maia,Salicaceae,Populus tremuloides
-Hemileuca maia,Leguminosae (m),Prosopis glandulosa
+Hemileuca maia,Fabaceae,Prosopis glandulosa
 Hemileuca maia,Rosaceae,Prunus
 Hemileuca maia,Rosaceae,Prunus cerasus
 Hemileuca maia,Rosaceae,Prunus persica
@@ -3985,12 +3985,12 @@ Saturnia pyri,Rosaceae,Prunus dulcis
 Therinia lactucina,0,0
 Mania lunus,0,0
 Bembecia ichneumoniformis,Leguminosae,
-Bembecia ichneumoniformis,Leguminosae (p),Anthyllis vulneraria
-Bembecia ichneumoniformis,Leguminosae (p),Hippocrepis
-Bembecia ichneumoniformis,Leguminosae (p),Lotus
-Bembecia ichneumoniformis,Leguminosae (p),Lotus corniculatus
-Bembecia ichneumoniformis,Leguminosae (p),Lotus pentaphyllos
-Bembecia ichneumoniformis,Leguminosae (p),Macroptilium lathyroides
+Bembecia ichneumoniformis,Fabaceae,Anthyllis vulneraria
+Bembecia ichneumoniformis,Fabaceae,Hippocrepis
+Bembecia ichneumoniformis,Fabaceae,Lotus
+Bembecia ichneumoniformis,Fabaceae,Lotus corniculatus
+Bembecia ichneumoniformis,Fabaceae,Lotus pentaphyllos
+Bembecia ichneumoniformis,Fabaceae,Macroptilium lathyroides
 Podosesia syringae,Oleaceae,
 Podosesia syringae,Polyphagous,
 Podosesia syringae,Oleaceae,Chionanthus
@@ -4114,10 +4114,10 @@ Macroglossum pyrrhosticta,Balsaminaceae,Impatiens
 Macroglossum pyrrhosticta,Rubiaceae,Paederia foetida
 Manduca sexta,Solanaceae,
 Manduca sexta,Solanaceae,Atropa bella-donna
-Manduca sexta,Cruciferae,Brassica napus
-Manduca sexta,Cruciferae,Brassica rapa
-Manduca sexta,Cruciferae,Brassica rapa
-Manduca sexta,Cruciferae,Brassica rapa
+Manduca sexta,Brassicaceae,Brassica napus
+Manduca sexta,Brassicaceae,Brassica rapa
+Manduca sexta,Brassicaceae,Brassica rapa
+Manduca sexta,Brassicaceae,Brassica rapa
 Manduca sexta,Cannaceae,Canna x generalis
 Manduca sexta,Cannaceae,Canna generalis
 Manduca sexta,Solanaceae,Capsicum annuum
@@ -4149,8 +4149,8 @@ Manduca sexta,Geraniaceae,Pelargonium X hortorum
 Manduca sexta,Geraniaceae,Pelargonium hortorum
 Manduca sexta,Solanaceae,Physalis angulata
 Manduca sexta,Solanaceae,Physalis viscosa
-Manduca sexta,Cruciferae,Raphanus sativus
-Manduca sexta,Cruciferae,Raphanus sativus
+Manduca sexta,Brassicaceae,Raphanus sativus
+Manduca sexta,Brassicaceae,Raphanus sativus
 Manduca sexta,Pedaliaceae,Sesamum indicum
 Manduca sexta,Solanaceae,Solanum
 Manduca sexta,Solanaceae,Solanum carolinense
@@ -4163,7 +4163,7 @@ Manduca sexta,Solanaceae,Solanum sisymbriifolium
 Manduca sexta,Solanaceae,Solanum tuberosum
 Manduca sexta,Solanaceae,Solanum tuberosum
 Manduca sexta,Solanaceae,Solanum wallacei
-Manduca sexta,Leguminosae (p),Vigna unguiculata
+Manduca sexta,Fabaceae,Vigna unguiculata
 Manduca sexta,Solanaceae,Solanum torvum
 Manduca sexta,Solanaceae,Capsicum annuum
 Manduca sexta,Solanaceae,Lycopersicon esculentum
@@ -4204,7 +4204,7 @@ Manduca sexta,Solanaceae,Datura stramonium
 Manduca sexta,Solanaceae,Datura wrightii
 Manduca sexta,Solanaceae,Datura wrightii
 Manduca sexta,Solanaceae,Hyoscyamus niger
-Manduca sexta,Compositae,Lactuca sativa
+Manduca sexta,Asteraceae,Lactuca sativa
 Manduca sexta,Solanaceae,Lycium barbarum
 Manduca sexta,Solanaceae,Lycopersicon esculentum
 Manduca sexta,Solanaceae,Lycopersicon esculentum
@@ -4277,9 +4277,9 @@ Xylophanes tersa,Rubiaceae,Palicourea rigida
 Xylophanes tersa,Rubiaceae,Pentas
 Xylophanes tersa,Rubiaceae,Pentas
 Xylophanes tersa,Rubiaceae,Pentas
-Xylophanes tersa,Leguminosae (p),Phaseolus
-Xylophanes tersa,Leguminosae (p),Phaseolus lunatus
-Xylophanes tersa,Leguminosae (p),Phaseolus lunatus
+Xylophanes tersa,Fabaceae,Phaseolus
+Xylophanes tersa,Fabaceae,Phaseolus lunatus
+Xylophanes tersa,Fabaceae,Phaseolus lunatus
 Xylophanes tersa,Rubiaceae,Psychotria berteriana
 Xylophanes tersa,Malvaceae,Sida
 Xylophanes tersa,Malvaceae,Sida glomerata
@@ -4294,8 +4294,8 @@ Xylophanes tersa,Rubiaceae,Spermacoce glabra
 Xylophanes tersa,Rubiaceae,Spermacoce poaya
 Xylophanes tersa,Rubiaceae,Spermacoce verticillata
 Xylophanes tersa,Rubiaceae,Spermacoce verticillata
-Xylophanes tersa,Gramineae,Zea mays
-Xylophanes tersa,Gramineae,Zea mays
+Xylophanes tersa,Poaceae,Zea mays
+Xylophanes tersa,Poaceae,Zea mays
 Xylophanes tersa,Rubiaceae,Asperula gussonii
 Xylophanes tersa,Rubiaceae,Asperula nitida
 Pseudothyris sepulchralis,0,0

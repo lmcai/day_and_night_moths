@@ -4,7 +4,7 @@ driver = webdriver.Chrome("/Applications/chromedriver")
 
 #read in the csv prepared by Even
 URLs=open('HOST_rec_Even.csv').readlines()
-out1=open('HOST_genus_raw_multiple_lines.csv','a')
+out1=open('HOST_genus_raw.csv','a')
 
 for line in URLs:
 	URL=line.split(',')[-1]
@@ -50,10 +50,11 @@ for line in URLs:
 			
 out1.close()
 
+##############################################
 #remove redundant records in out1 to create a nonredundant, multiple line csv
-out2=open('HOST_genus_nonredundant_at_genus_level_multiple_lines.csv','a')
+out2=open('HOST_genus_nonredundant_at_genus_level.csv','a')
 
-out1=open('HOST_genus_raw_multiple_lines.csv').readlines()
+out1=open('HOST_genus_raw.csv').readlines()
 HR={}
 for l in out1:
 	l=l.strip()
@@ -64,21 +65,65 @@ for l in out1:
 		HR_sp='0'
 	if not l[0] in HR.keys():
 		#new lep sp record
-		HR[l[0]]={l[1]:[HR_sp]}
+		HR[l[0]]={}
+		HR[l[0]][l[1]]=[HR_sp]
 	else:
 		if not l[1] in HR[l[0]].keys():
 			#new host family
-			HR[l[0]]={l[1]:[HR_sp]}
+			HR[l[0]][l[1]]=[HR_sp]
 		else:
 			if not HR_sp in HR[l[0]][l[1]]:
 				#new genus in this family
 				HR[l[0]][l[1]].append(HR_sp)
 
 for k in HR.keys():
-	for kk in HR[k].keys()
+	for kk in HR[k].keys():
 		for j in HR[k][kk]:
 			out2.write(k+','+kk+','+j+'\n')
 
-#out3=open('HOST_genus_nonredundant_one_line.csv','a')
+out2.close()
+##################################################
+#Consolidate Poan's list and the HOSTS database into a single non-redundant one
+out3=open('Poan_HOST_combined_genus_nonredundant.csv','a')
 
+poan=open('Poan_Hostrange.csv').readlines()
 
+HR={}
+for i in range(1,len(poan)):
+	poan[i]=poan[i].strip()
+	l=poan[i].split(',')
+	HR_sp=l[2]
+	if not l[0] in HR.keys():
+		#new lep sp record
+		HR[l[0]]={}
+		HR[l[0]][l[1]]=[HR_sp]
+	else:
+		if not l[1] in HR[l[0]].keys():
+			#new host family
+			HR[l[0]][l[1]]=[HR_sp]
+		else:
+			if not HR_sp in HR[l[0]][l[1]]:
+				#new genus in this family
+				HR[l[0]][l[1]].append(HR_sp)
+
+HOST=open('HOST_genus_nonredundant_at_genus_level.csv').readlines()
+for i in range(1,len(HOST)):
+	l=HOST[i].strip().split(',')
+	HR_sp=l[2]
+	if not l[0] in HR.keys():
+		#new lep sp record
+		HR[l[0]]={l[1]:[HR_sp]}
+	else:
+		if l[1]!='0':
+			if not l[1] in HR[l[0]].keys():
+				#new host family
+				HR[l[0]][l[1]]=[HR_sp]
+			else:
+				if not HR_sp in HR[l[0]][l[1]] and HR_sp!='0':
+					#new genus in this family
+					HR[l[0]][l[1]].append(HR_sp)
+
+for k in HR.keys():
+	for kk in HR[k].keys():
+		for j in HR[k][kk]:
+			out3.write(k+','+kk+','+j+'\n')
