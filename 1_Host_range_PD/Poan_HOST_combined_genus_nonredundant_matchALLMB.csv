@@ -12,7 +12,7 @@ Bombyx mandarina,Fagaceae,Quercus
 Bombyx mori,Rubiaceae,Morinda
 Bombyx mori,Moraceae,Morus
 Brahmaea hearseyi,Oleaceae,Fraxinus
-Brahmaea hearseyi,Oleaceae,Jasmimum
+Brahmaea hearseyi,Oleaceae,Jasminum
 Brahmaea hearseyi,Oleaceae,Ligustrum
 Brahmaea hearseyi,Oleaceae,Menodora
 Brahmaea hearseyi,Oleaceae,Osmanthus
@@ -86,7 +86,7 @@ Chilo suppressalis,Poaceae,Sorghum
 Chilo suppressalis,Poaceae,Triticum
 Chilo suppressalis,Poaceae,Zea
 Chilo suppressalis,Poaceae,Zizania
-Chilo suppressalis,Poaceae,Chaetochloa
+Chilo suppressalis,Poaceae,Setaria
 Chilo suppressalis,Brassicaceae,Brassica
 Chilo suppressalis,Brassicaceae,Raphanus
 Chilo suppressalis,Solanaceae,Solanum
@@ -155,7 +155,6 @@ Tridrepana flava,Pentaphylacaceae,Eurya
 Mustilizans dierli,Moraceae,Broussonetia
 Mustilizans dierli,Fagaceae,Quercus
 Epicopeia hainesii,Cornaceae,Cornus
-Epicopeia hainesii,Cornaceae,Bothrocaryum
 Amata phegea,Poaceae,
 Eudocima salaminia,Caricaceae,Carica
 Eudocima salaminia,Rutaceae,Citrus
@@ -395,7 +394,6 @@ Ectropis obliqua,Fagaceae,Quercus
 Ectropis obliqua,Coriariaceae,Coriaria
 Ectropis obliqua,Caprifoliaceae,Diervilla
 Ectropis obliqua,Caprifoliaceae,Lonicera
-Ectropis obliqua,Fabaceae,Glysine
 Ectropis obliqua,Fabaceae,Robinia
 Ectropis obliqua,Fabaceae,Trifolium
 Ectropis obliqua,Fabaceae,Glycine
@@ -462,15 +460,12 @@ Phyllocnistis citrella,Rutaceae,Citrus
 Phyllocnistis citrella,Rutaceae,Fortunella
 Phyllocnistis citrella,Rutaceae,Limonia
 Phyllocnistis citrella,Rutaceae,Murraya
-Phyllocnistis citrella,Rutaceae,Poncirus
-Phyllocnistis citrella,Rutaceae,Severinia
-Phyllocnistis citrella,Rutaceae,Citrofortunella
 Phyllocnistis citrella,Lauraceae,Alseodaphne
 Phyllocnistis citrella,Lauraceae,Cinnamomum
 Phyllocnistis citrella,Clusiaceae,Garcinia
 Phyllocnistis citrella,Oleaceae,Jasminum
 Phyllocnistis citrella,Loranthaceae,Loranthus
-Phyllocnistis citrella,Fabaceae,Pongamia
+Phyllocnistis citrella,Fabaceae,Millettia
 Phyllocnistis citrella,Guttiferae,Garcinia
 Helicopsyche borealis,Detritophagous,
 Helicopsyche borealis,Diatoms,
@@ -537,7 +532,6 @@ Dendrolimus pini,Pinaceae,Pinus
 Dendrolimus pini,Pinaceae,Pseudotsuga
 Dendrolimus pini,Cupressaceae,Juniperus
 Demonarosa rufotessellata,Betulaceae,Carpinus
-Demonarosa rufotessellata,Fagaceae,Cyclobalanopsis
 Demonarosa rufotessellata,Fagaceae,Lithocarpus
 Demonarosa rufotessellata,Fagaceae,Quercus
 Demonarosa rufotessellata,Altingiaceae,Liquidambar
@@ -579,7 +573,6 @@ Megalopyge crispata,Rosaceae,Cydonia
 Megalopyge crispata,Rosaceae,Malus
 Megalopyge crispata,Rosaceae,Prunus
 Megalopyge crispata,Rosaceae,Pyrus
-Megalopyge crispata,Ericaceae,Gaylussia
 Megalopyge crispata,Ericaceae,Vaccinium
 Megalopyge crispata,Ericaceae,Gaylussacia
 Megalopyge crispata,Myricaceae,Myrica
@@ -867,7 +860,6 @@ Spodoptera exigua,Solanaceae,Lycopersicon
 Spodoptera exigua,Solanaceae,Nicotiana
 Spodoptera exigua,Solanaceae,Solanum
 Spodoptera exigua,Cucurbitaceae,Citrullus
-Spodoptera exigua,Cucurbitaceae,Cucumus
 Spodoptera exigua,Cucurbitaceae,Cucurbita
 Spodoptera exigua,Cucurbitaceae,Trichosanthes
 Spodoptera exigua,Cucurbitaceae,Cucumis
@@ -987,7 +979,7 @@ Spodoptera frugiperda,Geraniaceae,Geranium
 Spodoptera frugiperda,Iridaceae,Gladiolus
 Spodoptera frugiperda,Linaceae,Linum
 Spodoptera frugiperda,Musaceae,Musa
-Spodoptera frugiperda,Boraginaceae,Onosmodium
+Spodoptera frugiperda,Boraginaceae,Lithospermum
 Spodoptera frugiperda,Apiaceae,Petroselinum
 Spodoptera frugiperda,Platanaceae,Platanus
 Spodoptera frugiperda,Portulacaceae,Portulaca
@@ -1021,7 +1013,6 @@ Danaus plexippus,Apocynaceae,Matelea
 Danaus plexippus,Apocynaceae,Orbea
 Danaus plexippus,Apocynaceae,Oxypetalum
 Danaus plexippus,Apocynaceae,Oxystelma
-Danaus plexippus,Apocynaceae,Sarcostemma
 Danaus plexippus,Apocynaceae,Stephanotis
 Danaus plexippus,Rutaceae,Citrus
 Danaus plexippus,Euphorbiaceae,Euphorbia
@@ -1129,7 +1120,6 @@ Papilio glaucus,Rosaceae,Malus
 Papilio glaucus,Rosaceae,Prunus
 Papilio glaucus,Rosaceae,Sorbus
 Papilio glaucus,Acanthaceae,Ruellia
-Papilio glaucus,Acanthaceae,Blechum
 Papilio glaucus,Juglandaceae,Carya
 Papilio glaucus,Bignoniaceae,Catalpa
 Papilio glaucus,Lauraceae,Cinnamomum
@@ -1185,7 +1175,6 @@ Papilio machaon,Rutaceae,Citrus
 Papilio machaon,Rutaceae,Dictamnus
 Papilio machaon,Rutaceae,Haplophyllum
 Papilio machaon,Rutaceae,Phellodendron
-Papilio machaon,Rutaceae,Poncirus
 Papilio machaon,Rutaceae,Ruta
 Papilio machaon,Rutaceae,Thamnosma
 Papilio machaon,Rutaceae,Zanthoxylum
@@ -1373,7 +1362,6 @@ Thyridopteryx ephemeraeformis,Anacardiaceae,Schinus
 Thyridopteryx ephemeraeformis,Myricaceae,Myrica
 Thyridopteryx ephemeraeformis,Lauraceae,Persea
 Thyridopteryx ephemeraeformis,Lauraceae,Sassafras
-Thyridopteryx ephemeraeformis,Phytolaccaceae,Phytolaccus
 Thyridopteryx ephemeraeformis,Phytolaccaceae,Phytolacca
 Thyridopteryx ephemeraeformis,Platanaceae,Platanus
 Thyridopteryx ephemeraeformis,Salicaceae,Populus
@@ -1488,7 +1476,7 @@ Plodia interpunctella,Pinaceae,Larix
 Plodia interpunctella,Pinaceae,Pinus
 Plodia interpunctella,Sapotaceae,Manilkara
 Plodia interpunctella,Myristicaceae,Myristica
-Plodia interpunctella,Arecaceae,Orbignya
+Plodia interpunctella,Arecaceae,Attalea
 Plodia interpunctella,Arecaceae,Phoenix
 Plodia interpunctella,Anacardiaceae,Pistacia
 Plodia interpunctella,Rosaceae,Prunus
