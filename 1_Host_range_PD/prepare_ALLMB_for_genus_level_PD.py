@@ -99,7 +99,7 @@ for genus in ALLMB_sp_per_genus.keys():
 		if len(ALLMB_sp_per_genus[genus])==1:
 			monophyletic_genus[genus]='T'
 			single_leaf=t&ALLMB_sp_per_genus[genus][0]
-			sp2keep=sp2keep+ALLMB_sp_per_genus[genus]+[single_leaf.get_closest_leaf()[0].name]
+			sp2keep=sp2keep+ALLMB_sp_per_genus[genus]+[single_leaf.get_sisters()[0].get_leaves()[0].name]
 			out.write(ALLMB_sp_per_genus[genus][0]+'\t'+genus+'\tT\n'+single_leaf.get_closest_leaf()[0].name+'\t'+genus+'\tT\n')
 		else:
 			ancestor=t.get_common_ancestor(ALLMB_sp_per_genus[genus])
