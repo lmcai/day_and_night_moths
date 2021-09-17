@@ -33,6 +33,8 @@ out.close()
 ##Add crown group age for all species to reduce missing data in MPD analysis
 ###########################################
 from ete3 import Tree
+from random import sample
+
 t=Tree('v0.1/ALLMB.tre',format=1)
 
 x=open('ALLMB.sp.list').readlines()
@@ -104,7 +106,14 @@ for genus in ALLMB_sp_per_genus.keys():
 			else:
 				#nonmonophyletic genus
 				monophyletic_genus[genus]='F'
-				sp2keep=sp2keep+find_crown_paraphyletic(genus)
+				crown_para=find_crown_paraphyletic(genus)
+				if len(crown_para)==0:
+					try:
+						sp2keep=sp2keep+sample(ALLMB_sp_per_genus[genus],2)
+					except:
+						pass
+				else:
+					sp2keep=sp2keep+crown_para
 				if len(mrca_sp)>5000:
 					print('More than 5000 species in genus '+ genus+'!')
 				#if len(mrca_sp)<=10000:
@@ -117,18 +126,17 @@ for genus in ALLMB_sp_per_genus.keys():
 #More than 10000 species in this genus! Bauhinia (Bauhinia_grevei, Bauhinia_jenningsii)
 #More than 10000 species in this genus! Indigofera (Indigofera_ammoxylum, Indigofera_uniflora)
 #More than 10000 species in this genus! Millettia (Millettia_thonningii, Millettia_pulchra)
-
 #sp2keep=sp2keep+['Elytrigia_heidmaniae', 'Elytrigia_litoralis', 'Bauhinia_grevei', 'Bauhinia_jenningsii', 'Indigofera_ammoxylum', 'Indigofera_uniflora', 'Millettia_thonningii', 'Millettia_pulchra']
 
 sp2keep=list(set(sp2keep))
 out=open('sp2keep.list','a')
 out.write('\n'.join(sp2keep))
-
+out.close()
 #len(set(sp2keep))
 #149153					
 
 t.prune(sp2keep,preserve_branch_length=True)
-t.write(outfile='ALLMB.genus_pruned_round1.tre',format=1)
+t.write(outfile='ALLMB.genus_pruned.tre',format=1)
 
 
 #########################################
