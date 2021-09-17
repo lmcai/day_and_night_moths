@@ -45,6 +45,10 @@ y=[i.strip() for i in y]
 
 ALLMB_genera=[i for i in x if i.split('_')[0] in y]
 
+out=open('sp2keep.list','a')
+out.write('species\tgenus\tmonophyletic\n')
+
+
 #create species list per genus
 ALLMB_sp_per_genus={}
 monophyletic_genus={}
@@ -96,31 +100,32 @@ for genus in ALLMB_sp_per_genus.keys():
 			monophyletic_genus[genus]='T'
 			single_leaf=t&ALLMB_sp_per_genus[genus][0]
 			sp2keep=sp2keep+ALLMB_sp_per_genus[genus]+[single_leaf.get_closest_leaf()[0].name]
+			out.write(ALLMB_sp_per_genus[genus][0]+'\t'+genus+'\tT\n'+single_leaf.get_closest_leaf()[0].name+'\t'+genus+'\tT\n')
 		else:
 			ancestor=t.get_common_ancestor(ALLMB_sp_per_genus[genus])
 			mrca_sp=[leaf.name for leaf in ancestor]
 			if set(mrca_sp) == set(ALLMB_sp_per_genus[genus]):
 				#this genus is monophyletic
 				monophyletic_genus[genus]='T'
-				sp2keep=sp2keep+find_crown_monophyletic(genus)
+				two_children=find_crown_monophyletic(genus)
+				sp2keep=sp2keep+two_children
+				out.write(two_children[0]+'\t'+genus+'\tT\n'+two_children[1]+'\t'+genus+'\tT\n')
 			else:
 				#nonmonophyletic genus
 				monophyletic_genus[genus]='F'
 				crown_para=find_crown_paraphyletic(genus)
 				if len(crown_para)==0:
 					try:
-						sp2keep=sp2keep+sample(ALLMB_sp_per_genus[genus],2)
+						two_random=sample(ALLMB_sp_per_genus[genus],2)
+						sp2keep=sp2keep+two_random
+						out.write(two_random[0]+'\t'+genus+'\tF\n'+two_random[1]+'\t'+genus+'\tF\n')
 					except:
 						pass
 				else:
 					sp2keep=sp2keep+crown_para
+					out.write(crown_para[0]+'\t'+genus+'\tF\n'+crown_para[1]+'\t'+genus+'\tF\n')
 				if len(mrca_sp)>5000:
 					print('More than 5000 species in genus '+ genus+'!')
-				#if len(mrca_sp)<=10000:
-				#	sp2keep=sp2keep+mrca_sp
-				#else:
-					#add these four genera separately
-				#	print('More than 10000 species in this genus! '+ genus)
 
 # than 10000 species in this genus! Elytrigia (Elytrigia_heidmaniae, Elytrigia_litoralis)
 #More than 10000 species in this genus! Bauhinia (Bauhinia_grevei, Bauhinia_jenningsii)
@@ -129,11 +134,10 @@ for genus in ALLMB_sp_per_genus.keys():
 #sp2keep=sp2keep+['Elytrigia_heidmaniae', 'Elytrigia_litoralis', 'Bauhinia_grevei', 'Bauhinia_jenningsii', 'Indigofera_ammoxylum', 'Indigofera_uniflora', 'Millettia_thonningii', 'Millettia_pulchra']
 
 sp2keep=list(set(sp2keep))
-out=open('sp2keep.list','a')
-out.write('\n'.join(sp2keep))
+
+#out.write('\n'.join(sp2keep))
 out.close()
-#len(set(sp2keep))
-#149153					
+
 
 t.prune(sp2keep,preserve_branch_length=True)
 t.write(outfile='ALLMB.genus_pruned.tre',format=1)
@@ -141,34 +145,20 @@ t.write(outfile='ALLMB.genus_pruned.tre',format=1)
 
 #########################################
 #2 species per genus
-t=Tree('ALLMB.genus_pruned_round1.tre',format=1)
+t=Tree('ALLMB.genus_pruned.tre',format=1)
 
-#prune the tree
-d=[]
-for i in crown_sp.keys():
-	try:
-		d=d+crown_sp[i] 
-	except:print i
-
-len(d)
-
-t.prune(d,preserve_branch_length=True)
-t.write(format=1, outfile="ALLMB.pruned_2spPerFam.tre")
-
+x=open('sp2keep.list').readlines()
 #modify name
-d={}
-for k in crown_sp.keys():
-	try:
-		for i in range(0,len(crown_sp[k])):
-			d[crown_sp[k][i]]=k+`i+1`
-	except:
-		pass
+new_names={}
+for l in x:
+	new_names[l.split()[0]]=l.split()[1]
+
+genus_in_new_tree=[]
 
 for leaf in t:
-	leaf.name=d[leaf.name]
-
-t.write(format=1, outfile="ALLMB.pruned_2spPerFam.family_nam.tre")
-
-
-#######################
-#misc
+	if not new_names[leaf.name] in genus_in_new_tree:
+		leaf.name=new_names[leaf.name]+'_1'
+		genus_in_new_tree.append(new_names[leaf.name])
+	else:leaf.name=new_names[leaf.name]+'_2'
+		
+t.write(format=1, outfile="ALLMB.genus_pruned.modified_names.tre")
