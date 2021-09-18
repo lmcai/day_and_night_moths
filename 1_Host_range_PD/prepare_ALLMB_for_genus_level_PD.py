@@ -162,3 +162,46 @@ for leaf in t:
 	else:leaf.name=new_names[leaf.name]+'_2'
 		
 t.write(format=1, outfile="ALLMB.genus_pruned.modified_names.tre")
+
+
+#########################################
+#Prepare picante input
+#########################################
+
+
+from ete3 import Tree
+t=Tree('ALLMB.genus_pruned.modified_names.tre',format=1)
+
+all_genera=[leaf.name for leaf in t]
+
+x=open('Poan_HOST_combined_genus_nonredundant_matchALLMB.csv').readlines()
+host_combined_db={}
+out=open('Poan_HOST_combined.picante_input.tsv','a')
+
+out.write('Species\t'+'\t'.join(all_genera)+'\n')
+out.write('\n'.join(host_combined_db.keys()))
+out.close()
+
+#Then see PD_data_prep_analysis_picante.R for further data processing and picante analysis
+
+
+
+
+#for l in x:
+#	try:
+#		host_combined_db[l.split(',')[0]].append(l.split(',')[2])
+#	except KeyError:
+#		host_combined_db[l.split(',')[0]]=[l.split(',')[2]]
+
+
+#for key in host_combined_db.keys():
+#	host_combined_db[key]=list(set(host_combined_db[key]))
+
+#write to output
+#for key in host_combined_db.keys():
+#	out.write(key+'\t')
+#	if len(host_combined_db[key])>1:
+#		#all genus_1 columns have value 1, others are 0
+#		
+#	else:
+		

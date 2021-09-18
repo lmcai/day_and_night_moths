@@ -1,207 +1,90 @@
-from ete3 import Tree
-t=Tree('ALLMB.tre',format=1)
-sp_nam=[leaf.name for leaf in t]
-
-w=open('ALLMB.sp.list','a')
-w.write('\n'.join(sp_nam))
-w.close()
-
-#check if genus names in host plant database are legitimate
-x=open('ALLMB.sp.list').readlines()
-x=[i.split('_')[0] for i in x]
-x=list(set(x))
+####################################
+#INPUT prep
 
 
-y=open('Poan_HOSTS_combined.genus.list').readlines()
-y=[i.strip() for i in y]
-#len(y)
-#653
-
-#len(x)
-#15577
-
-z=[i for i in y if not i in x]
-#z
-#['Barbula', 'Blechum', 'Bothrocaryum', 'Chaetochloa', 'Citrofortunella', 'Cucumus', 'Cyclobalanopsis', 'Gaylussia', 'Glysine', 'Jasmimum', 'Onosmodium', 'Orbignya', 'Phytolaccus', 'Poncirus', 'Pongamia', 'Pseudogonia', 'Pteridium', 'Sarcostemma', 'Scapania', 'Severinia', 'Tortula']
-
-out=open('Poan_HOSTS_combined.nonALLMB_genus.list','a')
-out.write('\n'.join(z))
-out.close()
-
-
-###########################################
-##Add crown group age for all species to reduce missing data in MPD analysis
-###########################################
-from ete3 import Tree
-from random import sample
-
-t=Tree('v0.1/ALLMB.tre',format=1)
-
-x=open('ALLMB.sp.list').readlines()
-x=[i.strip() for i in x]
-#get all species names in ALLMB if they are included in the host plant database
-y=open('Poan_HOSTS_combined.genus.list').readlines()
-y=[i.strip() for i in y]
-
-ALLMB_genera=[i for i in x if i.split('_')[0] in y]
-
-out=open('sp2keep.list','a')
-out.write('species\tgenus\tmonophyletic\n')
-
-
-#create species list per genus
-ALLMB_sp_per_genus={}
-monophyletic_genus={}
-for i in y:
-	ALLMB_sp_per_genus[i]=[j for j in ALLMB_genera if j.split('_')[0]==i]
-
-
-#1st pruning, otherwise locating crown is too slow for a giant tree.
-sp2keep=[]
-#get two species that span crown for monophyletic genus and all descendants for MRCA of non-monophyletic genus
-
-
-def find_crown_monophyletic(fam):
-	valid_sp=ALLMB_sp_per_genus[fam]
-	mrca_fam=t.get_common_ancestor(valid_sp)
-	child1=mrca_fam.get_children()[0]
-	child2=mrca_fam.get_children()[1]
-	child1_sp=[leaf.name for leaf in child1]
-	child2_sp=[leaf.name for leaf in child2]
-	return([child1_sp[0],child2_sp[0]])
-
-
-#for paraphyletic groups, the crown age would be defined as the monophyletic clade with the most number of species for this genus
-def find_crown_paraphyletic(fam):
-	try:
-		clade_size=1
-		output_sp=[]
-		valid_sp=ALLMB_sp_per_genus[fam]
-		for sp in valid_sp:
-			tip=t&sp
-			tip.add_features(family=fam)
-		for node in t.get_monophyletic(values=[fam], target_attr="family"):
-			if not node.is_leaf() and len(node.get_leaves())>clade_size:
-				child1=node.get_children()[0]
-				child2=node.get_children()[1]
-				clade_size=len(node.get_leaves())
-				output_sp=[child1.get_leaves()[0].name,child2.get_leaves()[0].name]
-		return(output_sp)
-	except IOError:print('family not found: '+ fam)
-
-
-for genus in ALLMB_sp_per_genus.keys():
-	if not ALLMB_sp_per_genus[genus]:
-		#print('Genus '+genus+' not found in the tree!')
-		continue
-	else:
-		print('Working on genus '+genus)
-		if len(ALLMB_sp_per_genus[genus])==1:
-			monophyletic_genus[genus]='T'
-			single_leaf=t&ALLMB_sp_per_genus[genus][0]
-			sp2keep=sp2keep+ALLMB_sp_per_genus[genus]+[single_leaf.get_sisters()[0].get_leaves()[0].name]
-			out.write(ALLMB_sp_per_genus[genus][0]+'\t'+genus+'\tT\n'+single_leaf.get_closest_leaf()[0].name+'\t'+genus+'\tT\n')
-		else:
-			ancestor=t.get_common_ancestor(ALLMB_sp_per_genus[genus])
-			mrca_sp=[leaf.name for leaf in ancestor]
-			if set(mrca_sp) == set(ALLMB_sp_per_genus[genus]):
-				#this genus is monophyletic
-				monophyletic_genus[genus]='T'
-				two_children=find_crown_monophyletic(genus)
-				sp2keep=sp2keep+two_children
-				out.write(two_children[0]+'\t'+genus+'\tT\n'+two_children[1]+'\t'+genus+'\tT\n')
-			else:
-				#nonmonophyletic genus
-				monophyletic_genus[genus]='F'
-				crown_para=find_crown_paraphyletic(genus)
-				if len(crown_para)==0:
-					try:
-						two_random=sample(ALLMB_sp_per_genus[genus],2)
-						sp2keep=sp2keep+two_random
-						out.write(two_random[0]+'\t'+genus+'\tF\n'+two_random[1]+'\t'+genus+'\tF\n')
-					except:
-						pass
-				else:
-					sp2keep=sp2keep+crown_para
-					out.write(crown_para[0]+'\t'+genus+'\tF\n'+crown_para[1]+'\t'+genus+'\tF\n')
-				if len(mrca_sp)>5000:
-					print('More than 5000 species in genus '+ genus+'!')
-
-# than 10000 species in this genus! Elytrigia (Elytrigia_heidmaniae, Elytrigia_litoralis)
-#More than 10000 species in this genus! Bauhinia (Bauhinia_grevei, Bauhinia_jenningsii)
-#More than 10000 species in this genus! Indigofera (Indigofera_ammoxylum, Indigofera_uniflora)
-#More than 10000 species in this genus! Millettia (Millettia_thonningii, Millettia_pulchra)
-#sp2keep=sp2keep+['Elytrigia_heidmaniae', 'Elytrigia_litoralis', 'Bauhinia_grevei', 'Bauhinia_jenningsii', 'Indigofera_ammoxylum', 'Indigofera_uniflora', 'Millettia_thonningii', 'Millettia_pulchra']
-
-sp2keep=list(set(sp2keep))
-
-#out.write('\n'.join(sp2keep))
-out.close()
-
-
-t.prune(sp2keep,preserve_branch_length=True)
-t.write(outfile='ALLMB.genus_pruned.tre',format=1)
-
-
-#########################################
-#rename tips using genus names
-t=Tree('ALLMB.genus_pruned.tre',format=1)
-
-x=open('sp2keep.list').readlines()
-#modify name
-new_names={}
-for l in x:
-	new_names[l.split()[0]]=l.split()[1]
-
-genus_in_new_tree=[]
-
-for leaf in t:
-	if not new_names[leaf.name] in genus_in_new_tree:
-		genus_in_new_tree.append(new_names[leaf.name])
-		leaf.name=new_names[leaf.name]+'_1'
-	else:leaf.name=new_names[leaf.name]+'_2'
-		
-t.write(format=1, outfile="ALLMB.genus_pruned.modified_names.tre")
-
-
-#########################################
-#Prepare picante input
-#########################################
-
-
-from ete3 import Tree
-t=Tree('ALLMB.genus_pruned.modified_names.tre',format=1)
-
-all_genera=[leaf.name for leaf in t]
-
-x=open('Poan_HOST_combined_genus_nonredundant_matchALLMB.csv').readlines()
-host_combined_db={}
-out=open('Poan_HOST_combined.picante_input.tsv','a')
-
-out.write('Species\t'+'\t'.join(all_genera)+'\n')
-out.write('\n'.join(host_combined_db.keys()))
-out.close()
-
-#Then see PD_data_prep_analysis_picante.R for further data processing and picante analysis
+y=read.csv('Poan_HOST_combined.picante_input.tsv',row.names=1,stringsAsFactors = F,sep='\t')
+x=read.csv('Poan_HOST_combined_genus_nonredundant_matchALLMB.csv')
 
 
 
-
-#for l in x:
-#	try:
-#		host_combined_db[l.split(',')[0]].append(l.split(',')[2])
-#	except KeyError:
-#		host_combined_db[l.split(',')[0]]=[l.split(',')[2]]
+#if the butterfly has only one host genus, then mark the second species within this family to use crown group age for PD
+z=read.table('./misc/Poan_HOST_combined.genus_number.tsv',sep='\t',row.names=1,stringsAsFactors = F)
 
 
-#for key in host_combined_db.keys():
-#	host_combined_db[key]=list(set(host_combined_db[key]))
+for (i in 1:length(x$Host.genus)){
+	y[as.character(x$Butterfly.species.name[i]),paste(as.character(x$Host.genus[i]),'_1',sep='')]=1
+	#if only one genus, mark the second placeholder as "1" as well
+	if (z[as.character(x$Butterfly.species.name[i]),]==1){
+		y[as.character(x$Butterfly.species.name[i]),paste(as.character(x$Host.genus[i]),'_2',sep='')]=1
+	}
+}
 
-#write to output
-#for key in host_combined_db.keys():
-#	out.write(key+'\t')
-#	if len(host_combined_db[key])>1:
-#		#all genus_1 columns have value 1, others are 0
-#		
-#	else:
-		
+
+write.csv(y,'host_db.picante_input.Poan_HOSTS.csv')
+
+####################################
+#
+library(picante)
+sptree=read.tree('ALLMB.genus_pruned.modified_names.tre')
+host_recs=read.csv('host_db.picante_input.Poan_HOSTS.csv',row.names = 1)
+pd.result <- pd(host_recs, sptree, include.root=TRUE)
+#41 species have no host plant recs (lichens, ants, etc.)
+write.table(pd.result,'pd.Poan_HOSTS.tsv',sep='\t')
+
+#MPD
+phydist=cophenetic(sptree)
+ses.mpd.result <- ses.mpd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 99)
+write.table(ses.mpd.result,'mpd.allRecs.tsv',sep='\t')
+#417 species have MPD values (more than two host plant families)
+ses.mntd.result <- ses.mntd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 99)
+write.table(ses.mntd.result,'mntd.allRecs.tsv',sep='\t')
+
+###
+#filter for number of records
+host_recs_filtered=read.csv('Hosts_families4picante_atLeast1source.csv',row.names = 1)
+pd.filtered.result <- pd(host_recs_filtered, sptree, include.root=TRUE)
+write.table(pd.filtered.result,'pd.atLeast1source.tsv',sep='\t')
+
+sptree=read.tree('ALLMB.pruned_2spPerFam.family_nam.tre')
+phydist=cophenetic(sptree)
+
+host_recs_filtered=read.csv('Hosts_families_2sp_per_fam_4picante_atLeast1source.csv',row.names = 1)
+ses.mpd.filtered.result <- ses.mpd(host_recs_filtered, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
+ses.mntd.result <- ses.mntd(host_recs_filtered, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
+write.table(ses.mpd.filtered.result,'mpd.atLeast1source.tsv',sep='\t')
+write.table(ses.mntd.result,'mntd.atLeast1source.tsv',sep='\t')
+
+##############################
+#two tips per family
+##############################
+y=read.csv('Hosts_families4picante_null.tsv',row.names=1)
+for (i in 1:length(x$Tree_label)){
+	y[as.character(x$Lep_accepted_name[i]),paste(x$Host_family[i],'1',sep='')]=1
+}
+
+#if the butterfly has only one host family, then mark the second species within this family to use crown group age for PD
+z=read.table('result_sum.tsv',sep='\t',header=T)
+for (i in 1:length(z$Tree_label)){
+	if (z$Num.families[i]==1){
+		y[as.character(z$Lep_accepted_name[i]),paste(x$Host_family[x$Lep_accepted_name==z$Lep_accepted_name[i]],'2',sep='')]=1
+	}
+}
+
+write.csv(y,'Hosts_families_2sp_per_fam_4picante_all_recs.csv')
+
+
+#calculating PD in picante
+library(picante)
+sptree=read.tree('ALLMB.pruned_2spPerFam.family_nam.tre')
+host_recs=read.csv('Hosts_families_2sp_per_fam_4picante_all_recs.csv',row.names = 1)
+#pd.result <- pd(host_recs, sptree, include.root=TRUE)
+#41 species have no host plant recs (lichens, ants, etc.)
+#write.table(pd.result,'pd.allRecs.tsv',sep='\t')
+
+#MPD
+phydist=cophenetic(sptree)
+ses.mpd.result <- ses.mpd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
+write.table(ses.mpd.result,'mpd.allRecs.tsv',sep='\t')
+#417 species have MPD values (more than two host plant families)
+ses.mntd.result <- ses.mntd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
+write.table(ses.mntd.result,'mntd.allRecs.tsv',sep='\t')
