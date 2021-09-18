@@ -23,68 +23,50 @@ for (i in 1:length(x$Host.genus)){
 write.csv(y,'host_db.picante_input.Poan_HOSTS.csv')
 
 ####################################
-#
+#calculate PD, MPD, MNTD
 library(picante)
 sptree=read.tree('ALLMB.genus_pruned.modified_names.tre')
 host_recs=read.csv('host_db.picante_input.Poan_HOSTS.csv',row.names = 1)
+
+#PD
 pd.result <- pd(host_recs, sptree, include.root=TRUE)
 #41 species have no host plant recs (lichens, ants, etc.)
 write.table(pd.result,'pd.Poan_HOSTS.tsv',sep='\t')
 
-#MPD
+#MPD nad MNTD
 phydist=cophenetic(sptree)
-ses.mpd.result <- ses.mpd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 99)
-write.table(ses.mpd.result,'mpd.allRecs.tsv',sep='\t')
-#417 species have MPD values (more than two host plant families)
-ses.mntd.result <- ses.mntd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 99)
-write.table(ses.mntd.result,'mntd.allRecs.tsv',sep='\t')
+ses.mpd.result <- ses.mpd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 199)
+write.table(ses.mpd.result,'mpd.Poan_HOSTS.tsv',sep='\t')
+ses.mntd.result <- ses.mntd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 199)
+write.table(ses.mntd.result,'mntd.Poan_HOSTS.tsv',sep='\t')
 
-###
-#filter for number of records
-host_recs_filtered=read.csv('Hosts_families4picante_atLeast1source.csv',row.names = 1)
-pd.filtered.result <- pd(host_recs_filtered, sptree, include.root=TRUE)
-write.table(pd.filtered.result,'pd.atLeast1source.tsv',sep='\t')
 
-sptree=read.tree('ALLMB.pruned_2spPerFam.family_nam.tre')
-phydist=cophenetic(sptree)
+####################################
+#consolidate results
+x=read.csv('Life_history_traits.csv',row.names = 1,stringsAsFactors = F)
 
-host_recs_filtered=read.csv('Hosts_families_2sp_per_fam_4picante_atLeast1source.csv',row.names = 1)
-ses.mpd.filtered.result <- ses.mpd(host_recs_filtered, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
-ses.mntd.result <- ses.mntd(host_recs_filtered, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
-write.table(ses.mpd.filtered.result,'mpd.atLeast1source.tsv',sep='\t')
-write.table(ses.mntd.result,'mntd.atLeast1source.tsv',sep='\t')
-
-##############################
-#two tips per family
-##############################
-y=read.csv('Hosts_families4picante_null.tsv',row.names=1)
-for (i in 1:length(x$Tree_label)){
-	y[as.character(x$Lep_accepted_name[i]),paste(x$Host_family[i],'1',sep='')]=1
+for (i in 1:length(x$PD)){
+	x$PD[i]=pd.result[rownames(x)[i],'PD']
+	x$Genus_num[i]=pd.result[rownames(x)[i],'SR']
+	x$MPD[i]=ses.mpd.result[rownames(x)[i],'mpd.obs']
+	x$MPD.z[i]=ses.mpd.result[rownames(x)[i],'mpd.obs.z']
+	x$MNTD[i]=ses.mntd.result[rownames(x)[i],'mntd.obs']
+	x$MNTD.z[i]=ses.mntd.result[rownames(x)[i],'mntd.obs.z']
 }
 
-#if the butterfly has only one host family, then mark the second species within this family to use crown group age for PD
-z=read.table('result_sum.tsv',sep='\t',header=T)
-for (i in 1:length(z$Tree_label)){
-	if (z$Num.families[i]==1){
-		y[as.character(z$Lep_accepted_name[i]),paste(x$Host_family[x$Lep_accepted_name==z$Lep_accepted_name[i]],'2',sep='')]=1
-	}
-}
-
-write.csv(y,'Hosts_families_2sp_per_fam_4picante_all_recs.csv')
+write.csv(x,'Life_history_traits.Poan_HOSTS_combined.PD_MPD_MNTD.csv')
 
 
-#calculating PD in picante
-library(picante)
-sptree=read.tree('ALLMB.pruned_2spPerFam.family_nam.tre')
-host_recs=read.csv('Hosts_families_2sp_per_fam_4picante_all_recs.csv',row.names = 1)
-#pd.result <- pd(host_recs, sptree, include.root=TRUE)
-#41 species have no host plant recs (lichens, ants, etc.)
-#write.table(pd.result,'pd.allRecs.tsv',sep='\t')
+############
+#Plotting
+boxplot(x$PD[x$Adult.diel.activity..Kawahara.ADA.==0],x$PD[x$Adult.diel.activity..Kawahara.ADA.==1],x$PD[x$Adult.diel.activity..Kawahara.ADA.==2],x$PD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,3000),main='PD')
 
-#MPD
-phydist=cophenetic(sptree)
-ses.mpd.result <- ses.mpd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
-write.table(ses.mpd.result,'mpd.allRecs.tsv',sep='\t')
-#417 species have MPD values (more than two host plant families)
-ses.mntd.result <- ses.mntd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 999)
-write.table(ses.mntd.result,'mntd.allRecs.tsv',sep='\t')
+boxplot(x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==0],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==1],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==2],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,50),main='Number of host genera')
+
+boxplot(x$MPD[x$Adult.diel.activity..Kawahara.ADA.==0],x$MPD[x$Adult.diel.activity..Kawahara.ADA.==1],x$MPD[x$Adult.diel.activity..Kawahara.ADA.==2],x$MPD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,400),main='MPD')
+
+boxplot(x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-8,3),main='normalized MPD')
+
+boxplot(x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,300),main='MNTD')
+
+boxplot(x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-6,2),main='normalized MNTD')
