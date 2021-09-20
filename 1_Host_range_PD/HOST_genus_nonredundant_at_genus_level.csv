@@ -1,4 +1,4 @@
-﻿Butterfly species name,Host family,Host
+﻿Butterfly species name,Host family,Host genus
 Acanthopteroctetes unifascia,Rhamnaceae,Ceanothus
 Nemophora degeerella,0,0
 Agathiphaga queenslandensis,Araucariaceae,Agathis
@@ -46,7 +46,7 @@ Catoptria falsella,Musci,0
 Catoptria falsella,Musci,Tortula
 Chilo suppressalis,Poaceae,Andropogon
 Chilo suppressalis,Poaceae,Brachiaria
-Chilo suppressalis,Poaceae,Chaetochloa
+Chilo suppressalis,Poaceae,Setaria
 Chilo suppressalis,Poaceae,Coix
 Chilo suppressalis,Poaceae,Cymbopogon
 Chilo suppressalis,Poaceae,Echinochloa
@@ -115,12 +115,12 @@ Pseudothyatira cymatophoroides,Fagaceae,Quercus
 Thyatira batis,Rosaceae,Rubus
 Tridrepana flava,0,0
 Mustilizans dierli,0,0
-Epicopeia hainesii,Cornaceae,Bothrocaryum
+Epicopeia hainesii,Cornaceae,Cornus
 Amata phegea,Poaceae,0
 Eudocima salaminia,Menispermaceae,0
 Eudocima salaminia,Menispermaceae,Legnephora
 Eudocima salaminia,Menispermaceae,Menispermum
-Eudocima salaminia,Menispermaceae,Sarcopetalum
+Eudocima salaminia,Menispermaceae,Cynanchum
 Eudocima salaminia,Menispermaceae,Stephania
 Eudocima salaminia,Caricaceae,Carica
 Eudocima salaminia,Rutaceae,Citrus
@@ -398,18 +398,18 @@ Phyllocnistis citrella,Rutaceae,0
 Phyllocnistis citrella,Rutaceae,Citrus
 Phyllocnistis citrella,Rutaceae,Aegle
 Phyllocnistis citrella,Rutaceae,Atalantia
-Phyllocnistis citrella,Rutaceae,Citrofortunella
+Phyllocnistis citrella,Rutaceae,Citrus
 Phyllocnistis citrella,Rutaceae,Fortunella
 Phyllocnistis citrella,Rutaceae,Limonia
 Phyllocnistis citrella,Rutaceae,Murraya
 Phyllocnistis citrella,Rutaceae,Poncirus
-Phyllocnistis citrella,Rutaceae,Severinia
+Phyllocnistis citrella,Rutaceae,Atalantia
 Phyllocnistis citrella,Guttiferae,Garcinia
 Phyllocnistis citrella,Lauraceae,Alseodaphne
 Phyllocnistis citrella,Lauraceae,Cinnamomum
 Phyllocnistis citrella,Oleaceae,Jasminum
 Phyllocnistis citrella,Loranthaceae,Loranthus
-Phyllocnistis citrella,Fabaceae,Pongamia
+Phyllocnistis citrella,Fabaceae,Millettia
 Helicopsyche borealis,0,0
 Phymatopus californicus,Asteraceae,Eriophyllum
 Phymatopus californicus,Asteraceae,Baccharis
@@ -444,7 +444,6 @@ Thymelicus sylvestris,Poaceae,0
 Thymelicus sylvestris,Poaceae,Holcus
 Thymelicus sylvestris,Poaceae,Phleum
 Urbanus proteus,Asteraceae,0
-Urbanus proteus,Leguminosae,0
 Urbanus proteus,Fabaceae,Amphicarpaea
 Urbanus proteus,Fabaceae,Bauhinia
 Urbanus proteus,Fabaceae,Clitoria
@@ -495,9 +494,7 @@ Hemiargus ceraunus,Fabaceae,Psorothamnus
 Hemiargus ceraunus,Fabaceae,Rhynchosia
 Hemiargus ceraunus,Fabaceae,Chapmannia
 Hemiargus ceraunus,Fabaceae,Indigofera
-Hemiargus ceraunus,Leguminosae,0
-Polyommatus icarus,Geraniaceae,0
-Polyommatus icarus,Leguminosae,0
+Polyommatus icarus,Geraniaceae,Erodium
 Polyommatus icarus,Fabaceae,Lathyrus
 Polyommatus icarus,Fabaceae,Lotus
 Polyommatus icarus,Fabaceae,Medicago
@@ -656,7 +653,6 @@ Helicoverpa zea,Resedaceae,Reseda
 Helicoverpa zea,Euphorbiaceae,Ricinus
 Helicoverpa zea,Vitaceae,Vitis
 Heliothis virescens,Polyphagous,0
-Heliothis virescens,Solanaceae,0
 Heliothis virescens,Solanaceae,Lycopersicon
 Heliothis virescens,Solanaceae,Nicotiana
 Heliothis virescens,Solanaceae,Petunia
@@ -708,7 +704,6 @@ Heliothis virescens,Grossulariaceae,Ribes
 Heliothis virescens,Rosaceae,Rosa
 Heliothis virescens,Polygonaceae,Rumex
 Mythimna separata,0,0
-Sesamia inferens,Poaceae,0
 Sesamia inferens,Poaceae,Andropogon
 Sesamia inferens,Poaceae,Avena
 Sesamia inferens,Poaceae,Coix
@@ -739,7 +734,6 @@ Spodoptera exigua,Brassicaceae,Brassica
 Spodoptera exigua,Brassicaceae,Cardamine
 Spodoptera exigua,Brassicaceae,Eruca
 Spodoptera exigua,Brassicaceae,Raphanus
-Spodoptera exigua,Poaceae,0
 Spodoptera exigua,Poaceae,Avena
 Spodoptera exigua,Poaceae,Eleusine
 Spodoptera exigua,Poaceae,Oryza
@@ -747,7 +741,6 @@ Spodoptera exigua,Poaceae,Saccharum
 Spodoptera exigua,Poaceae,Sorghum
 Spodoptera exigua,Poaceae,Zea
 Spodoptera exigua,Poaceae,Zoysia
-Spodoptera exigua,Leguminosae,0
 Spodoptera exigua,Polyphagous,0
 Spodoptera exigua,Malvaceae,Abelmoschus
 Spodoptera exigua,Malvaceae,Alcea
@@ -821,9 +814,7 @@ Spodoptera exigua,Scrophulariaceae,Verbascum
 Spodoptera exigua,Vitaceae,Vitis
 Spodoptera exigua,Fagaceae,Fagus
 Spodoptera exigua,Fagaceae,Quercus
-Spodoptera frugiperda,Brassicaceae,0
 Spodoptera frugiperda,Brassicaceae,Brassica
-Spodoptera frugiperda,Poaceae,0
 Spodoptera frugiperda,Poaceae,Agrostis
 Spodoptera frugiperda,Poaceae,Andropogon
 Spodoptera frugiperda,Poaceae,Avena
@@ -853,7 +844,6 @@ Spodoptera frugiperda,Poaceae,Triticum
 Spodoptera frugiperda,Poaceae,Zea
 Spodoptera frugiperda,Poaceae,Zoysia
 Spodoptera frugiperda,Poaceae,Eriochloa
-Spodoptera frugiperda,Leguminosae,0
 Spodoptera frugiperda,Polyphagous,0
 Spodoptera frugiperda,Euphorbiaceae,Acalypha
 Spodoptera frugiperda,Euphorbiaceae,Croton
@@ -908,7 +898,7 @@ Spodoptera frugiperda,Geraniaceae,Geranium
 Spodoptera frugiperda,Iridaceae,Gladiolus
 Spodoptera frugiperda,Linaceae,Linum
 Spodoptera frugiperda,Musaceae,Musa
-Spodoptera frugiperda,Boraginaceae,Onosmodium
+Spodoptera frugiperda,Boraginaceae,Lithospermum
 Spodoptera frugiperda,Umbelliferae,Petroselinum
 Spodoptera frugiperda,Platanaceae,Platanus
 Spodoptera frugiperda,Apocynaceae,Plumeria
@@ -933,7 +923,7 @@ Danaus plexippus,Asclepiadaceae,Matelea
 Danaus plexippus,Asclepiadaceae,Orbea
 Danaus plexippus,Asclepiadaceae,Oxypetalum
 Danaus plexippus,Asclepiadaceae,Oxystelma
-Danaus plexippus,Asclepiadaceae,Sarcostemma
+Danaus plexippus,Asclepiadaceae,Cynanchum
 Danaus plexippus,Asclepiadaceae,Stephanotis
 Danaus plexippus,Apocynaceae,Apocynum
 Danaus plexippus,Rutaceae,Citrus
@@ -1084,7 +1074,7 @@ Papilio machaon,Rutaceae,Citrus
 Papilio machaon,Rutaceae,Dictamnus
 Papilio machaon,Rutaceae,Haplophyllum
 Papilio machaon,Rutaceae,Phellodendron
-Papilio machaon,Rutaceae,Poncirus
+Papilio machaon,Rutaceae,Citrus
 Papilio machaon,Rutaceae,Ruta
 Papilio machaon,Rutaceae,Thamnosma
 Papilio machaon,Rutaceae,Zanthoxylum
@@ -1350,7 +1340,7 @@ Plodia interpunctella,Pinaceae,Larix
 Plodia interpunctella,Pinaceae,Pinus
 Plodia interpunctella,Myristicaceae,Myristica
 Plodia interpunctella,Arecaceae,Phoenix
-Plodia interpunctella,Arecaceae,Orbignya
+Plodia interpunctella,Arecaceae,Attalea
 Plodia interpunctella,Anacardiaceae,Pistacia
 Plodia interpunctella,Rosaceae,Prunus
 Plodia interpunctella,Rosaceae,Pyrus
@@ -1491,7 +1481,7 @@ Attacus atlas,Combretaceae,Quisqualis
 Attacus atlas,Combretaceae,Terminalia
 Attacus atlas,Meliaceae,Sandoricum
 Attacus atlas,Meliaceae,Swietenia
-Attacus atlas,Asclepiadaceae,Sarcostemma
+Attacus atlas,Asclepiadaceae,Cynanchum
 Attacus atlas,Araliaceae,Schefflera
 Attacus atlas,Poaceae,Setaria
 Attacus atlas,Bignoniaceae,Spathodea
