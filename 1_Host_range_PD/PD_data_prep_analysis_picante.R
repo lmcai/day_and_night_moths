@@ -59,14 +59,19 @@ write.csv(x,'Life_history_traits.Poan_HOSTS_combined.PD_MPD_MNTD.csv')
 
 ############
 #Plotting
+pdf('PD_analysis_Poan_HOSTS_combined.pdf',width = 5,height = 8)
+old.par <- par(mfrow=c(3, 2))
 boxplot(x$PD[x$Adult.diel.activity..Kawahara.ADA.==0],x$PD[x$Adult.diel.activity..Kawahara.ADA.==1],x$PD[x$Adult.diel.activity..Kawahara.ADA.==2],x$PD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,3000),main='PD')
 
 boxplot(x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==0],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==1],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==2],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,50),main='Number of host genera')
 
 boxplot(x$MPD[x$Adult.diel.activity..Kawahara.ADA.==0],x$MPD[x$Adult.diel.activity..Kawahara.ADA.==1],x$MPD[x$Adult.diel.activity..Kawahara.ADA.==2],x$MPD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,400),main='MPD')
 
-boxplot(x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-8,3),main='normalized MPD')
+boxplot(x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MPD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-8,3),main='Normalized MPD')
 
 boxplot(x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,300),main='MNTD')
 
-boxplot(x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-6,2),main='normalized MNTD')
+boxplot(x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-6,2),main='Normalized MNTD')
+
+par(old.par)
+dev.off()
