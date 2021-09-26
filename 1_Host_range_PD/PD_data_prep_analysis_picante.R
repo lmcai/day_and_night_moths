@@ -77,3 +77,27 @@ boxplot(x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD.z[x$Adult.diel.
 #test normality of distribution
 x=read.csv('Life_history_traits.Poan_HOSTS_combined.PD_MPD_MNTD.csv')
 
+shapiro.test(x$PD[x$Lin.ADA=='nocturnal'])
+
+#	Shapiro-Wilk normality test
+#
+#data:  x$PD[x$Lin.ADA == "nocturnal"]
+#W = 0.69928, p-value = 2.46e-10
+
+shapiro.test(x$PD[x$Lin.ADA=='diurnal'])
+
+#	Shapiro-Wilk normality test
+#
+#data:  x$PD[x$Lin.ADA == "diurnal"]
+#W = 0.78843, p-value = 3.224e-07
+
+#conclusion: they are not gaussian distribution, t test is not appropriate
+
+test=x[x$Lin.ADA=='nocturnal' | x$Lin.ADA=='diurnal',]
+wilcox.test(test$PD ~ test$Lin.ADA)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  test$PD by test$Lin.ADA
+W = 1185, p-value = 0.004029
+alternative hypothesis: true location shift is not equal to 0
