@@ -1,5 +1,5 @@
 ####################################
-#INPUT prep
+#INPUT data prep
 
 
 y=read.csv('Poan_HOST_combined.picante_input.tsv',row.names=1,stringsAsFactors = F,sep='\t')
@@ -72,7 +72,7 @@ boxplot(x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD[x$Adult.diel.acti
 boxplot(x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-6,2),main='normalized MNTD')
 
 ############
-#Statistic test
+#Statistic test (are differences in PD/MPD/MNTD significantly different among butterfly groups?)
 
 #test normality of distribution
 x=read.csv('Life_history_traits.Poan_HOSTS_combined.PD_MPD_MNTD.csv')
