@@ -59,6 +59,12 @@ write.csv(x,'Life_history_traits.Poan_HOSTS_combined.PD_MPD_MNTD.csv')
 
 ############
 #Plotting
+#open a pdf file to plot
+pdf('PD_analysis_Poan_HOSTS_combined.pdf',width = 5,height = 6)
+
+#page set up: 3 rows and 2 columns
+par(mfrow = c(3, 2))  
+
 boxplot(x$PD[x$Adult.diel.activity..Kawahara.ADA.==0],x$PD[x$Adult.diel.activity..Kawahara.ADA.==1],x$PD[x$Adult.diel.activity..Kawahara.ADA.==2],x$PD[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,3000),main='PD')
 
 boxplot(x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==0],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==1],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==2],x$Genus_num[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(0,50),main='Number of host genera')
@@ -71,6 +77,7 @@ boxplot(x$MNTD[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD[x$Adult.diel.acti
 
 boxplot(x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==0],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==1],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==2],x$MNTD.z[x$Adult.diel.activity..Kawahara.ADA.==3],ylim=c(-6,2),main='normalized MNTD')
 
+dev.off()
 ############
 #Statistic test (are differences in PD/MPD/MNTD significantly different among butterfly groups?)
 
