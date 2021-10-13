@@ -2,7 +2,7 @@
 #INPUT data prep
 
 
-y=read.csv('Poan_HOST_combined.picante_input.tsv',row.names=1,stringsAsFactors = F,sep='\t')
+y=read.csv('host_db.picante_input.null.tsv',row.names=1,stringsAsFactors = F,sep='\t')
 x=read.csv('Poan_HOST_combined_genus_nonredundant_matchALLMB.csv')
 
 
