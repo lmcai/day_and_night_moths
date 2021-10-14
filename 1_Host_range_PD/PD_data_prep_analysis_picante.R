@@ -33,7 +33,7 @@ pd.result <- pd(host_recs, sptree, include.root=TRUE)
 #41 species have no host plant recs (lichens, ants, etc.)
 write.table(pd.result,'pd.Poan_HOSTS.tsv',sep='\t')
 
-#MPD nad MNTD
+#MPD and MNTD
 phydist=cophenetic(sptree)
 ses.mpd.result <- ses.mpd(host_recs, phydist, null.model = "taxa.labels",abundance.weighted = FALSE, runs = 199)
 write.table(ses.mpd.result,'mpd.Poan_HOSTS.tsv',sep='\t')
