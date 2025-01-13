@@ -1,5 +1,5 @@
 # day_and_night_moths
-Codes for analyzing host plant richness and divergence of day- and night-flying moths
+Codes for analyzing host plant richness and divergence of day- and night-flying Lepidoptera
 
 Citation:
 
